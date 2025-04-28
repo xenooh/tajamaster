@@ -1,0 +1,4632 @@
+[
+    {
+        "word": "a",
+        "pronunciation": "/ə/, /eɪ/",
+        "meaning": "하나의 (부정관사)",
+        "korean_pronunciation": "어, 에이"
+    },
+    {
+        "word": "an",
+        "pronunciation": "/ən/, /æn/",
+        "meaning": "하나의 (부정관사)",
+        "korean_pronunciation": "언, 앤"
+    },
+    {
+        "word": "able",
+        "pronunciation": "/ˈeɪbl/",
+        "meaning": "~할 수 있는",
+        "korean_pronunciation": "에이블"
+    },
+    {
+        "word": "about",
+        "pronunciation": "/əˈbaʊt/",
+        "meaning": "~에 대하여; 약",
+        "korean_pronunciation": "어바웃"
+    },
+    {
+        "word": "add",
+        "pronunciation": "/æd/",
+        "meaning": "더하다",
+        "korean_pronunciation": "애드"
+    },
+    {
+        "word": "after",
+        "pronunciation": "/ˈæftər/",
+        "meaning": "~후에",
+        "korean_pronunciation": "애프터"
+    },
+    {
+        "word": "again",
+        "pronunciation": "/əˈɡen/",
+        "meaning": "다시",
+        "korean_pronunciation": "어겐"
+    },
+    {
+        "word": "age",
+        "pronunciation": "/eɪdʒ/",
+        "meaning": "나이",
+        "korean_pronunciation": "에이지"
+    },
+    {
+        "word": "ago",
+        "pronunciation": "/əˈɡoʊ/",
+        "meaning": "~전에",
+        "korean_pronunciation": "어고우"
+    },
+    {
+        "word": "agree",
+        "pronunciation": "/əˈɡriː/",
+        "meaning": "동의하다",
+        "korean_pronunciation": "어그리"
+    },
+    {
+        "word": "air",
+        "pronunciation": "/er/",
+        "meaning": "공기",
+        "korean_pronunciation": "에어"
+    },
+    {
+        "word": "all",
+        "pronunciation": "/ɔːl/",
+        "meaning": "모든",
+        "korean_pronunciation": "올"
+    },
+    {
+        "word": "alone",
+        "pronunciation": "/əˈloʊn/",
+        "meaning": "혼자",
+        "korean_pronunciation": "얼론"
+    },
+    {
+        "word": "along",
+        "pronunciation": "/əˈlɔːŋ/",
+        "meaning": "~을 따라서",
+        "korean_pronunciation": "얼롱"
+    },
+    {
+        "word": "also",
+        "pronunciation": "/ˈɔːlsoʊ/",
+        "meaning": "또한",
+        "korean_pronunciation": "올소우"
+    },
+    {
+        "word": "always",
+        "pronunciation": "/ˈɔːlweɪz/",
+        "meaning": "항상",
+        "korean_pronunciation": "올웨이즈"
+    },
+    {
+        "word": "am",
+        "pronunciation": "/æm/",
+        "meaning": "~이다 (be동사)",
+        "korean_pronunciation": "앰"
+    },
+    {
+        "word": "an",
+        "pronunciation": "/æn/",
+        "meaning": "하나의 (모음 앞)",
+        "korean_pronunciation": "앤"
+    },
+    {
+        "word": "and",
+        "pronunciation": "/ænd/",
+        "meaning": "~와, 그리고",
+        "korean_pronunciation": "앤드"
+    },
+    {
+        "word": "angry",
+        "pronunciation": "/ˈæŋɡri/",
+        "meaning": "화난",
+        "korean_pronunciation": "앵그리"
+    },
+    {
+        "word": "animal",
+        "pronunciation": "/ˈænɪml/",
+        "meaning": "동물",
+        "korean_pronunciation": "애니멀"
+    },
+    {
+        "word": "another",
+        "pronunciation": "/əˈnʌðər/",
+        "meaning": "또 다른 하나",
+        "korean_pronunciation": "어나더"
+    },
+    {
+        "word": "answer",
+        "pronunciation": "/ˈænsər/",
+        "meaning": "대답하다; 대답",
+        "korean_pronunciation": "앤서"
+    },
+    {
+        "word": "any",
+        "pronunciation": "/ˈeni/",
+        "meaning": "어떤 ~라도",
+        "korean_pronunciation": "애니"
+    },
+    {
+        "word": "apple",
+        "pronunciation": "/ˈæpl/",
+        "meaning": "사과",
+        "korean_pronunciation": "애플"
+    },
+    {
+        "word": "are",
+        "pronunciation": "/ɑːr/",
+        "meaning": "~이다 (be동사)",
+        "korean_pronunciation": "아"
+    },
+    {
+        "word": "arm",
+        "pronunciation": "/ɑːrm/",
+        "meaning": "팔",
+        "korean_pronunciation": "암"
+    },
+    {
+        "word": "around",
+        "pronunciation": "/əˈraʊnd/",
+        "meaning": "~주위에",
+        "korean_pronunciation": "어라운드"
+    },
+    {
+        "word": "arrive",
+        "pronunciation": "/əˈraɪv/",
+        "meaning": "도착하다",
+        "korean_pronunciation": "어라이브"
+    },
+    {
+        "word": "as",
+        "pronunciation": "/æz/",
+        "meaning": "~로서; ~처럼",
+        "korean_pronunciation": "애즈"
+    },
+    {
+        "word": "ask",
+        "pronunciation": "/æsk/",
+        "meaning": "묻다",
+        "korean_pronunciation": "애스크"
+    },
+    {
+        "word": "at",
+        "pronunciation": "/æt/",
+        "meaning": "~에 (시간, 장소)",
+        "korean_pronunciation": "앳"
+    },
+    {
+        "word": "ate",
+        "pronunciation": "/eɪt/",
+        "meaning": "먹었다 (eat의 과거)",
+        "korean_pronunciation": "에이트"
+    },
+    {
+        "word": "August",
+        "pronunciation": "/ˈɔːɡəst/",
+        "meaning": "8월",
+        "korean_pronunciation": "오거스트"
+    },
+    {
+        "word": "aunt",
+        "pronunciation": "/ænt/",
+        "meaning": "이모, 고모, 숙모",
+        "korean_pronunciation": "앤트"
+    },
+    {
+        "word": "autumn",
+        "pronunciation": "/ˈɔːtəm/",
+        "meaning": "가을",
+        "korean_pronunciation": "오텀"
+    },
+    {
+        "word": "away",
+        "pronunciation": "/əˈweɪ/",
+        "meaning": "떨어져서",
+        "korean_pronunciation": "어웨이"
+    },
+    {
+        "word": "baby",
+        "pronunciation": "/ˈbeɪbi/",
+        "meaning": "아기",
+        "korean_pronunciation": "베이비"
+    },
+    {
+        "word": "back",
+        "pronunciation": "/bæk/",
+        "meaning": "뒤; 뒤로",
+        "korean_pronunciation": "백"
+    },
+    {
+        "word": "bad",
+        "pronunciation": "/bæd/",
+        "meaning": "나쁜",
+        "korean_pronunciation": "배드"
+    },
+    {
+        "word": "bag",
+        "pronunciation": "/bæɡ/",
+        "meaning": "가방",
+        "korean_pronunciation": "백"
+    },
+    {
+        "word": "ball",
+        "pronunciation": "/bɔːl/",
+        "meaning": "공",
+        "korean_pronunciation": "볼"
+    },
+    {
+        "word": "banana",
+        "pronunciation": "/bəˈnænə/",
+        "meaning": "바나나",
+        "korean_pronunciation": "바나나"
+    },
+    {
+        "word": "bank",
+        "pronunciation": "/bæŋk/",
+        "meaning": "은행",
+        "korean_pronunciation": "뱅크"
+    },
+    {
+        "word": "base",
+        "pronunciation": "/beɪs/",
+        "meaning": "기지, 기초",
+        "korean_pronunciation": "베이스"
+    },
+    {
+        "word": "basket",
+        "pronunciation": "/ˈbæskɪt/",
+        "meaning": "바구니",
+        "korean_pronunciation": "바스킷"
+    },
+    {
+        "word": "baseball",
+        "pronunciation": "/ˈbeɪsbɔːl/",
+        "meaning": "야구",
+        "korean_pronunciation": "베이스볼"
+    },
+    {
+        "word": "bath",
+        "pronunciation": "/bæθ/",
+        "meaning": "목욕",
+        "korean_pronunciation": "배스"
+    },
+    {
+        "word": "bathroom",
+        "pronunciation": "/ˈbæθruːm/",
+        "meaning": "욕실, 화장실",
+        "korean_pronunciation": "배스룸"
+    },
+    {
+        "word": "be",
+        "pronunciation": "/biː/",
+        "meaning": "~이다, ~에 있다",
+        "korean_pronunciation": "비"
+    },
+    {
+        "word": "beach",
+        "pronunciation": "/biːtʃ/",
+        "meaning": "해변",
+        "korean_pronunciation": "비치"
+    },
+    {
+        "word": "bear",
+        "pronunciation": "/ber/",
+        "meaning": "곰",
+        "korean_pronunciation": "베어"
+    },
+    {
+        "word": "beautiful",
+        "pronunciation": "/ˈbjuːtɪfl/",
+        "meaning": "아름다운",
+        "korean_pronunciation": "뷰티풀"
+    },
+    {
+        "word": "bed",
+        "pronunciation": "/bed/",
+        "meaning": "침대",
+        "korean_pronunciation": "베드"
+    },
+    {
+        "word": "bedroom",
+        "pronunciation": "/ˈbedruːm/",
+        "meaning": "침실",
+        "korean_pronunciation": "베드룸"
+    },
+    {
+        "word": "bee",
+        "pronunciation": "/biː/",
+        "meaning": "벌",
+        "korean_pronunciation": "비"
+    },
+    {
+        "word": "before",
+        "pronunciation": "/bɪˈfɔːr/",
+        "meaning": "~전에",
+        "korean_pronunciation": "비포어"
+    },
+    {
+        "word": "begin",
+        "pronunciation": "/bɪˈɡɪn/",
+        "meaning": "시작하다",
+        "korean_pronunciation": "비긴"
+    },
+    {
+        "word": "behind",
+        "pronunciation": "/bɪˈhaɪnd/",
+        "meaning": "~뒤에",
+        "korean_pronunciation": "비하인드"
+    },
+    {
+        "word": "bell",
+        "pronunciation": "/bel/",
+        "meaning": "종",
+        "korean_pronunciation": "벨"
+    },
+    {
+        "word": "below",
+        "pronunciation": "/bɪˈloʊ/",
+        "meaning": "~아래에",
+        "korean_pronunciation": "빌로우"
+    },
+    {
+        "word": "belt",
+        "pronunciation": "/belt/",
+        "meaning": "벨트",
+        "korean_pronunciation": "벨트"
+    },
+    {
+        "word": "beside",
+        "pronunciation": "/bɪˈsaɪd/",
+        "meaning": "~옆에",
+        "korean_pronunciation": "비사이드"
+    },
+    {
+        "word": "best",
+        "pronunciation": "/best/",
+        "meaning": "가장 좋은",
+        "korean_pronunciation": "베스트"
+    },
+    {
+        "word": "better",
+        "pronunciation": "/ˈbetər/",
+        "meaning": "더 좋은",
+        "korean_pronunciation": "베터"
+    },
+    {
+        "word": "between",
+        "pronunciation": "/bɪˈtwiːn/",
+        "meaning": "~사이에",
+        "korean_pronunciation": "비트윈"
+    },
+    {
+        "word": "big",
+        "pronunciation": "/bɪɡ/",
+        "meaning": "큰",
+        "korean_pronunciation": "빅"
+    },
+    {
+        "word": "bike",
+        "pronunciation": "/baɪk/",
+        "meaning": "자전거",
+        "korean_pronunciation": "바이크"
+    },
+    {
+        "word": "bird",
+        "pronunciation": "/bɜːrd/",
+        "meaning": "새",
+        "korean_pronunciation": "버드"
+    },
+    {
+        "word": "birthday",
+        "pronunciation": "/ˈbɜːrθdeɪ/",
+        "meaning": "생일",
+        "korean_pronunciation": "버스데이"
+    },
+    {
+        "word": "black",
+        "pronunciation": "/blæk/",
+        "meaning": "검은색의",
+        "korean_pronunciation": "블랙"
+    },
+    {
+        "word": "blue",
+        "pronunciation": "/bluː/",
+        "meaning": "파란색의",
+        "korean_pronunciation": "블루"
+    },
+    {
+        "word": "boat",
+        "pronunciation": "/boʊt/",
+        "meaning": "배",
+        "korean_pronunciation": "보트"
+    },
+    {
+        "word": "body",
+        "pronunciation": "/ˈbɑːdi/",
+        "meaning": "몸",
+        "korean_pronunciation": "바디"
+    },
+    {
+        "word": "book",
+        "pronunciation": "/bʊk/",
+        "meaning": "책",
+        "korean_pronunciation": "북"
+    },
+    {
+        "word": "born",
+        "pronunciation": "/bɔːrn/",
+        "meaning": "태어난",
+        "korean_pronunciation": "본"
+    },
+    {
+        "word": "both",
+        "pronunciation": "/boʊθ/",
+        "meaning": "둘 다",
+        "korean_pronunciation": "보스"
+    },
+    {
+        "word": "bottle",
+        "pronunciation": "/ˈbɑːtl/",
+        "meaning": "병",
+        "korean_pronunciation": "바틀"
+    },
+    {
+        "word": "box",
+        "pronunciation": "/bɑːks/",
+        "meaning": "상자",
+        "korean_pronunciation": "박스"
+    },
+    {
+        "word": "boy",
+        "pronunciation": "/bɔɪ/",
+        "meaning": "소년",
+        "korean_pronunciation": "보이"
+    },
+    {
+        "word": "bread",
+        "pronunciation": "/bred/",
+        "meaning": "빵",
+        "korean_pronunciation": "브레드"
+    },
+    {
+        "word": "break",
+        "pronunciation": "/breɪk/",
+        "meaning": "깨다, 부수다",
+        "korean_pronunciation": "브레이크"
+    },
+    {
+        "word": "breakfast",
+        "pronunciation": "/ˈbrekfəst/",
+        "meaning": "아침 식사",
+        "korean_pronunciation": "브렉퍼스트"
+    },
+    {
+        "word": "bring",
+        "pronunciation": "/brɪŋ/",
+        "meaning": "가져오다",
+        "korean_pronunciation": "브링"
+    },
+    {
+        "word": "brother",
+        "pronunciation": "/ˈbrʌðər/",
+        "meaning": "형제",
+        "korean_pronunciation": "브라더"
+    },
+    {
+        "word": "brown",
+        "pronunciation": "/braʊn/",
+        "meaning": "갈색의",
+        "korean_pronunciation": "브라운"
+    },
+    {
+        "word": "build",
+        "pronunciation": "/bɪld/",
+        "meaning": "짓다, 건설하다",
+        "korean_pronunciation": "빌드"
+    },
+    {
+        "word": "bus",
+        "pronunciation": "/bʌs/",
+        "meaning": "버스",
+        "korean_pronunciation": "버스"
+    },
+    {
+        "word": "but",
+        "pronunciation": "/bʌt/",
+        "meaning": "~지만, 그러나",
+        "korean_pronunciation": "벗"
+    },
+    {
+        "word": "buy",
+        "pronunciation": "/baɪ/",
+        "meaning": "사다",
+        "korean_pronunciation": "바이"
+    },
+    {
+        "word": "by",
+        "pronunciation": "/baɪ/",
+        "meaning": "~옆에, ~에 의해",
+        "korean_pronunciation": "바이"
+    },
+    {
+        "word": "cake",
+        "pronunciation": "/keɪk/",
+        "meaning": "케이크",
+        "korean_pronunciation": "케이크"
+    },
+    {
+        "word": "call",
+        "pronunciation": "/kɔːl/",
+        "meaning": "부르다, 전화하다",
+        "korean_pronunciation": "콜"
+    },
+    {
+        "word": "can",
+        "pronunciation": "/kæn/",
+        "meaning": "~할 수 있다",
+        "korean_pronunciation": "캔"
+    },
+    {
+        "word": "candy",
+        "pronunciation": "/ˈkændi/",
+        "meaning": "사탕",
+        "korean_pronunciation": "캔디"
+    },
+    {
+        "word": "car",
+        "pronunciation": "/kɑːr/",
+        "meaning": "차",
+        "korean_pronunciation": "카"
+    },
+    {
+        "word": "card",
+        "pronunciation": "/kɑːrd/",
+        "meaning": "카드",
+        "korean_pronunciation": "카드"
+    },
+    {
+        "word": "cat",
+        "pronunciation": "/kæt/",
+        "meaning": "고양이",
+        "korean_pronunciation": "캣"
+    },
+    {
+        "word": "catch",
+        "pronunciation": "/kætʃ/",
+        "meaning": "붙잡다",
+        "korean_pronunciation": "캐치"
+    },
+    {
+        "word": "chair",
+        "pronunciation": "/tʃeər/",
+        "meaning": "의자",
+        "korean_pronunciation": "체어"
+    },
+    {
+        "word": "chicken",
+        "pronunciation": "/ˈtʃɪkɪn/",
+        "meaning": "닭; 닭고기",
+        "korean_pronunciation": "치킨"
+    },
+    {
+        "word": "child",
+        "pronunciation": "/tʃaɪld/",
+        "meaning": "어린이",
+        "korean_pronunciation": "차일드"
+    },
+    {
+        "word": "chocolate",
+        "pronunciation": "/ˈtʃɔːklət/",
+        "meaning": "초콜릿",
+        "korean_pronunciation": "초콜릿"
+    },
+    {
+        "word": "choose",
+        "pronunciation": "/tʃuːz/",
+        "meaning": "선택하다",
+        "korean_pronunciation": "추즈"
+    },
+    {
+        "word": "city",
+        "pronunciation": "/ˈsɪti/",
+        "meaning": "도시",
+        "korean_pronunciation": "시티"
+    },
+    {
+        "word": "class",
+        "pronunciation": "/klæs/",
+        "meaning": "수업, 반",
+        "korean_pronunciation": "클래스"
+    },
+    {
+        "word": "clean",
+        "pronunciation": "/kliːn/",
+        "meaning": "깨끗한; 청소하다",
+        "korean_pronunciation": "클린"
+    },
+    {
+        "word": "clear",
+        "pronunciation": "/klɪər/",
+        "meaning": "맑은, 분명한",
+        "korean_pronunciation": "클리어"
+    },
+    {
+        "word": "climb",
+        "pronunciation": "/klaɪm/",
+        "meaning": "오르다",
+        "korean_pronunciation": "클라임"
+    },
+    {
+        "word": "clock",
+        "pronunciation": "/klɑːk/",
+        "meaning": "시계",
+        "korean_pronunciation": "클락"
+    },
+    {
+        "word": "close",
+        "pronunciation": "/kloʊz/",
+        "meaning": "닫다; 가까운",
+        "korean_pronunciation": "클로즈"
+    },
+    {
+        "word": "clothes",
+        "pronunciation": "/kloʊðz/",
+        "meaning": "옷",
+        "korean_pronunciation": "클로즈"
+    },
+    {
+        "word": "cloud",
+        "pronunciation": "/klaʊd/",
+        "meaning": "구름",
+        "korean_pronunciation": "클라우드"
+    },
+    {
+        "word": "coat",
+        "pronunciation": "/koʊt/",
+        "meaning": "코트",
+        "korean_pronunciation": "코트"
+    },
+    {
+        "word": "coffee",
+        "pronunciation": "/ˈkɑːfi/",
+        "meaning": "커피",
+        "korean_pronunciation": "커피"
+    },
+    {
+        "word": "cold",
+        "pronunciation": "/koʊld/",
+        "meaning": "추운",
+        "korean_pronunciation": "콜드"
+    },
+    {
+        "word": "color",
+        "pronunciation": "/ˈkʌlər/",
+        "meaning": "색깔",
+        "korean_pronunciation": "컬러"
+    },
+    {
+        "word": "come",
+        "pronunciation": "/kʌm/",
+        "meaning": "오다",
+        "korean_pronunciation": "컴"
+    },
+    {
+        "word": "computer",
+        "pronunciation": "/kəmˈpjuːtər/",
+        "meaning": "컴퓨터",
+        "korean_pronunciation": "컴퓨터"
+    },
+    {
+        "word": "cook",
+        "pronunciation": "/kʊk/",
+        "meaning": "요리하다",
+        "korean_pronunciation": "쿡"
+    },
+    {
+        "word": "cookie",
+        "pronunciation": "/ˈkʊki/",
+        "meaning": "쿠키",
+        "korean_pronunciation": "쿠키"
+    },
+    {
+        "word": "cool",
+        "pronunciation": "/kuːl/",
+        "meaning": "시원한, 멋진",
+        "korean_pronunciation": "쿨"
+    },
+    {
+        "word": "corn",
+        "pronunciation": "/kɔːrn/",
+        "meaning": "옥수수",
+        "korean_pronunciation": "콘"
+    },
+    {
+        "word": "count",
+        "pronunciation": "/kaʊnt/",
+        "meaning": "세다",
+        "korean_pronunciation": "카운트"
+    },
+    {
+        "word": "country",
+        "pronunciation": "/ˈkʌntri/",
+        "meaning": "나라, 국가",
+        "korean_pronunciation": "컨트리"
+    },
+    {
+        "word": "cousin",
+        "pronunciation": "/ˈkʌzn/",
+        "meaning": "사촌",
+        "korean_pronunciation": "커즌"
+    },
+    {
+        "word": "cover",
+        "pronunciation": "/ˈkʌvər/",
+        "meaning": "덮다; 덮개",
+        "korean_pronunciation": "커버"
+    },
+    {
+        "word": "cow",
+        "pronunciation": "/kaʊ/",
+        "meaning": "소",
+        "korean_pronunciation": "카우"
+    },
+    {
+        "word": "cry",
+        "pronunciation": "/kraɪ/",
+        "meaning": "울다",
+        "korean_pronunciation": "크라이"
+    },
+    {
+        "word": "cup",
+        "pronunciation": "/kʌp/",
+        "meaning": "컵",
+        "korean_pronunciation": "컵"
+    },
+    {
+        "word": "cut",
+        "pronunciation": "/kʌt/",
+        "meaning": "자르다",
+        "korean_pronunciation": "컷"
+    },
+    {
+        "word": "cute",
+        "pronunciation": "/kjuːt/",
+        "meaning": "귀여운",
+        "korean_pronunciation": "큐트"
+    },
+    {
+        "word": "dad",
+        "pronunciation": "/dæd/",
+        "meaning": "아빠",
+        "korean_pronunciation": "대드"
+    },
+    {
+        "word": "dance",
+        "pronunciation": "/dæns/",
+        "meaning": "춤추다; 춤",
+        "korean_pronunciation": "댄스"
+    },
+    {
+        "word": "dark",
+        "pronunciation": "/dɑːrk/",
+        "meaning": "어두운",
+        "korean_pronunciation": "다크"
+    },
+    {
+        "word": "date",
+        "pronunciation": "/deɪt/",
+        "meaning": "날짜; 데이트",
+        "korean_pronunciation": "데이트"
+    },
+    {
+        "word": "daughter",
+        "pronunciation": "/ˈdɔːtər/",
+        "meaning": "딸",
+        "korean_pronunciation": "도터"
+    },
+    {
+        "word": "day",
+        "pronunciation": "/deɪ/",
+        "meaning": "날, 하루",
+        "korean_pronunciation": "데이"
+    },
+    {
+        "word": "December",
+        "pronunciation": "/dɪˈsembər/",
+        "meaning": "12월",
+        "korean_pronunciation": "디셈버"
+    },
+    {
+        "word": "deep",
+        "pronunciation": "/diːp/",
+        "meaning": "깊은",
+        "korean_pronunciation": "딥"
+    },
+    {
+        "word": "desk",
+        "pronunciation": "/desk/",
+        "meaning": "책상",
+        "korean_pronunciation": "데스크"
+    },
+    {
+        "word": "did",
+        "pronunciation": "/dɪd/",
+        "meaning": "~했다 (do의 과거)",
+        "korean_pronunciation": "디드"
+    },
+    {
+        "word": "die",
+        "pronunciation": "/daɪ/",
+        "meaning": "죽다",
+        "korean_pronunciation": "다이"
+    },
+    {
+        "word": "different",
+        "pronunciation": "/ˈdɪfrənt/",
+        "meaning": "다른",
+        "korean_pronunciation": "디퍼런트"
+    },
+    {
+        "word": "difficult",
+        "pronunciation": "/ˈdɪfɪkəlt/",
+        "meaning": "어려운",
+        "korean_pronunciation": "디피컬트"
+    },
+    {
+        "word": "dinner",
+        "pronunciation": "/ˈdɪnər/",
+        "meaning": "저녁 식사",
+        "korean_pronunciation": "디너"
+    },
+    {
+        "word": "dirty",
+        "pronunciation": "/ˈdɜːrti/",
+        "meaning": "더러운",
+        "korean_pronunciation": "더티"
+    },
+    {
+        "word": "do",
+        "pronunciation": "/duː/",
+        "meaning": "~하다",
+        "korean_pronunciation": "두"
+    },
+    {
+        "word": "doctor",
+        "pronunciation": "/ˈdɑːktər/",
+        "meaning": "의사",
+        "korean_pronunciation": "닥터"
+    },
+    {
+        "word": "dog",
+        "pronunciation": "/dɔːɡ/",
+        "meaning": "개",
+        "korean_pronunciation": "도그"
+    },
+    {
+        "word": "doll",
+        "pronunciation": "/dɑːl/",
+        "meaning": "인형",
+        "korean_pronunciation": "달"
+    },
+    {
+        "word": "door",
+        "pronunciation": "/dɔːr/",
+        "meaning": "문",
+        "korean_pronunciation": "도어"
+    },
+    {
+        "word": "down",
+        "pronunciation": "/daʊn/",
+        "meaning": "아래로",
+        "korean_pronunciation": "다운"
+    },
+    {
+        "word": "draw",
+        "pronunciation": "/drɔː/",
+        "meaning": "그리다",
+        "korean_pronunciation": "드로"
+    },
+    {
+        "word": "dream",
+        "pronunciation": "/driːm/",
+        "meaning": "꿈; 꿈꾸다",
+        "korean_pronunciation": "드림"
+    },
+    {
+        "word": "dress",
+        "pronunciation": "/dres/",
+        "meaning": "옷, 드레스",
+        "korean_pronunciation": "드레스"
+    },
+    {
+        "word": "drink",
+        "pronunciation": "/drɪŋk/",
+        "meaning": "마시다; 음료",
+        "korean_pronunciation": "드링크"
+    },
+    {
+        "word": "drive",
+        "pronunciation": "/draɪv/",
+        "meaning": "운전하다",
+        "korean_pronunciation": "드라이브"
+    },
+    {
+        "word": "duck",
+        "pronunciation": "/dʌk/",
+        "meaning": "오리",
+        "korean_pronunciation": "덕"
+    },
+    {
+        "word": "ear",
+        "pronunciation": "/ɪər/",
+        "meaning": "귀",
+        "korean_pronunciation": "이어"
+    },
+    {
+        "word": "early",
+        "pronunciation": "/ˈɜːrli/",
+        "meaning": "이른; 일찍",
+        "korean_pronunciation": "얼리"
+    },
+    {
+        "word": "eat",
+        "pronunciation": "/iːt/",
+        "meaning": "먹다",
+        "korean_pronunciation": "이트"
+    },
+    {
+        "word": "egg",
+        "pronunciation": "/eɡ/",
+        "meaning": "달걀",
+        "korean_pronunciation": "에그"
+    },
+    {
+        "word": "eight",
+        "pronunciation": "/eɪt/",
+        "meaning": "여덟",
+        "korean_pronunciation": "에이트"
+    },
+    {
+        "word": "eighteen",
+        "pronunciation": "/ˌeɪˈtiːn/",
+        "meaning": "열여덟",
+        "korean_pronunciation": "에이틴"
+    },
+    {
+        "word": "eleven",
+        "pronunciation": "/ɪˈlevn/",
+        "meaning": "열하나",
+        "korean_pronunciation": "일레븐"
+    },
+    {
+        "word": "else",
+        "pronunciation": "/els/",
+        "meaning": "다른, 그 밖의",
+        "korean_pronunciation": "엘스"
+    },
+    {
+        "word": "email",
+        "pronunciation": "/ˈiːmeɪl/",
+        "meaning": "이메일",
+        "korean_pronunciation": "이메일"
+    },
+    {
+        "word": "end",
+        "pronunciation": "/end/",
+        "meaning": "끝; 끝나다",
+        "korean_pronunciation": "엔드"
+    },
+    {
+        "word": "enjoy",
+        "pronunciation": "/ɪnˈdʒɔɪ/",
+        "meaning": "즐기다",
+        "korean_pronunciation": "인조이"
+    },
+    {
+        "word": "enough",
+        "pronunciation": "/ɪˈnʌf/",
+        "meaning": "충분한",
+        "korean_pronunciation": "이너프"
+    },
+    {
+        "word": "enter",
+        "pronunciation": "/ˈentər/",
+        "meaning": "들어가다",
+        "korean_pronunciation": "엔터"
+    },
+    {
+        "word": "eraser",
+        "pronunciation": "/ɪˈreɪsər/",
+        "meaning": "지우개",
+        "korean_pronunciation": "이레이서"
+    },
+    {
+        "word": "even",
+        "pronunciation": "/ˈiːvn/",
+        "meaning": "~조차도; 평평한",
+        "korean_pronunciation": "이븐"
+    },
+    {
+        "word": "evening",
+        "pronunciation": "/ˈiːvnɪŋ/",
+        "meaning": "저녁",
+        "korean_pronunciation": "이브닝"
+    },
+    {
+        "word": "ever",
+        "pronunciation": "/ˈevər/",
+        "meaning": "이제까지, 언젠가",
+        "korean_pronunciation": "에버"
+    },
+    {
+        "word": "every",
+        "pronunciation": "/ˈevri/",
+        "meaning": "모든",
+        "korean_pronunciation": "에브리"
+    },
+    {
+        "word": "everyone",
+        "pronunciation": "/ˈevriwʌn/",
+        "meaning": "모든 사람",
+        "korean_pronunciation": "에브리원"
+    },
+    {
+        "word": "everything",
+        "pronunciation": "/ˈevriθɪŋ/",
+        "meaning": "모든 것",
+        "korean_pronunciation": "에브리싱"
+    },
+    {
+        "word": "example",
+        "pronunciation": "/ɪɡˈzæmpl/",
+        "meaning": "예시",
+        "korean_pronunciation": "이그잼플"
+    },
+    {
+        "word": "excuse",
+        "pronunciation": "/ɪkˈskjuːz/",
+        "meaning": "변명하다; 용서하다",
+        "korean_pronunciation": "익스큐즈"
+    },
+    {
+        "word": "exit",
+        "pronunciation": "/ˈeksɪt/",
+        "meaning": "출구; 나가다",
+        "korean_pronunciation": "엑시트"
+    },
+    {
+        "word": "eye",
+        "pronunciation": "/aɪ/",
+        "meaning": "눈",
+        "korean_pronunciation": "아이"
+    },
+    {
+        "word": "face",
+        "pronunciation": "/feɪs/",
+        "meaning": "얼굴",
+        "korean_pronunciation": "페이스"
+    },
+    {
+        "word": "fall",
+        "pronunciation": "/fɔːl/",
+        "meaning": "떨어지다; 가을",
+        "korean_pronunciation": "폴"
+    },
+    {
+        "word": "family",
+        "pronunciation": "/ˈfæməli/",
+        "meaning": "가족",
+        "korean_pronunciation": "패밀리"
+    },
+    {
+        "word": "fan",
+        "pronunciation": "/fæn/",
+        "meaning": "선풍기; 팬",
+        "korean_pronunciation": "팬"
+    },
+    {
+        "word": "far",
+        "pronunciation": "/fɑːr/",
+        "meaning": "먼; 멀리",
+        "korean_pronunciation": "파"
+    },
+    {
+        "word": "farm",
+        "pronunciation": "/fɑːrm/",
+        "meaning": "농장",
+        "korean_pronunciation": "팜"
+    },
+    {
+        "word": "farmer",
+        "pronunciation": "/ˈfɑːrmər/",
+        "meaning": "농부",
+        "korean_pronunciation": "파머"
+    },
+    {
+        "word": "fast",
+        "pronunciation": "/fæst/",
+        "meaning": "빠른; 빠르게",
+        "korean_pronunciation": "패스트"
+    },
+    {
+        "word": "fat",
+        "pronunciation": "/fæt/",
+        "meaning": "뚱뚱한",
+        "korean_pronunciation": "팻"
+    },
+    {
+        "word": "father",
+        "pronunciation": "/ˈfɑːðər/",
+        "meaning": "아버지",
+        "korean_pronunciation": "파더"
+    },
+    {
+        "word": "February",
+        "pronunciation": "/ˈfebrueri/",
+        "meaning": "2월",
+        "korean_pronunciation": "페브루어리"
+    },
+    {
+        "word": "feed",
+        "pronunciation": "/fiːd/",
+        "meaning": "먹이를 주다",
+        "korean_pronunciation": "피드"
+    },
+    {
+        "word": "feel",
+        "pronunciation": "/fiːl/",
+        "meaning": "느끼다",
+        "korean_pronunciation": "필"
+    },
+    {
+        "word": "feet",
+        "pronunciation": "/fiːt/",
+        "meaning": "발 (복수)",
+        "korean_pronunciation": "피트"
+    },
+    {
+        "word": "few",
+        "pronunciation": "/fjuː/",
+        "meaning": "소수의",
+        "korean_pronunciation": "퓨"
+    },
+    {
+        "word": "fifteen",
+        "pronunciation": "/fɪfˈtiːn/",
+        "meaning": "열다섯",
+        "korean_pronunciation": "피프틴"
+    },
+    {
+        "word": "fifth",
+        "pronunciation": "/fɪfθ/",
+        "meaning": "다섯 번째의",
+        "korean_pronunciation": "피프스"
+    },
+    {
+        "word": "fifty",
+        "pronunciation": "/ˈfɪfti/",
+        "meaning": "쉰",
+        "korean_pronunciation": "피프티"
+    },
+    {
+        "word": "find",
+        "pronunciation": "/faɪnd/",
+        "meaning": "찾다",
+        "korean_pronunciation": "파인드"
+    },
+    {
+        "word": "finger",
+        "pronunciation": "/ˈfɪŋɡər/",
+        "meaning": "손가락",
+        "korean_pronunciation": "핑거"
+    },
+    {
+        "word": "finish",
+        "pronunciation": "/ˈfɪnɪʃ/",
+        "meaning": "끝내다",
+        "korean_pronunciation": "피니시"
+    },
+    {
+        "word": "fire",
+        "pronunciation": "/ˈfaɪər/",
+        "meaning": "불",
+        "korean_pronunciation": "파이어"
+    },
+    {
+        "word": "first",
+        "pronunciation": "/fɜːrst/",
+        "meaning": "첫 번째의; 처음으로",
+        "korean_pronunciation": "퍼스트"
+    },
+    {
+        "word": "fish",
+        "pronunciation": "/fɪʃ/",
+        "meaning": "물고기; 낚시하다",
+        "korean_pronunciation": "피시"
+    },
+    {
+        "word": "five",
+        "pronunciation": "/faɪv/",
+        "meaning": "다섯",
+        "korean_pronunciation": "파이브"
+    },
+    {
+        "word": "floor",
+        "pronunciation": "/flɔːr/",
+        "meaning": "바닥; 층",
+        "korean_pronunciation": "플로어"
+    },
+    {
+        "word": "flower",
+        "pronunciation": "/ˈflaʊər/",
+        "meaning": "꽃",
+        "korean_pronunciation": "플라워"
+    },
+    {
+        "word": "fly",
+        "pronunciation": "/flaɪ/",
+        "meaning": "날다; 파리",
+        "korean_pronunciation": "플라이"
+    },
+    {
+        "word": "follow",
+        "pronunciation": "/ˈfɑːloʊ/",
+        "meaning": "따라가다",
+        "korean_pronunciation": "팔로우"
+    },
+    {
+        "word": "food",
+        "pronunciation": "/fuːd/",
+        "meaning": "음식",
+        "korean_pronunciation": "푸드"
+    },
+    {
+        "word": "foot",
+        "pronunciation": "/fʊt/",
+        "meaning": "발",
+        "korean_pronunciation": "풋"
+    },
+    {
+        "word": "for",
+        "pronunciation": "/fɔːr/",
+        "meaning": "~을 위해, ~동안",
+        "korean_pronunciation": "포어"
+    },
+    {
+        "word": "forest",
+        "pronunciation": "/ˈfɔːrɪst/",
+        "meaning": "숲",
+        "korean_pronunciation": "포리스트"
+    },
+    {
+        "word": "forget",
+        "pronunciation": "/fərˈɡet/",
+        "meaning": "잊다",
+        "korean_pronunciation": "포겟"
+    },
+    {
+        "word": "four",
+        "pronunciation": "/fɔːr/",
+        "meaning": "넷",
+        "korean_pronunciation": "포어"
+    },
+    {
+        "word": "fourteen",
+        "pronunciation": "/fɔːrˈtiːn/",
+        "meaning": "열넷",
+        "korean_pronunciation": "포틴"
+    },
+    {
+        "word": "fourth",
+        "pronunciation": "/fɔːrθ/",
+        "meaning": "네 번째의",
+        "korean_pronunciation": "포스"
+    },
+    {
+        "word": "fox",
+        "pronunciation": "/fɑːks/",
+        "meaning": "여우",
+        "korean_pronunciation": "팍스"
+    },
+    {
+        "word": "free",
+        "pronunciation": "/friː/",
+        "meaning": "자유로운; 무료의",
+        "korean_pronunciation": "프리"
+    },
+    {
+        "word": "fresh",
+        "pronunciation": "/freʃ/",
+        "meaning": "신선한",
+        "korean_pronunciation": "프레시"
+    },
+    {
+        "word": "Friday",
+        "pronunciation": "/ˈfraɪdeɪ/",
+        "meaning": "금요일",
+        "korean_pronunciation": "프라이데이"
+    },
+    {
+        "word": "friend",
+        "pronunciation": "/frend/",
+        "meaning": "친구",
+        "korean_pronunciation": "프렌드"
+    },
+    {
+        "word": "from",
+        "pronunciation": "/frʌm/",
+        "meaning": "~로부터",
+        "korean_pronunciation": "프롬"
+    },
+    {
+        "word": "front",
+        "pronunciation": "/frʌnt/",
+        "meaning": "앞; 앞의",
+        "korean_pronunciation": "프런트"
+    },
+    {
+        "word": "fruit",
+        "pronunciation": "/fruːt/",
+        "meaning": "과일",
+        "korean_pronunciation": "프루트"
+    },
+    {
+        "word": "full",
+        "pronunciation": "/fʊl/",
+        "meaning": "가득한, 배부른",
+        "korean_pronunciation": "풀"
+    },
+    {
+        "word": "fun",
+        "pronunciation": "/fʌn/",
+        "meaning": "재미; 재미있는",
+        "korean_pronunciation": "펀"
+    },
+    {
+        "word": "game",
+        "pronunciation": "/ɡeɪm/",
+        "meaning": "게임",
+        "korean_pronunciation": "게임"
+    },
+    {
+        "word": "garden",
+        "pronunciation": "/ˈɡɑːrdn/",
+        "meaning": "정원",
+        "korean_pronunciation": "가든"
+    },
+    {
+        "word": "get",
+        "pronunciation": "/ɡet/",
+        "meaning": "얻다, 받다",
+        "korean_pronunciation": "겟"
+    },
+    {
+        "word": "girl",
+        "pronunciation": "/ɡɜːrl/",
+        "meaning": "소녀",
+        "korean_pronunciation": "걸"
+    },
+    {
+        "word": "give",
+        "pronunciation": "/ɡɪv/",
+        "meaning": "주다",
+        "korean_pronunciation": "기브"
+    },
+    {
+        "word": "glass",
+        "pronunciation": "/ɡlæs/",
+        "meaning": "유리; 잔",
+        "korean_pronunciation": "글래스"
+    },
+    {
+        "word": "go",
+        "pronunciation": "/ɡoʊ/",
+        "meaning": "가다",
+        "korean_pronunciation": "고우"
+    },
+    {
+        "word": "goat",
+        "pronunciation": "/ɡoʊt/",
+        "meaning": "염소",
+        "korean_pronunciation": "고트"
+    },
+    {
+        "word": "good",
+        "pronunciation": "/ɡʊd/",
+        "meaning": "좋은",
+        "korean_pronunciation": "굿"
+    },
+    {
+        "word": "goodbye",
+        "pronunciation": "/ˌɡʊdˈbaɪ/",
+        "meaning": "안녕히",
+        "korean_pronunciation": "굿바이"
+    },
+    {
+        "word": "grandma",
+        "pronunciation": "/ˈɡræn(d)mɑː/",
+        "meaning": "할머니",
+        "korean_pronunciation": "그랜마"
+    },
+    {
+        "word": "grandpa",
+        "pronunciation": "/ˈɡræn(d)pɑː/",
+        "meaning": "할아버지",
+        "korean_pronunciation": "그랜파"
+    },
+    {
+        "word": "grape",
+        "pronunciation": "/ɡreɪp/",
+        "meaning": "포도",
+        "korean_pronunciation": "그레이프"
+    },
+    {
+        "word": "grass",
+        "pronunciation": "/ɡræs/",
+        "meaning": "잔디, 풀",
+        "korean_pronunciation": "그래스"
+    },
+    {
+        "word": "green",
+        "pronunciation": "/ɡriːn/",
+        "meaning": "초록색의",
+        "korean_pronunciation": "그린"
+    },
+    {
+        "word": "ground",
+        "pronunciation": "/ɡraʊnd/",
+        "meaning": "땅",
+        "korean_pronunciation": "그라운드"
+    },
+    {
+        "word": "group",
+        "pronunciation": "/ɡruːp/",
+        "meaning": "그룹, 무리",
+        "korean_pronunciation": "그룹"
+    },
+    {
+        "word": "grow",
+        "pronunciation": "/ɡroʊ/",
+        "meaning": "자라다",
+        "korean_pronunciation": "그로우"
+    },
+    {
+        "word": "guess",
+        "pronunciation": "/ɡes/",
+        "meaning": "추측하다",
+        "korean_pronunciation": "게스"
+    },
+    {
+        "word": "guitar",
+        "pronunciation": "/ɡɪˈtɑːr/",
+        "meaning": "기타",
+        "korean_pronunciation": "기타"
+    },
+    {
+        "word": "gym",
+        "pronunciation": "/dʒɪm/",
+        "meaning": "체육관",
+        "korean_pronunciation": "짐"
+    },
+    {
+        "word": "hair",
+        "pronunciation": "/heər/",
+        "meaning": "머리카락",
+        "korean_pronunciation": "헤어"
+    },
+    {
+        "word": "half",
+        "pronunciation": "/hæf/",
+        "meaning": "절반",
+        "korean_pronunciation": "하프"
+    },
+    {
+        "word": "hamburger",
+        "pronunciation": "/ˈhæmbɜːrɡər/",
+        "meaning": "햄버거",
+        "korean_pronunciation": "햄버거"
+    },
+    {
+        "word": "hand",
+        "pronunciation": "/hænd/",
+        "meaning": "손",
+        "korean_pronunciation": "핸드"
+    },
+    {
+        "word": "happy",
+        "pronunciation": "/ˈhæpi/",
+        "meaning": "행복한",
+        "korean_pronunciation": "해피"
+    },
+    {
+        "word": "hat",
+        "pronunciation": "/hæt/",
+        "meaning": "모자",
+        "korean_pronunciation": "햇"
+    },
+    {
+        "word": "have",
+        "pronunciation": "/hæv/",
+        "meaning": "가지다, 먹다",
+        "korean_pronunciation": "해브"
+    },
+    {
+        "word": "he",
+        "pronunciation": "/hiː/",
+        "meaning": "그는",
+        "korean_pronunciation": "히"
+    },
+    {
+        "word": "head",
+        "pronunciation": "/hed/",
+        "meaning": "머리",
+        "korean_pronunciation": "헤드"
+    },
+    {
+        "word": "hear",
+        "pronunciation": "/hɪər/",
+        "meaning": "듣다",
+        "korean_pronunciation": "히어"
+    },
+    {
+        "word": "heart",
+        "pronunciation": "/hɑːrt/",
+        "meaning": "심장, 마음",
+        "korean_pronunciation": "하트"
+    },
+    {
+        "word": "hello",
+        "pronunciation": "/həˈloʊ/",
+        "meaning": "안녕하세요",
+        "korean_pronunciation": "헬로우"
+    },
+    {
+        "word": "help",
+        "pronunciation": "/help/",
+        "meaning": "돕다",
+        "korean_pronunciation": "헬프"
+    },
+    {
+        "word": "her",
+        "pronunciation": "/hɜːr/",
+        "meaning": "그녀의; 그녀를",
+        "korean_pronunciation": "허"
+    },
+    {
+        "word": "here",
+        "pronunciation": "/hɪər/",
+        "meaning": "여기",
+        "korean_pronunciation": "히어"
+    },
+    {
+        "word": "hi",
+        "pronunciation": "/haɪ/",
+        "meaning": "안녕",
+        "korean_pronunciation": "하이"
+    },
+    {
+        "word": "hide",
+        "pronunciation": "/haɪd/",
+        "meaning": "숨다, 숨기다",
+        "korean_pronunciation": "하이드"
+    },
+    {
+        "word": "high",
+        "pronunciation": "/haɪ/",
+        "meaning": "높은",
+        "korean_pronunciation": "하이"
+    },
+    {
+        "word": "hill",
+        "pronunciation": "/hɪl/",
+        "meaning": "언덕",
+        "korean_pronunciation": "힐"
+    },
+    {
+        "word": "him",
+        "pronunciation": "/hɪm/",
+        "meaning": "그를",
+        "korean_pronunciation": "힘"
+    },
+    {
+        "word": "his",
+        "pronunciation": "/hɪz/",
+        "meaning": "그의",
+        "korean_pronunciation": "히즈"
+    },
+    {
+        "word": "hit",
+        "pronunciation": "/hɪt/",
+        "meaning": "치다, 때리다",
+        "korean_pronunciation": "히트"
+    },
+    {
+        "word": "hobby",
+        "pronunciation": "/ˈhɑːbi/",
+        "meaning": "취미",
+        "korean_pronunciation": "하비"
+    },
+    {
+        "word": "hold",
+        "pronunciation": "/hoʊld/",
+        "meaning": "잡다, 들고 있다",
+        "korean_pronunciation": "홀드"
+    },
+    {
+        "word": "holiday",
+        "pronunciation": "/ˈhɑːlədeɪ/",
+        "meaning": "휴일",
+        "korean_pronunciation": "할리데이"
+    },
+    {
+        "word": "home",
+        "pronunciation": "/hoʊm/",
+        "meaning": "집; 집으로",
+        "korean_pronunciation": "홈"
+    },
+    {
+        "word": "homework",
+        "pronunciation": "/ˈhoʊmwɜːrk/",
+        "meaning": "숙제",
+        "korean_pronunciation": "홈워크"
+    },
+    {
+        "word": "hope",
+        "pronunciation": "/hoʊp/",
+        "meaning": "희망하다; 희망",
+        "korean_pronunciation": "호프"
+    },
+    {
+        "word": "horse",
+        "pronunciation": "/hɔːrs/",
+        "meaning": "말",
+        "korean_pronunciation": "호스"
+    },
+    {
+        "word": "hospital",
+        "pronunciation": "/ˈhɑːspɪtl/",
+        "meaning": "병원",
+        "korean_pronunciation": "하스피틀"
+    },
+    {
+        "word": "hot",
+        "pronunciation": "/hɑːt/",
+        "meaning": "뜨거운",
+        "korean_pronunciation": "핫"
+    },
+    {
+        "word": "hotel",
+        "pronunciation": "/hoʊˈtel/",
+        "meaning": "호텔",
+        "korean_pronunciation": "호텔"
+    },
+    {
+        "word": "hour",
+        "pronunciation": "/ˈaʊər/",
+        "meaning": "시간",
+        "korean_pronunciation": "아워"
+    },
+    {
+        "word": "house",
+        "pronunciation": "/haʊs/",
+        "meaning": "집",
+        "korean_pronunciation": "하우스"
+    },
+    {
+        "word": "how",
+        "pronunciation": "/haʊ/",
+        "meaning": "어떻게",
+        "korean_pronunciation": "하우"
+    },
+    {
+        "word": "hundred",
+        "pronunciation": "/ˈhʌndrəd/",
+        "meaning": "백",
+        "korean_pronunciation": "헌드레드"
+    },
+    {
+        "word": "hungry",
+        "pronunciation": "/ˈhʌŋɡri/",
+        "meaning": "배고픈",
+        "korean_pronunciation": "헝그리"
+    },
+    {
+        "word": "hurry",
+        "pronunciation": "/ˈhɜːri/",
+        "meaning": "서두르다",
+        "korean_pronunciation": "허리"
+    },
+    {
+        "word": "husband",
+        "pronunciation": "/ˈhʌzbənd/",
+        "meaning": "남편",
+        "korean_pronunciation": "허스밴드"
+    },
+    {
+        "word": "I",
+        "pronunciation": "/aɪ/",
+        "meaning": "나는, 제가",
+        "korean_pronunciation": "아이"
+    },
+    {
+        "word": "ice",
+        "pronunciation": "/aɪs/",
+        "meaning": "얼음",
+        "korean_pronunciation": "아이스"
+    },
+    {
+        "word": "ice cream",
+        "pronunciation": "/ˌaɪs ˈkriːm/",
+        "meaning": "아이스크림",
+        "korean_pronunciation": "아이스크림"
+    },
+    {
+        "word": "idea",
+        "pronunciation": "/aɪˈdiːə/",
+        "meaning": "생각, 아이디어",
+        "korean_pronunciation": "아이디어"
+    },
+    {
+        "word": "if",
+        "pronunciation": "/ɪf/",
+        "meaning": "~라면",
+        "korean_pronunciation": "이프"
+    },
+    {
+        "word": "in",
+        "pronunciation": "/ɪn/",
+        "meaning": "~안에",
+        "korean_pronunciation": "인"
+    },
+    {
+        "word": "inside",
+        "pronunciation": "/ˌɪnˈsaɪd/",
+        "meaning": "~안에; 안쪽",
+        "korean_pronunciation": "인사이드"
+    },
+    {
+        "word": "instead",
+        "pronunciation": "/ɪnˈsted/",
+        "meaning": "대신에",
+        "korean_pronunciation": "인스테드"
+    },
+    {
+        "word": "into",
+        "pronunciation": "/ˈɪntu/",
+        "meaning": "~안으로",
+        "korean_pronunciation": "인투"
+    },
+    {
+        "word": "invite",
+        "pronunciation": "/ɪnˈvaɪt/",
+        "meaning": "초대하다",
+        "korean_pronunciation": "인바이트"
+    },
+    {
+        "word": "is",
+        "pronunciation": "/ɪz/",
+        "meaning": "~이다 (be동사)",
+        "korean_pronunciation": "이즈"
+    },
+    {
+        "word": "it",
+        "pronunciation": "/ɪt/",
+        "meaning": "그것",
+        "korean_pronunciation": "잇"
+    },
+    {
+        "word": "item",
+        "pronunciation": "/ˈaɪtəm/",
+        "meaning": "항목, 물품",
+        "korean_pronunciation": "아이템"
+    },
+    {
+        "word": "jacket",
+        "pronunciation": "/ˈdʒækɪt/",
+        "meaning": "재킷",
+        "korean_pronunciation": "재킷"
+    },
+    {
+        "word": "January",
+        "pronunciation": "/ˈdʒænjueri/",
+        "meaning": "1월",
+        "korean_pronunciation": "재뉴어리"
+    },
+    {
+        "word": "job",
+        "pronunciation": "/dʒɑːb/",
+        "meaning": "직업",
+        "korean_pronunciation": "잡"
+    },
+    {
+        "word": "join",
+        "pronunciation": "/dʒɔɪn/",
+        "meaning": "참가하다, 합류하다",
+        "korean_pronunciation": "조인"
+    },
+    {
+        "word": "juice",
+        "pronunciation": "/dʒuːs/",
+        "meaning": "주스",
+        "korean_pronunciation": "주스"
+    },
+    {
+        "word": "July",
+        "pronunciation": "/dʒuˈlaɪ/",
+        "meaning": "7월",
+        "korean_pronunciation": "줄라이"
+    },
+    {
+        "word": "jump",
+        "pronunciation": "/dʒʌmp/",
+        "meaning": "뛰다",
+        "korean_pronunciation": "점프"
+    },
+    {
+        "word": "June",
+        "pronunciation": "/dʒuːn/",
+        "meaning": "6월",
+        "korean_pronunciation": "준"
+    },
+    {
+        "word": "just",
+        "pronunciation": "/dʒʌst/",
+        "meaning": "방금; 그저; 단지",
+        "korean_pronunciation": "저스트"
+    },
+    {
+        "word": "keep",
+        "pronunciation": "/kiːp/",
+        "meaning": "유지하다; 지키다",
+        "korean_pronunciation": "킵"
+    },
+    {
+        "word": "key",
+        "pronunciation": "/kiː/",
+        "meaning": "열쇠",
+        "korean_pronunciation": "키"
+    },
+    {
+        "word": "kick",
+        "pronunciation": "/kɪk/",
+        "meaning": "차다",
+        "korean_pronunciation": "킥"
+    },
+    {
+        "word": "kid",
+        "pronunciation": "/kɪd/",
+        "meaning": "아이",
+        "korean_pronunciation": "키드"
+    },
+    {
+        "word": "kill",
+        "pronunciation": "/kɪl/",
+        "meaning": "죽이다",
+        "korean_pronunciation": "킬"
+    },
+    {
+        "word": "kind",
+        "pronunciation": "/kaɪnd/",
+        "meaning": "친절한; 종류",
+        "korean_pronunciation": "카인드"
+    },
+    {
+        "word": "king",
+        "pronunciation": "/kɪŋ/",
+        "meaning": "왕",
+        "korean_pronunciation": "킹"
+    },
+    {
+        "word": "kiss",
+        "pronunciation": "/kɪs/",
+        "meaning": "뽀뽀하다; 뽀뽀",
+        "korean_pronunciation": "키스"
+    },
+    {
+        "word": "kitchen",
+        "pronunciation": "/ˈkɪtʃən/",
+        "meaning": "부엌",
+        "korean_pronunciation": "키친"
+    },
+    {
+        "word": "kite",
+        "pronunciation": "/kaɪt/",
+        "meaning": "연",
+        "korean_pronunciation": "카이트"
+    },
+    {
+        "word": "knee",
+        "pronunciation": "/niː/",
+        "meaning": "무릎",
+        "korean_pronunciation": "니"
+    },
+    {
+        "word": "know",
+        "pronunciation": "/noʊ/",
+        "meaning": "알다",
+        "korean_pronunciation": "노우"
+    },
+    {
+        "word": "lake",
+        "pronunciation": "/leɪk/",
+        "meaning": "호수",
+        "korean_pronunciation": "레이크"
+    },
+    {
+        "word": "lamp",
+        "pronunciation": "/læmp/",
+        "meaning": "램프, 등",
+        "korean_pronunciation": "램프"
+    },
+    {
+        "word": "land",
+        "pronunciation": "/lænd/",
+        "meaning": "땅",
+        "korean_pronunciation": "랜드"
+    },
+    {
+        "word": "language",
+        "pronunciation": "/ˈlæŋɡwɪdʒ/",
+        "meaning": "언어",
+        "korean_pronunciation": "랭귀지"
+    },
+    {
+        "word": "large",
+        "pronunciation": "/lɑːrdʒ/",
+        "meaning": "큰",
+        "korean_pronunciation": "라지"
+    },
+    {
+        "word": "last",
+        "pronunciation": "/læst/",
+        "meaning": "마지막의; 지난",
+        "korean_pronunciation": "라스트"
+    },
+    {
+        "word": "late",
+        "pronunciation": "/leɪt/",
+        "meaning": "늦은; 늦게",
+        "korean_pronunciation": "레이트"
+    },
+    {
+        "word": "later",
+        "pronunciation": "/ˈleɪtər/",
+        "meaning": "나중에",
+        "korean_pronunciation": "레이터"
+    },
+    {
+        "word": "laugh",
+        "pronunciation": "/læf/",
+        "meaning": "웃다",
+        "korean_pronunciation": "래프"
+    },
+    {
+        "word": "learn",
+        "pronunciation": "/lɜːrn/",
+        "meaning": "배우다",
+        "korean_pronunciation": "런"
+    },
+    {
+        "word": "least",
+        "pronunciation": "/liːst/",
+        "meaning": "가장 적은",
+        "korean_pronunciation": "리스트"
+    },
+    {
+        "word": "leave",
+        "pronunciation": "/liːv/",
+        "meaning": "떠나다; 남겨두다",
+        "korean_pronunciation": "리브"
+    },
+    {
+        "word": "left",
+        "pronunciation": "/left/",
+        "meaning": "왼쪽의; 남은",
+        "korean_pronunciation": "레프트"
+    },
+    {
+        "word": "leg",
+        "pronunciation": "/leɡ/",
+        "meaning": "다리",
+        "korean_pronunciation": "레그"
+    },
+    {
+        "word": "lemon",
+        "pronunciation": "/ˈlemən/",
+        "meaning": "레몬",
+        "korean_pronunciation": "레몬"
+    },
+    {
+        "word": "lesson",
+        "pronunciation": "/ˈlesn/",
+        "meaning": "수업, 교훈",
+        "korean_pronunciation": "레슨"
+    },
+    {
+        "word": "let",
+        "pronunciation": "/let/",
+        "meaning": "~하게 하다",
+        "korean_pronunciation": "렛"
+    },
+    {
+        "word": "letter",
+        "pronunciation": "/ˈletər/",
+        "meaning": "편지; 글자",
+        "korean_pronunciation": "레터"
+    },
+    {
+        "word": "library",
+        "pronunciation": "/ˈlaɪbreri/",
+        "meaning": "도서관",
+        "korean_pronunciation": "라이브러리"
+    },
+    {
+        "word": "lie",
+        "pronunciation": "/laɪ/",
+        "meaning": "눕다; 거짓말하다",
+        "korean_pronunciation": "라이"
+    },
+    {
+        "word": "life",
+        "pronunciation": "/laɪf/",
+        "meaning": "삶",
+        "korean_pronunciation": "라이프"
+    },
+    {
+        "word": "light",
+        "pronunciation": "/laɪt/",
+        "meaning": "빛; 가벼운",
+        "korean_pronunciation": "라이트"
+    },
+    {
+        "word": "like",
+        "pronunciation": "/laɪk/",
+        "meaning": "~을 좋아하다; ~처럼",
+        "korean_pronunciation": "라이크"
+    },
+    {
+        "word": "line",
+        "pronunciation": "/laɪn/",
+        "meaning": "선, 줄",
+        "korean_pronunciation": "라인"
+    },
+    {
+        "word": "lion",
+        "pronunciation": "/ˈlaɪən/",
+        "meaning": "사자",
+        "korean_pronunciation": "라이언"
+    },
+    {
+        "word": "lip",
+        "pronunciation": "/lɪp/",
+        "meaning": "입술",
+        "korean_pronunciation": "립"
+    },
+    {
+        "word": "list",
+        "pronunciation": "/lɪst/",
+        "meaning": "목록; 목록을 만들다",
+        "korean_pronunciation": "리스트"
+    },
+    {
+        "word": "listen",
+        "pronunciation": "/ˈlɪsn/",
+        "meaning": "듣다",
+        "korean_pronunciation": "리스튼"
+    },
+    {
+        "word": "little",
+        "pronunciation": "/ˈlɪtl/",
+        "meaning": "작은; 약간",
+        "korean_pronunciation": "리틀"
+    },
+    {
+        "word": "live",
+        "pronunciation": "/lɪv/",
+        "meaning": "살다",
+        "korean_pronunciation": "리브"
+    },
+    {
+        "word": "long",
+        "pronunciation": "/lɔːŋ/",
+        "meaning": "긴",
+        "korean_pronunciation": "롱"
+    },
+    {
+        "word": "look",
+        "pronunciation": "/lʊk/",
+        "meaning": "보다",
+        "korean_pronunciation": "룩"
+    },
+    {
+        "word": "lose",
+        "pronunciation": "/luːz/",
+        "meaning": "잃다, 지다",
+        "korean_pronunciation": "루즈"
+    },
+    {
+        "word": "lot",
+        "pronunciation": "/lɑːt/",
+        "meaning": "많은 양",
+        "korean_pronunciation": "랏"
+    },
+    {
+        "word": "loud",
+        "pronunciation": "/laʊd/",
+        "meaning": "큰 소리의",
+        "korean_pronunciation": "라우드"
+    },
+    {
+        "word": "love",
+        "pronunciation": "/lʌv/",
+        "meaning": "사랑하다; 사랑",
+        "korean_pronunciation": "러브"
+    },
+    {
+        "word": "low",
+        "pronunciation": "/loʊ/",
+        "meaning": "낮은",
+        "korean_pronunciation": "로우"
+    },
+    {
+        "word": "lunch",
+        "pronunciation": "/lʌntʃ/",
+        "meaning": "점심 식사",
+        "korean_pronunciation": "런치"
+    },
+    {
+        "word": "machine",
+        "pronunciation": "/məˈʃiːn/",
+        "meaning": "기계",
+        "korean_pronunciation": "머신"
+    },
+    {
+        "word": "made",
+        "pronunciation": "/meɪd/",
+        "meaning": "만들어진 (make의 과거분사)",
+        "korean_pronunciation": "메이드"
+    },
+    {
+        "word": "make",
+        "pronunciation": "/meɪk/",
+        "meaning": "만들다",
+        "korean_pronunciation": "메이크"
+    },
+    {
+        "word": "man",
+        "pronunciation": "/mæn/",
+        "meaning": "남자",
+        "korean_pronunciation": "맨"
+    },
+    {
+        "word": "many",
+        "pronunciation": "/ˈmeni/",
+        "meaning": "많은",
+        "korean_pronunciation": "메니"
+    },
+    {
+        "word": "map",
+        "pronunciation": "/mæp/",
+        "meaning": "지도",
+        "korean_pronunciation": "맵"
+    },
+    {
+        "word": "March",
+        "pronunciation": "/mɑːrtʃ/",
+        "meaning": "3월",
+        "korean_pronunciation": "마치"
+    },
+    {
+        "word": "mark",
+        "pronunciation": "/mɑːrk/",
+        "meaning": "표시하다; 표시",
+        "korean_pronunciation": "마크"
+    },
+    {
+        "word": "market",
+        "pronunciation": "/ˈmɑːrkɪt/",
+        "meaning": "시장",
+        "korean_pronunciation": "마켓"
+    },
+    {
+        "word": "May",
+        "pronunciation": "/meɪ/",
+        "meaning": "5월",
+        "korean_pronunciation": "메이"
+    },
+    {
+        "word": "me",
+        "pronunciation": "/miː/",
+        "meaning": "나를",
+        "korean_pronunciation": "미"
+    },
+    {
+        "word": "mean",
+        "pronunciation": "/miːn/",
+        "meaning": "의미하다",
+        "korean_pronunciation": "민"
+    },
+    {
+        "word": "meet",
+        "pronunciation": "/miːt/",
+        "meaning": "만나다",
+        "korean_pronunciation": "밋"
+    },
+    {
+        "word": "melon",
+        "pronunciation": "/ˈmelən/",
+        "meaning": "멜론",
+        "korean_pronunciation": "멜론"
+    },
+    {
+        "word": "men",
+        "pronunciation": "/men/",
+        "meaning": "남자들",
+        "korean_pronunciation": "멘"
+    },
+    {
+        "word": "message",
+        "pronunciation": "/ˈmesɪdʒ/",
+        "meaning": "메시지",
+        "korean_pronunciation": "메시지"
+    },
+    {
+        "word": "middle",
+        "pronunciation": "/ˈmɪdl/",
+        "meaning": "중간의",
+        "korean_pronunciation": "미들"
+    },
+    {
+        "word": "milk",
+        "pronunciation": "/mɪlk/",
+        "meaning": "우유",
+        "korean_pronunciation": "밀크"
+    },
+    {
+        "word": "million",
+        "pronunciation": "/ˈmɪljən/",
+        "meaning": "백만",
+        "korean_pronunciation": "밀리언"
+    },
+    {
+        "word": "minute",
+        "pronunciation": "/ˈmɪnɪt/",
+        "meaning": "분",
+        "korean_pronunciation": "미닛"
+    },
+    {
+        "word": "mirror",
+        "pronunciation": "/ˈmɪrər/",
+        "meaning": "거울",
+        "korean_pronunciation": "미러"
+    },
+    {
+        "word": "miss",
+        "pronunciation": "/mɪs/",
+        "meaning": "놓치다; 그리워하다",
+        "korean_pronunciation": "미스"
+    },
+    {
+        "word": "Monday",
+        "pronunciation": "/ˈmʌndeɪ/",
+        "meaning": "월요일",
+        "korean_pronunciation": "먼데이"
+    },
+    {
+        "word": "money",
+        "pronunciation": "/ˈmʌni/",
+        "meaning": "돈",
+        "korean_pronunciation": "머니"
+    },
+    {
+        "word": "monkey",
+        "pronunciation": "/ˈmʌŋki/",
+        "meaning": "원숭이",
+        "korean_pronunciation": "멍키"
+    },
+    {
+        "word": "month",
+        "pronunciation": "/mʌnθ/",
+        "meaning": "달, 월",
+        "korean_pronunciation": "먼스"
+    },
+    {
+        "word": "moon",
+        "pronunciation": "/muːn/",
+        "meaning": "달",
+        "korean_pronunciation": "문"
+    },
+    {
+        "word": "more",
+        "pronunciation": "/mɔːr/",
+        "meaning": "더 많은",
+        "korean_pronunciation": "모어"
+    },
+    {
+        "word": "morning",
+        "pronunciation": "/ˈmɔːrnɪŋ/",
+        "meaning": "아침",
+        "korean_pronunciation": "모닝"
+    },
+    {
+        "word": "most",
+        "pronunciation": "/moʊst/",
+        "meaning": "가장 많은",
+        "korean_pronunciation": "모스트"
+    },
+    {
+        "word": "mother",
+        "pronunciation": "/ˈmʌðər/",
+        "meaning": "어머니",
+        "korean_pronunciation": "마더"
+    },
+    {
+        "word": "mountain",
+        "pronunciation": "/ˈmaʊntən/",
+        "meaning": "산",
+        "korean_pronunciation": "마운튼"
+    },
+    {
+        "word": "mouse",
+        "pronunciation": "/maʊs/",
+        "meaning": "쥐",
+        "korean_pronunciation": "마우스"
+    },
+    {
+        "word": "mouth",
+        "pronunciation": "/maʊθ/",
+        "meaning": "입",
+        "korean_pronunciation": "마우스"
+    },
+    {
+        "word": "move",
+        "pronunciation": "/muːv/",
+        "meaning": "움직이다",
+        "korean_pronunciation": "무브"
+    },
+    {
+        "word": "movie",
+        "pronunciation": "/ˈmuːvi/",
+        "meaning": "영화",
+        "korean_pronunciation": "무비"
+    },
+    {
+        "word": "Mr.",
+        "pronunciation": "/ˈmɪstər/",
+        "meaning": "~씨 (남자)",
+        "korean_pronunciation": "미스터"
+    },
+    {
+        "word": "Mrs.",
+        "pronunciation": "/ˈmɪsɪz/",
+        "meaning": "~씨 (기혼 여자)",
+        "korean_pronunciation": "미시즈"
+    },
+    {
+        "word": "Ms.",
+        "pronunciation": "/mɪz/",
+        "meaning": "~씨 (여자)",
+        "korean_pronunciation": "미즈"
+    },
+    {
+        "word": "much",
+        "pronunciation": "/mʌtʃ/",
+        "meaning": "많은 양",
+        "korean_pronunciation": "머치"
+    },
+    {
+        "word": "music",
+        "pronunciation": "/ˈmjuːzɪk/",
+        "meaning": "음악",
+        "korean_pronunciation": "뮤직"
+    },
+    {
+        "word": "my",
+        "pronunciation": "/maɪ/",
+        "meaning": "나의",
+        "korean_pronunciation": "마이"
+    },
+    {
+        "word": "name",
+        "pronunciation": "/neɪm/",
+        "meaning": "이름",
+        "korean_pronunciation": "네임"
+    },
+    {
+        "word": "near",
+        "pronunciation": "/nɪər/",
+        "meaning": "가까운; ~근처에",
+        "korean_pronunciation": "니어"
+    },
+    {
+        "word": "need",
+        "pronunciation": "/niːd/",
+        "meaning": "~할 필요가 있다; 필요",
+        "korean_pronunciation": "니드"
+    },
+    {
+        "word": "never",
+        "pronunciation": "/ˈnevər/",
+        "meaning": "절대 ~않는",
+        "korean_pronunciation": "네버"
+    },
+    {
+        "word": "new",
+        "pronunciation": "/nuː/",
+        "meaning": "새로운",
+        "korean_pronunciation": "뉴"
+    },
+    {
+        "word": "news",
+        "pronunciation": "/nuːz/",
+        "meaning": "뉴스",
+        "korean_pronunciation": "뉴스"
+    },
+    {
+        "word": "next",
+        "pronunciation": "/nekst/",
+        "meaning": "다음의; 옆에",
+        "korean_pronunciation": "넥스트"
+    },
+    {
+        "word": "nice",
+        "pronunciation": "/naɪs/",
+        "meaning": "좋은, 멋진",
+        "korean_pronunciation": "나이스"
+    },
+    {
+        "word": "night",
+        "pronunciation": "/naɪt/",
+        "meaning": "밤",
+        "korean_pronunciation": "나이트"
+    },
+    {
+        "word": "nine",
+        "pronunciation": "/naɪn/",
+        "meaning": "아홉",
+        "korean_pronunciation": "나인"
+    },
+    {
+        "word": "nineteen",
+        "pronunciation": "/ˌnaɪnˈtiːn/",
+        "meaning": "열아홉",
+        "korean_pronunciation": "나인틴"
+    },
+    {
+        "word": "ninety",
+        "pronunciation": "/ˈnaɪnti/",
+        "meaning": "아흔",
+        "korean_pronunciation": "나인티"
+    },
+    {
+        "word": "no",
+        "pronunciation": "/noʊ/",
+        "meaning": "아니요",
+        "korean_pronunciation": "노우"
+    },
+    {
+        "word": "noon",
+        "pronunciation": "/nuːn/",
+        "meaning": "정오",
+        "korean_pronunciation": "눈"
+    },
+    {
+        "word": "north",
+        "pronunciation": "/nɔːrθ/",
+        "meaning": "북쪽",
+        "korean_pronunciation": "노스"
+    },
+    {
+        "word": "nose",
+        "pronunciation": "/noʊz/",
+        "meaning": "코",
+        "korean_pronunciation": "노우즈"
+    },
+    {
+        "word": "not",
+        "pronunciation": "/nɑːt/",
+        "meaning": "~아닌",
+        "korean_pronunciation": "낫"
+    },
+    {
+        "word": "note",
+        "pronunciation": "/noʊt/",
+        "meaning": "메모; 음표; 주목하다",
+        "korean_pronunciation": "노트"
+    },
+    {
+        "word": "nothing",
+        "pronunciation": "/ˈnʌθɪŋ/",
+        "meaning": "아무것도",
+        "korean_pronunciation": "나싱"
+    },
+    {
+        "word": "November",
+        "pronunciation": "/noʊˈvembər/",
+        "meaning": "11월",
+        "korean_pronunciation": "노벰버"
+    },
+    {
+        "word": "now",
+        "pronunciation": "/naʊ/",
+        "meaning": "지금",
+        "korean_pronunciation": "나우"
+    },
+    {
+        "word": "number",
+        "pronunciation": "/ˈnʌmbər/",
+        "meaning": "수, 번호",
+        "korean_pronunciation": "넘버"
+    },
+    {
+        "word": "nurse",
+        "pronunciation": "/nɜːrs/",
+        "meaning": "간호사",
+        "korean_pronunciation": "너스"
+    },
+    {
+        "word": "object",
+        "pronunciation": "/ˈɑːbdʒekt/",
+        "meaning": "물체, 대상",
+        "korean_pronunciation": "아브젝트"
+    },
+    {
+        "word": "October",
+        "pronunciation": "/ɑːkˈtoʊbər/",
+        "meaning": "10월",
+        "korean_pronunciation": "악토버"
+    },
+    {
+        "word": "of",
+        "pronunciation": "/əv/",
+        "meaning": "~의",
+        "korean_pronunciation": "어브"
+    },
+    {
+        "word": "off",
+        "pronunciation": "/ɔːf/",
+        "meaning": "~에서 떨어져; 쉬는",
+        "korean_pronunciation": "오프"
+    },
+    {
+        "word": "office",
+        "pronunciation": "/ˈɔːfɪs/",
+        "meaning": "사무실",
+        "korean_pronunciation": "오피스"
+    },
+    {
+        "word": "often",
+        "pronunciation": "/ˈɔːfn/",
+        "meaning": "자주",
+        "korean_pronunciation": "오픈"
+    },
+    {
+        "word": "oh",
+        "pronunciation": "/oʊ/",
+        "meaning": "오 (감탄사)",
+        "korean_pronunciation": "오우"
+    },
+    {
+        "word": "oil",
+        "pronunciation": "/ɔɪl/",
+        "meaning": "기름",
+        "korean_pronunciation": "오일"
+    },
+    {
+        "word": "ok",
+        "pronunciation": "/ˌoʊˈkeɪ/",
+        "meaning": "괜찮은; 알겠습니다",
+        "korean_pronunciation": "오케이"
+    },
+    {
+        "word": "old",
+        "pronunciation": "/oʊld/",
+        "meaning": "늙은; 오래된",
+        "korean_pronunciation": "올드"
+    },
+    {
+        "word": "on",
+        "pronunciation": "/ɑːn/",
+        "meaning": "~위에; 계속",
+        "korean_pronunciation": "온"
+    },
+    {
+        "word": "once",
+        "pronunciation": "/wʌns/",
+        "meaning": "한 번",
+        "korean_pronunciation": "원스"
+    },
+    {
+        "word": "one",
+        "pronunciation": "/wʌn/",
+        "meaning": "하나",
+        "korean_pronunciation": "원"
+    },
+    {
+        "word": "only",
+        "pronunciation": "/ˈoʊnli/",
+        "meaning": "오직",
+        "korean_pronunciation": "온리"
+    },
+    {
+        "word": "open",
+        "pronunciation": "/ˈoʊpən/",
+        "meaning": "열다; 열린",
+        "korean_pronunciation": "오픈"
+    },
+    {
+        "word": "or",
+        "pronunciation": "/ɔːr/",
+        "meaning": "~또는",
+        "korean_pronunciation": "오어"
+    },
+    {
+        "word": "orange",
+        "pronunciation": "/ˈɔːrɪndʒ/",
+        "meaning": "오렌지; 주황색의",
+        "korean_pronunciation": "오렌지"
+    },
+    {
+        "word": "other",
+        "pronunciation": "/ˈʌðər/",
+        "meaning": "다른",
+        "korean_pronunciation": "아더"
+    },
+    {
+        "word": "our",
+        "pronunciation": "/ˈaʊər/",
+        "meaning": "우리의",
+        "korean_pronunciation": "아워"
+    },
+    {
+        "word": "out",
+        "pronunciation": "/aʊt/",
+        "meaning": "밖에; 밖으로",
+        "korean_pronunciation": "아웃"
+    },
+    {
+        "word": "outside",
+        "pronunciation": "/ˌaʊtˈsaɪd/",
+        "meaning": "~밖에; 바깥쪽",
+        "korean_pronunciation": "아웃사이드"
+    },
+    {
+        "word": "over",
+        "pronunciation": "/ˈoʊvər/",
+        "meaning": "~위에; 끝나서",
+        "korean_pronunciation": "오버"
+    },
+    {
+        "word": "owl",
+        "pronunciation": "/aʊl/",
+        "meaning": "부엉이, 올빼미",
+        "korean_pronunciation": "아울"
+    },
+    {
+        "word": "page",
+        "pronunciation": "/peɪdʒ/",
+        "meaning": "페이지",
+        "korean_pronunciation": "페이지"
+    },
+    {
+        "word": "paint",
+        "pronunciation": "/peɪnt/",
+        "meaning": "색칠하다; 페인트",
+        "korean_pronunciation": "페인트"
+    },
+    {
+        "word": "pair",
+        "pronunciation": "/peər/",
+        "meaning": "쌍",
+        "korean_pronunciation": "페어"
+    },
+    {
+        "word": "pants",
+        "pronunciation": "/pænts/",
+        "meaning": "바지",
+        "korean_pronunciation": "팬츠"
+    },
+    {
+        "word": "paper",
+        "pronunciation": "/ˈpeɪpər/",
+        "meaning": "종이",
+        "korean_pronunciation": "페이퍼"
+    },
+    {
+        "word": "parent",
+        "pronunciation": "/ˈpeərənt/",
+        "meaning": "부모님",
+        "korean_pronunciation": "페어런트"
+    },
+    {
+        "word": "park",
+        "pronunciation": "/pɑːrk/",
+        "meaning": "공원; 주차하다",
+        "korean_pronunciation": "파크"
+    },
+    {
+        "word": "party",
+        "pronunciation": "/ˈpɑːrti/",
+        "meaning": "파티",
+        "korean_pronunciation": "파티"
+    },
+    {
+        "word": "pass",
+        "pronunciation": "/pæs/",
+        "meaning": "지나가다; 건네주다",
+        "korean_pronunciation": "패스"
+    },
+    {
+        "word": "paste",
+        "pronunciation": "/peɪst/",
+        "meaning": "붙이다; 풀",
+        "korean_pronunciation": "페이스트"
+    },
+    {
+        "word": "past",
+        "pronunciation": "/pæst/",
+        "meaning": "과거; ~을 지나서",
+        "korean_pronunciation": "패스트"
+    },
+    {
+        "word": "pay",
+        "pronunciation": "/peɪ/",
+        "meaning": "지불하다",
+        "korean_pronunciation": "페이"
+    },
+    {
+        "word": "pen",
+        "pronunciation": "/pen/",
+        "meaning": "펜",
+        "korean_pronunciation": "펜"
+    },
+    {
+        "word": "pencil",
+        "pronunciation": "/ˈpensl/",
+        "meaning": "연필",
+        "korean_pronunciation": "펜슬"
+    },
+    {
+        "word": "people",
+        "pronunciation": "/ˈpiːpl/",
+        "meaning": "사람들",
+        "korean_pronunciation": "피플"
+    },
+    {
+        "word": "pet",
+        "pronunciation": "/pet/",
+        "meaning": "애완동물",
+        "korean_pronunciation": "펫"
+    },
+    {
+        "word": "phone",
+        "pronunciation": "/foʊn/",
+        "meaning": "전화; 전화하다",
+        "korean_pronunciation": "폰"
+    },
+    {
+        "word": "photo",
+        "pronunciation": "/ˈfoʊtoʊ/",
+        "meaning": "사진",
+        "korean_pronunciation": "포토"
+    },
+    {
+        "word": "piano",
+        "pronunciation": "/piˈænoʊ/",
+        "meaning": "피아노",
+        "korean_pronunciation": "피아노"
+    },
+    {
+        "word": "pick",
+        "pronunciation": "/pɪk/",
+        "meaning": "고르다; 줍다",
+        "korean_pronunciation": "픽"
+    },
+    {
+        "word": "picnic",
+        "pronunciation": "/ˈpɪknɪk/",
+        "meaning": "소풍",
+        "korean_pronunciation": "피크닉"
+    },
+    {
+        "word": "picture",
+        "pronunciation": "/ˈpɪktʃər/",
+        "meaning": "그림, 사진",
+        "korean_pronunciation": "픽처"
+    },
+    {
+        "word": "pie",
+        "pronunciation": "/paɪ/",
+        "meaning": "파이",
+        "korean_pronunciation": "파이"
+    },
+    {
+        "word": "piece",
+        "pronunciation": "/piːs/",
+        "meaning": "조각",
+        "korean_pronunciation": "피스"
+    },
+    {
+        "word": "pig",
+        "pronunciation": "/pɪɡ/",
+        "meaning": "돼지",
+        "korean_pronunciation": "피그"
+    },
+    {
+        "word": "pilot",
+        "pronunciation": "/ˈpaɪlət/",
+        "meaning": "조종사",
+        "korean_pronunciation": "파일럿"
+    },
+    {
+        "word": "pink",
+        "pronunciation": "/pɪŋk/",
+        "meaning": "분홍색의",
+        "korean_pronunciation": "핑크"
+    },
+    {
+        "word": "pizza",
+        "pronunciation": "/ˈpiːtsə/",
+        "meaning": "피자",
+        "korean_pronunciation": "피자"
+    },
+    {
+        "word": "place",
+        "pronunciation": "/pleɪs/",
+        "meaning": "장소",
+        "korean_pronunciation": "플레이스"
+    },
+    {
+        "word": "plan",
+        "pronunciation": "/plæn/",
+        "meaning": "계획; 계획하다",
+        "korean_pronunciation": "플랜"
+    },
+    {
+        "word": "plane",
+        "pronunciation": "/pleɪn/",
+        "meaning": "비행기",
+        "korean_pronunciation": "플레인"
+    },
+    {
+        "word": "plant",
+        "pronunciation": "/plænt/",
+        "meaning": "식물; 심다",
+        "korean_pronunciation": "플랜트"
+    },
+    {
+        "word": "plate",
+        "pronunciation": "/pleɪt/",
+        "meaning": "접시",
+        "korean_pronunciation": "플레이트"
+    },
+    {
+        "word": "play",
+        "pronunciation": "/pleɪ/",
+        "meaning": "놀다; 연주하다",
+        "korean_pronunciation": "플레이"
+    },
+    {
+        "word": "please",
+        "pronunciation": "/pliːz/",
+        "meaning": "~해주세요 (부탁)",
+        "korean_pronunciation": "플리즈"
+    },
+    {
+        "word": "pocket",
+        "pronunciation": "/ˈpɑːkɪt/",
+        "meaning": "주머니",
+        "korean_pronunciation": "파킷"
+    },
+    {
+        "word": "point",
+        "pronunciation": "/pɔɪnt/",
+        "meaning": "점; 가리키다",
+        "korean_pronunciation": "포인트"
+    },
+    {
+        "word": "police",
+        "pronunciation": "/pəˈliːs/",
+        "meaning": "경찰",
+        "korean_pronunciation": "폴리스"
+    },
+    {
+        "word": "pool",
+        "pronunciation": "/puːl/",
+        "meaning": "수영장",
+        "korean_pronunciation": "풀"
+    },
+    {
+        "word": "poor",
+        "pronunciation": "/pʊr/",
+        "meaning": "가난한; 불쌍한",
+        "korean_pronunciation": "푸어"
+    },
+    {
+        "word": "popcorn",
+        "pronunciation": "/ˈpɑːpkɔːrn/",
+        "meaning": "팝콘",
+        "korean_pronunciation": "팝콘"
+    },
+    {
+        "word": "popular",
+        "pronunciation": "/ˈpɑːpjələr/",
+        "meaning": "인기 있는",
+        "korean_pronunciation": "파퓰러"
+    },
+    {
+        "word": "possible",
+        "pronunciation": "/ˈpɑːsəbl/",
+        "meaning": "가능한",
+        "korean_pronunciation": "파서블"
+    },
+    {
+        "word": "post",
+        "pronunciation": "/poʊst/",
+        "meaning": "우편; 게시하다",
+        "korean_pronunciation": "포스트"
+    },
+    {
+        "word": "post office",
+        "pronunciation": "/ˈpoʊst ɔːfɪs/",
+        "meaning": "우체국",
+        "korean_pronunciation": "포스트 오피스"
+    },
+    {
+        "word": "potato",
+        "pronunciation": "/pəˈteɪtoʊ/",
+        "meaning": "감자",
+        "korean_pronunciation": "포테이토"
+    },
+    {
+        "word": "practice",
+        "pronunciation": "/ˈpræktɪs/",
+        "meaning": "연습하다; 연습",
+        "korean_pronunciation": "프랙티스"
+    },
+    {
+        "word": "prepare",
+        "pronunciation": "/prɪˈper/",
+        "meaning": "준비하다",
+        "korean_pronunciation": "프리페어"
+    },
+    {
+        "word": "present",
+        "pronunciation": "/ˈpreznt/",
+        "meaning": "선물; 현재; 발표하다",
+        "korean_pronunciation": "프레젠트"
+    },
+    {
+        "word": "pretty",
+        "pronunciation": "/ˈprɪti/",
+        "meaning": "예쁜; 꽤",
+        "korean_pronunciation": "프리티"
+    },
+    {
+        "word": "price",
+        "pronunciation": "/praɪs/",
+        "meaning": "가격",
+        "korean_pronunciation": "프라이스"
+    },
+    {
+        "word": "problem",
+        "pronunciation": "/ˈprɑːbləm/",
+        "meaning": "문제",
+        "korean_pronunciation": "프라블럼"
+    },
+    {
+        "word": "program",
+        "pronunciation": "/ˈproʊɡræm/",
+        "meaning": "프로그램",
+        "korean_pronunciation": "프로그램"
+    },
+    {
+        "word": "pull",
+        "pronunciation": "/pʊl/",
+        "meaning": "당기다",
+        "korean_pronunciation": "풀"
+    },
+    {
+        "word": "push",
+        "pronunciation": "/pʊʃ/",
+        "meaning": "밀다",
+        "korean_pronunciation": "푸시"
+    },
+    {
+        "word": "put",
+        "pronunciation": "/pʊt/",
+        "meaning": "놓다, 두다",
+        "korean_pronunciation": "풋"
+    },
+    {
+        "word": "queen",
+        "pronunciation": "/kwiːn/",
+        "meaning": "여왕",
+        "korean_pronunciation": "퀸"
+    },
+    {
+        "word": "question",
+        "pronunciation": "/ˈkwestʃən/",
+        "meaning": "질문; 질문하다",
+        "korean_pronunciation": "퀘스천"
+    },
+    {
+        "word": "quick",
+        "pronunciation": "/kwɪk/",
+        "meaning": "빠른",
+        "korean_pronunciation": "퀵"
+    },
+    {
+        "word": "quickly",
+        "pronunciation": "/ˈkwɪkli/",
+        "meaning": "빨리",
+        "korean_pronunciation": "퀵클리"
+    },
+    {
+        "word": "quiet",
+        "pronunciation": "/ˈkwaɪət/",
+        "meaning": "조용한",
+        "korean_pronunciation": "콰이어트"
+    },
+    {
+        "word": "rabbit",
+        "pronunciation": "/ˈræbɪt/",
+        "meaning": "토끼",
+        "korean_pronunciation": "래빗"
+    },
+    {
+        "word": "race",
+        "pronunciation": "/reɪs/",
+        "meaning": "경주; 경주하다",
+        "korean_pronunciation": "레이스"
+    },
+    {
+        "word": "radio",
+        "pronunciation": "/ˈreɪdioʊ/",
+        "meaning": "라디오",
+        "korean_pronunciation": "레이디오"
+    },
+    {
+        "word": "rain",
+        "pronunciation": "/reɪn/",
+        "meaning": "비; 비가 오다",
+        "korean_pronunciation": "레인"
+    },
+    {
+        "word": "read",
+        "pronunciation": "/riːd/",
+        "meaning": "읽다",
+        "korean_pronunciation": "리드"
+    },
+    {
+        "word": "ready",
+        "pronunciation": "/ˈredi/",
+        "meaning": "준비된",
+        "korean_pronunciation": "레디"
+    },
+    {
+        "word": "real",
+        "pronunciation": "/riːəl/",
+        "meaning": "진짜의",
+        "korean_pronunciation": "리얼"
+    },
+    {
+        "word": "really",
+        "pronunciation": "/ˈriːəli/",
+        "meaning": "정말로",
+        "korean_pronunciation": "리얼리"
+    },
+    {
+        "word": "red",
+        "pronunciation": "/red/",
+        "meaning": "빨간색의",
+        "korean_pronunciation": "레드"
+    },
+    {
+        "word": "remember",
+        "pronunciation": "/rɪˈmembər/",
+        "meaning": "기억하다",
+        "korean_pronunciation": "리멤버"
+    },
+    {
+        "word": "repeat",
+        "pronunciation": "/rɪˈpiːt/",
+        "meaning": "반복하다",
+        "korean_pronunciation": "리피트"
+    },
+    {
+        "word": "rest",
+        "pronunciation": "/rest/",
+        "meaning": "휴식; 쉬다",
+        "korean_pronunciation": "레스트"
+    },
+    {
+        "word": "rice",
+        "pronunciation": "/raɪs/",
+        "meaning": "쌀, 밥",
+        "korean_pronunciation": "라이스"
+    },
+    {
+        "word": "rich",
+        "pronunciation": "/rɪtʃ/",
+        "meaning": "부유한",
+        "korean_pronunciation": "리치"
+    },
+    {
+        "word": "ride",
+        "pronunciation": "/raɪd/",
+        "meaning": "타다",
+        "korean_pronunciation": "라이드"
+    },
+    {
+        "word": "right",
+        "pronunciation": "/raɪt/",
+        "meaning": "옳은; 오른쪽의",
+        "korean_pronunciation": "라이트"
+    },
+    {
+        "word": "ring",
+        "pronunciation": "/rɪŋ/",
+        "meaning": "반지; 울리다",
+        "korean_pronunciation": "링"
+    },
+    {
+        "word": "river",
+        "pronunciation": "/ˈrɪvər/",
+        "meaning": "강",
+        "korean_pronunciation": "리버"
+    },
+    {
+        "word": "road",
+        "pronunciation": "/roʊd/",
+        "meaning": "길",
+        "korean_pronunciation": "로드"
+    },
+    {
+        "word": "robot",
+        "pronunciation": "/ˈroʊbɑːt/",
+        "meaning": "로봇",
+        "korean_pronunciation": "로봇"
+    },
+    {
+        "word": "rock",
+        "pronunciation": "/rɑːk/",
+        "meaning": "바위; 록 음악",
+        "korean_pronunciation": "락"
+    },
+    {
+        "word": "room",
+        "pronunciation": "/ruːm/",
+        "meaning": "방",
+        "korean_pronunciation": "룸"
+    },
+    {
+        "word": "rope",
+        "pronunciation": "/roʊp/",
+        "meaning": "줄, 밧줄",
+        "korean_pronunciation": "로우프"
+    },
+    {
+        "word": "round",
+        "pronunciation": "/raʊnd/",
+        "meaning": "둥근",
+        "korean_pronunciation": "라운드"
+    },
+    {
+        "word": "rule",
+        "pronunciation": "/ruːl/",
+        "meaning": "규칙; 지배하다",
+        "korean_pronunciation": "룰"
+    },
+    {
+        "word": "run",
+        "pronunciation": "/rʌn/",
+        "meaning": "달리다",
+        "korean_pronunciation": "런"
+    },
+    {
+        "word": "sad",
+        "pronunciation": "/sæd/",
+        "meaning": "슬픈",
+        "korean_pronunciation": "새드"
+    },
+    {
+        "word": "safe",
+        "pronunciation": "/seɪf/",
+        "meaning": "안전한",
+        "korean_pronunciation": "세이프"
+    },
+    {
+        "word": "said",
+        "pronunciation": "/sed/",
+        "meaning": "말했다 (say의 과거)",
+        "korean_pronunciation": "세드"
+    },
+    {
+        "word": "salad",
+        "pronunciation": "/ˈsæləd/",
+        "meaning": "샐러드",
+        "korean_pronunciation": "샐러드"
+    },
+    {
+        "word": "salt",
+        "pronunciation": "/sɔːlt/",
+        "meaning": "소금",
+        "korean_pronunciation": "솔트"
+    },
+    {
+        "word": "same",
+        "pronunciation": "/seɪm/",
+        "meaning": "같은",
+        "korean_pronunciation": "세임"
+    },
+    {
+        "word": "sand",
+        "pronunciation": "/sænd/",
+        "meaning": "모래",
+        "korean_pronunciation": "샌드"
+    },
+    {
+        "word": "sandwich",
+        "pronunciation": "/ˈsænwɪtʃ/",
+        "meaning": "샌드위치",
+        "korean_pronunciation": "샌드위치"
+    },
+    {
+        "word": "Saturday",
+        "pronunciation": "/ˈsætərdeɪ/",
+        "meaning": "토요일",
+        "korean_pronunciation": "새터데이"
+    },
+    {
+        "word": "say",
+        "pronunciation": "/seɪ/",
+        "meaning": "말하다",
+        "korean_pronunciation": "세이"
+    },
+    {
+        "word": "school",
+        "pronunciation": "/skuːl/",
+        "meaning": "학교",
+        "korean_pronunciation": "스쿨"
+    },
+    {
+        "word": "science",
+        "pronunciation": "/ˈsaɪəns/",
+        "meaning": "과학",
+        "korean_pronunciation": "사이언스"
+    },
+    {
+        "word": "sea",
+        "pronunciation": "/siː/",
+        "meaning": "바다",
+        "korean_pronunciation": "씨"
+    },
+    {
+        "word": "seat",
+        "pronunciation": "/siːt/",
+        "meaning": "좌석",
+        "korean_pronunciation": "시트"
+    },
+    {
+        "word": "see",
+        "pronunciation": "/siː/",
+        "meaning": "보다",
+        "korean_pronunciation": "씨"
+    },
+    {
+        "word": "seed",
+        "pronunciation": "/siːd/",
+        "meaning": "씨앗",
+        "korean_pronunciation": "씨드"
+    },
+    {
+        "word": "sell",
+        "pronunciation": "/sel/",
+        "meaning": "팔다",
+        "korean_pronunciation": "셀"
+    },
+    {
+        "word": "send",
+        "pronunciation": "/send/",
+        "meaning": "보내다",
+        "korean_pronunciation": "센드"
+    },
+    {
+        "word": "September",
+        "pronunciation": "/sepˈtembər/",
+        "meaning": "9월",
+        "korean_pronunciation": "셉템버"
+    },
+    {
+        "word": "seven",
+        "pronunciation": "/ˈsevn/",
+        "meaning": "일곱",
+        "korean_pronunciation": "세븐"
+    },
+    {
+        "word": "seventeen",
+        "pronunciation": "/ˌsevnˈtiːn/",
+        "meaning": "열일곱",
+        "korean_pronunciation": "세븐틴"
+    },
+    {
+        "word": "seventy",
+        "pronunciation": "/ˈsevnti/",
+        "meaning": "일흔",
+        "korean_pronunciation": "세븐티"
+    },
+    {
+        "word": "shape",
+        "pronunciation": "/ʃeɪp/",
+        "meaning": "모양",
+        "korean_pronunciation": "셰이프"
+    },
+    {
+        "word": "share",
+        "pronunciation": "/ʃer/",
+        "meaning": "공유하다",
+        "korean_pronunciation": "셰어"
+    },
+    {
+        "word": "she",
+        "pronunciation": "/ʃiː/",
+        "meaning": "그녀는",
+        "korean_pronunciation": "쉬"
+    },
+    {
+        "word": "ship",
+        "pronunciation": "/ʃɪp/",
+        "meaning": "배",
+        "korean_pronunciation": "십"
+    },
+    {
+        "word": "shirt",
+        "pronunciation": "/ʃɜːrt/",
+        "meaning": "셔츠",
+        "korean_pronunciation": "셔트"
+    },
+    {
+        "word": "shoe",
+        "pronunciation": "/ʃuː/",
+        "meaning": "신발",
+        "korean_pronunciation": "슈"
+    },
+    {
+        "word": "shop",
+        "pronunciation": "/ʃɑːp/",
+        "meaning": "가게; 쇼핑하다",
+        "korean_pronunciation": "샵"
+    },
+    {
+        "word": "short",
+        "pronunciation": "/ʃɔːrt/",
+        "meaning": "짧은",
+        "korean_pronunciation": "쇼트"
+    },
+    {
+        "word": "should",
+        "pronunciation": "/ʃʊd/",
+        "meaning": "~해야 한다",
+        "korean_pronunciation": "슈드"
+    },
+    {
+        "word": "show",
+        "pronunciation": "/ʃoʊ/",
+        "meaning": "보여주다; 쇼",
+        "korean_pronunciation": "쇼우"
+    },
+    {
+        "word": "side",
+        "pronunciation": "/saɪd/",
+        "meaning": "측면, 편",
+        "korean_pronunciation": "사이드"
+    },
+    {
+        "word": "sign",
+        "pronunciation": "/saɪn/",
+        "meaning": "표지판; 서명하다",
+        "korean_pronunciation": "사인"
+    },
+    {
+        "word": "simple",
+        "pronunciation": "/ˈsɪmpl/",
+        "meaning": "간단한",
+        "korean_pronunciation": "심플"
+    },
+    {
+        "word": "sing",
+        "pronunciation": "/sɪŋ/",
+        "meaning": "노래하다",
+        "korean_pronunciation": "싱"
+    },
+    {
+        "word": "sister",
+        "pronunciation": "/ˈsɪstər/",
+        "meaning": "자매",
+        "korean_pronunciation": "시스터"
+    },
+    {
+        "word": "sit",
+        "pronunciation": "/sɪt/",
+        "meaning": "앉다",
+        "korean_pronunciation": "싯"
+    },
+    {
+        "word": "six",
+        "pronunciation": "/sɪks/",
+        "meaning": "여섯",
+        "korean_pronunciation": "식스"
+    },
+    {
+        "word": "sixteen",
+        "pronunciation": "/ˌsɪksˈtiːn/",
+        "meaning": "열여섯",
+        "korean_pronunciation": "식스틴"
+    },
+    {
+        "word": "sixty",
+        "pronunciation": "/ˈsɪksti/",
+        "meaning": "예순",
+        "korean_pronunciation": "식스티"
+    },
+    {
+        "word": "size",
+        "pronunciation": "/saɪz/",
+        "meaning": "크기",
+        "korean_pronunciation": "사이즈"
+    },
+    {
+        "word": "skirt",
+        "pronunciation": "/skɜːrt/",
+        "meaning": "치마",
+        "korean_pronunciation": "스커트"
+    },
+    {
+        "word": "sky",
+        "pronunciation": "/skaɪ/",
+        "meaning": "하늘",
+        "korean_pronunciation": "스카이"
+    },
+    {
+        "word": "sleep",
+        "pronunciation": "/sliːp/",
+        "meaning": "자다",
+        "korean_pronunciation": "슬립"
+    },
+    {
+        "word": "small",
+        "pronunciation": "/smɔːl/",
+        "meaning": "작은",
+        "korean_pronunciation": "스몰"
+    },
+    {
+        "word": "smell",
+        "pronunciation": "/smel/",
+        "meaning": "냄새 맡다; 냄새",
+        "korean_pronunciation": "스멜"
+    },
+    {
+        "word": "smile",
+        "pronunciation": "/smaɪl/",
+        "meaning": "미소 짓다; 미소",
+        "korean_pronunciation": "스마일"
+    },
+    {
+        "word": "snow",
+        "pronunciation": "/snoʊ/",
+        "meaning": "눈; 눈이 오다",
+        "korean_pronunciation": "스노우"
+    },
+    {
+        "word": "so",
+        "pronunciation": "/soʊ/",
+        "meaning": "그래서; 매우",
+        "korean_pronunciation": "소우"
+    },
+    {
+        "word": "socks",
+        "pronunciation": "/sɑːks/",
+        "meaning": "양말",
+        "korean_pronunciation": "삭스"
+    },
+    {
+        "word": "soft",
+        "pronunciation": "/sɔːft/",
+        "meaning": "부드러운",
+        "korean_pronunciation": "소프트"
+    },
+    {
+        "word": "some",
+        "pronunciation": "/sʌm/",
+        "meaning": "몇몇의, 약간의",
+        "korean_pronunciation": "섬"
+    },
+    {
+        "word": "something",
+        "pronunciation": "/ˈsʌmθɪŋ/",
+        "meaning": "무언가",
+        "korean_pronunciation": "섬싱"
+    },
+    {
+        "word": "sometimes",
+        "pronunciation": "/ˈsʌmtaɪmz/",
+        "meaning": "가끔",
+        "korean_pronunciation": "섬타임즈"
+    },
+    {
+        "word": "son",
+        "pronunciation": "/sʌn/",
+        "meaning": "아들",
+        "korean_pronunciation": "선"
+    },
+    {
+        "word": "song",
+        "pronunciation": "/sɔːŋ/",
+        "meaning": "노래",
+        "korean_pronunciation": "송"
+    },
+    {
+        "word": "soon",
+        "pronunciation": "/suːn/",
+        "meaning": "곧",
+        "korean_pronunciation": "순"
+    },
+    {
+        "word": "sorry",
+        "pronunciation": "/ˈsɑːri/",
+        "meaning": "미안한",
+        "korean_pronunciation": "사리"
+    },
+    {
+        "word": "sound",
+        "pronunciation": "/saʊnd/",
+        "meaning": "소리; ~처럼 들리다",
+        "korean_pronunciation": "사운드"
+    },
+    {
+        "word": "south",
+        "pronunciation": "/saʊθ/",
+        "meaning": "남쪽",
+        "korean_pronunciation": "사우스"
+    },
+    {
+        "word": "space",
+        "pronunciation": "/speɪs/",
+        "meaning": "공간, 우주",
+        "korean_pronunciation": "스페이스"
+    },
+    {
+        "word": "speak",
+        "pronunciation": "/spiːk/",
+        "meaning": "말하다",
+        "korean_pronunciation": "스피크"
+    },
+    {
+        "word": "special",
+        "pronunciation": "/ˈspeʃl/",
+        "meaning": "특별한",
+        "korean_pronunciation": "스페셜"
+    },
+    {
+        "word": "speed",
+        "pronunciation": "/spiːd/",
+        "meaning": "속도",
+        "korean_pronunciation": "스피드"
+    },
+    {
+        "word": "spell",
+        "pronunciation": "/spel/",
+        "meaning": "철자를 쓰다",
+        "korean_pronunciation": "스펠"
+    },
+    {
+        "word": "spoon",
+        "pronunciation": "/spuːn/",
+        "meaning": "숟가락",
+        "korean_pronunciation": "스푼"
+    },
+    {
+        "word": "sport",
+        "pronunciation": "/spɔːrt/",
+        "meaning": "스포츠",
+        "korean_pronunciation": "스포츠"
+    },
+    {
+        "word": "spring",
+        "pronunciation": "/sprɪŋ/",
+        "meaning": "봄; 뛰다",
+        "korean_pronunciation": "스프링"
+    },
+    {
+        "word": "square",
+        "pronunciation": "/skwer/",
+        "meaning": "정사각형; 광장",
+        "korean_pronunciation": "스퀘어"
+    },
+    {
+        "word": "stand",
+        "pronunciation": "/stænd/",
+        "meaning": "서다",
+        "korean_pronunciation": "스탠드"
+    },
+    {
+        "word": "star",
+        "pronunciation": "/stɑːr/",
+        "meaning": "별",
+        "korean_pronunciation": "스타"
+    },
+    {
+        "word": "start",
+        "pronunciation": "/stɑːrt/",
+        "meaning": "시작하다",
+        "korean_pronunciation": "스타트"
+    },
+    {
+        "word": "station",
+        "pronunciation": "/ˈsteɪʃn/",
+        "meaning": "역, 정거장",
+        "korean_pronunciation": "스테이션"
+    },
+    {
+        "word": "stay",
+        "pronunciation": "/steɪ/",
+        "meaning": "머물다",
+        "korean_pronunciation": "스테이"
+    },
+    {
+        "word": "stop",
+        "pronunciation": "/stɑːp/",
+        "meaning": "멈추다; 멈춤",
+        "korean_pronunciation": "스탑"
+    },
+    {
+        "word": "store",
+        "pronunciation": "/stɔːr/",
+        "meaning": "가게",
+        "korean_pronunciation": "스토어"
+    },
+    {
+        "word": "story",
+        "pronunciation": "/ˈstɔːri/",
+        "meaning": "이야기",
+        "korean_pronunciation": "스토리"
+    },
+    {
+        "word": "straight",
+        "pronunciation": "/streɪt/",
+        "meaning": "곧은; 똑바로",
+        "korean_pronunciation": "스트레이트"
+    },
+    {
+        "word": "street",
+        "pronunciation": "/striːt/",
+        "meaning": "거리",
+        "korean_pronunciation": "스트리트"
+    },
+    {
+        "word": "strong",
+        "pronunciation": "/strɔːŋ/",
+        "meaning": "강한",
+        "korean_pronunciation": "스트롱"
+    },
+    {
+        "word": "student",
+        "pronunciation": "/ˈstuːdnt/",
+        "meaning": "학생",
+        "korean_pronunciation": "스튜던트"
+    },
+    {
+        "word": "study",
+        "pronunciation": "/ˈstʌdi/",
+        "meaning": "공부하다; 공부",
+        "korean_pronunciation": "스터디"
+    },
+    {
+        "word": "sugar",
+        "pronunciation": "/ˈʃʊɡər/",
+        "meaning": "설탕",
+        "korean_pronunciation": "슈거"
+    },
+    {
+        "word": "summer",
+        "pronunciation": "/ˈsʌmər/",
+        "meaning": "여름",
+        "korean_pronunciation": "서머"
+    },
+    {
+        "word": "sun",
+        "pronunciation": "/sʌn/",
+        "meaning": "태양",
+        "korean_pronunciation": "선"
+    },
+    {
+        "word": "Sunday",
+        "pronunciation": "/ˈsʌndeɪ/",
+        "meaning": "일요일",
+        "korean_pronunciation": "선데이"
+    },
+    {
+        "word": "super",
+        "pronunciation": "/ˈsuːpər/",
+        "meaning": "훌륭한, 최고의",
+        "korean_pronunciation": "슈퍼"
+    },
+    {
+        "word": "sure",
+        "pronunciation": "/ʃʊr/",
+        "meaning": "확실한",
+        "korean_pronunciation": "슈어"
+    },
+    {
+        "word": "sweet",
+        "pronunciation": "/swiːt/",
+        "meaning": "달콤한",
+        "korean_pronunciation": "스위트"
+    },
+    {
+        "word": "swim",
+        "pronunciation": "/swɪm/",
+        "meaning": "수영하다",
+        "korean_pronunciation": "스윔"
+    },
+    {
+        "word": "table",
+        "pronunciation": "/ˈteɪbl/",
+        "meaning": "탁자",
+        "korean_pronunciation": "테이블"
+    },
+    {
+        "word": "take",
+        "pronunciation": "/teɪk/",
+        "meaning": "가져가다, 데려가다; (시간이) 걸리다",
+        "korean_pronunciation": "테이크"
+    },
+    {
+        "word": "tall",
+        "pronunciation": "/tɔːl/",
+        "meaning": "키가 큰",
+        "korean_pronunciation": "톨"
+    },
+    {
+        "word": "taste",
+        "pronunciation": "/teɪst/",
+        "meaning": "맛보다; 맛",
+        "korean_pronunciation": "테이스트"
+    },
+    {
+        "word": "taxi",
+        "pronunciation": "/ˈtæksi/",
+        "meaning": "택시",
+        "korean_pronunciation": "택시"
+    },
+    {
+        "word": "tea",
+        "pronunciation": "/tiː/",
+        "meaning": "차",
+        "korean_pronunciation": "티"
+    },
+    {
+        "word": "teach",
+        "pronunciation": "/tiːtʃ/",
+        "meaning": "가르치다",
+        "korean_pronunciation": "티치"
+    },
+    {
+        "word": "teacher",
+        "pronunciation": "/ˈtiːtʃər/",
+        "meaning": "선생님",
+        "korean_pronunciation": "티처"
+    },
+    {
+        "word": "team",
+        "pronunciation": "/tiːm/",
+        "meaning": "팀",
+        "korean_pronunciation": "팀"
+    },
+    {
+        "word": "tear",
+        "pronunciation": "/ter/",
+        "meaning": "눈물",
+        "korean_pronunciation": "테어"
+    },
+    {
+        "word": "telephone",
+        "pronunciation": "/ˈtelɪfoʊn/",
+        "meaning": "전화",
+        "korean_pronunciation": "텔리폰"
+    },
+    {
+        "word": "tell",
+        "pronunciation": "/tel/",
+        "meaning": "말하다",
+        "korean_pronunciation": "텔"
+    },
+    {
+        "word": "ten",
+        "pronunciation": "/ten/",
+        "meaning": "열",
+        "korean_pronunciation": "텐"
+    },
+    {
+        "word": "tennis",
+        "pronunciation": "/ˈtenɪs/",
+        "meaning": "테니스",
+        "korean_pronunciation": "테니스"
+    },
+    {
+        "word": "tenth",
+        "pronunciation": "/tenθ/",
+        "meaning": "열 번째의",
+        "korean_pronunciation": "텐스"
+    },
+    {
+        "word": "test",
+        "pronunciation": "/test/",
+        "meaning": "시험; 시험하다",
+        "korean_pronunciation": "테스트"
+    },
+    {
+        "word": "than",
+        "pronunciation": "/ðæn/",
+        "meaning": "~보다",
+        "korean_pronunciation": "댄"
+    },
+    {
+        "word": "thank",
+        "pronunciation": "/θæŋk/",
+        "meaning": "감사하다",
+        "korean_pronunciation": "쌩크"
+    },
+    {
+        "word": "that",
+        "pronunciation": "/ðæt/",
+        "meaning": "저것; ~라는 것",
+        "korean_pronunciation": "댓"
+    },
+    {
+        "word": "the",
+        "pronunciation": "/ðə/, /ðiː/",
+        "meaning": "그 (정관사)",
+        "korean_pronunciation": "더, 디"
+    },
+    {
+        "word": "their",
+        "pronunciation": "/ðer/",
+        "meaning": "그들의",
+        "korean_pronunciation": "데어"
+    },
+    {
+        "word": "them",
+        "pronunciation": "/ðem/",
+        "meaning": "그들을",
+        "korean_pronunciation": "뎀"
+    },
+    {
+        "word": "then",
+        "pronunciation": "/ðen/",
+        "meaning": "그리고 나서; 그때",
+        "korean_pronunciation": "덴"
+    },
+    {
+        "word": "there",
+        "pronunciation": "/ðer/",
+        "meaning": "그곳에; ~이 있다",
+        "korean_pronunciation": "데어"
+    },
+    {
+        "word": "these",
+        "pronunciation": "/ðiːz/",
+        "meaning": "이것들",
+        "korean_pronunciation": "디즈"
+    },
+    {
+        "word": "they",
+        "pronunciation": "/ðeɪ/",
+        "meaning": "그들은",
+        "korean_pronunciation": "데이"
+    },
+    {
+        "word": "thing",
+        "pronunciation": "/θɪŋ/",
+        "meaning": "것",
+        "korean_pronunciation": "씽"
+    },
+    {
+        "word": "think",
+        "pronunciation": "/θɪŋk/",
+        "meaning": "생각하다",
+        "korean_pronunciation": "씽크"
+    },
+    {
+        "word": "third",
+        "pronunciation": "/θɜːrd/",
+        "meaning": "세 번째의",
+        "korean_pronunciation": "서드"
+    },
+    {
+        "word": "thirteen",
+        "pronunciation": "/ˌθɜːrˈtiːn/",
+        "meaning": "열셋",
+        "korean_pronunciation": "서틴"
+    },
+    {
+        "word": "thirty",
+        "pronunciation": "/ˈθɜːrti/",
+        "meaning": "서른",
+        "korean_pronunciation": "서티"
+    },
+    {
+        "word": "this",
+        "pronunciation": "/ðɪs/",
+        "meaning": "이것",
+        "korean_pronunciation": "디스"
+    },
+    {
+        "word": "those",
+        "pronunciation": "/ðoʊz/",
+        "meaning": "저것들",
+        "korean_pronunciation": "도우즈"
+    },
+    {
+        "word": "three",
+        "pronunciation": "/θriː/",
+        "meaning": "셋",
+        "korean_pronunciation": "쓰리"
+    },
+    {
+        "word": "through",
+        "pronunciation": "/θruː/",
+        "meaning": "~을 통하여",
+        "korean_pronunciation": "쓰루"
+    },
+    {
+        "word": "throw",
+        "pronunciation": "/θroʊ/",
+        "meaning": "던지다",
+        "korean_pronunciation": "쓰로우"
+    },
+    {
+        "word": "Thursday",
+        "pronunciation": "/ˈθɜːrzdeɪ/",
+        "meaning": "목요일",
+        "korean_pronunciation": "서즈데이"
+    },
+    {
+        "word": "ticket",
+        "pronunciation": "/ˈtɪkɪt/",
+        "meaning": "티켓, 표",
+        "korean_pronunciation": "티켓"
+    },
+    {
+        "word": "tie",
+        "pronunciation": "/taɪ/",
+        "meaning": "묶다; 넥타이",
+        "korean_pronunciation": "타이"
+    },
+    {
+        "word": "time",
+        "pronunciation": "/taɪm/",
+        "meaning": "시간",
+        "korean_pronunciation": "타임"
+    },
+    {
+        "word": "tired",
+        "pronunciation": "/ˈtaɪərd/",
+        "meaning": "피곤한",
+        "korean_pronunciation": "타이어드"
+    },
+    {
+        "word": "to",
+        "pronunciation": "/tu/, /tuː/",
+        "meaning": "~에게, ~으로 (방향)",
+        "korean_pronunciation": "투"
+    },
+    {
+        "word": "today",
+        "pronunciation": "/təˈdeɪ/",
+        "meaning": "오늘",
+        "korean_pronunciation": "투데이"
+    },
+    {
+        "word": "together",
+        "pronunciation": "/təˈɡeðər/",
+        "meaning": "함께",
+        "korean_pronunciation": "투게더"
+    },
+    {
+        "word": "tomato",
+        "pronunciation": "/təˈmeɪtoʊ/",
+        "meaning": "토마토",
+        "korean_pronunciation": "토메이토우"
+    },
+    {
+        "word": "tomorrow",
+        "pronunciation": "/təˈmɑːroʊ/",
+        "meaning": "내일",
+        "korean_pronunciation": "투마로우"
+    },
+    {
+        "word": "tongue",
+        "pronunciation": "/tʌŋ/",
+        "meaning": "혀",
+        "korean_pronunciation": "텅"
+    },
+    {
+        "word": "tonight",
+        "pronunciation": "/təˈnaɪt/",
+        "meaning": "오늘 밤",
+        "korean_pronunciation": "투나이트"
+    },
+    {
+        "word": "too",
+        "pronunciation": "/tuː/",
+        "meaning": "~도 또한; 너무",
+        "korean_pronunciation": "투"
+    },
+    {
+        "word": "tooth",
+        "pronunciation": "/tuːθ/",
+        "meaning": "치아",
+        "korean_pronunciation": "투스"
+    },
+    {
+        "word": "top",
+        "pronunciation": "/tɑːp/",
+        "meaning": "꼭대기; 최고의",
+        "korean_pronunciation": "탑"
+    },
+    {
+        "word": "total",
+        "pronunciation": "/ˈtoʊtl/",
+        "meaning": "총계; 총체의",
+        "korean_pronunciation": "토틀"
+    },
+    {
+        "word": "touch",
+        "pronunciation": "/tʌtʃ/",
+        "meaning": "만지다",
+        "korean_pronunciation": "터치"
+    },
+    {
+        "word": "town",
+        "pronunciation": "/taʊn/",
+        "meaning": "읍, 소도시",
+        "korean_pronunciation": "타운"
+    },
+    {
+        "word": "toy",
+        "pronunciation": "/tɔɪ/",
+        "meaning": "장난감",
+        "korean_pronunciation": "토이"
+    },
+    {
+        "word": "train",
+        "pronunciation": "/treɪn/",
+        "meaning": "기차; 훈련하다",
+        "korean_pronunciation": "트레인"
+    },
+    {
+        "word": "tree",
+        "pronunciation": "/triː/",
+        "meaning": "나무",
+        "korean_pronunciation": "트리"
+    },
+    {
+        "word": "trip",
+        "pronunciation": "/trɪp/",
+        "meaning": "여행",
+        "korean_pronunciation": "트립"
+    },
+    {
+        "word": "truck",
+        "pronunciation": "/trʌk/",
+        "meaning": "트럭",
+        "korean_pronunciation": "트럭"
+    },
+    {
+        "word": "true",
+        "pronunciation": "/truː/",
+        "meaning": "사실인, 진짜의",
+        "korean_pronunciation": "트루"
+    },
+    {
+        "word": "try",
+        "pronunciation": "/traɪ/",
+        "meaning": "노력하다; 시도하다",
+        "korean_pronunciation": "트라이"
+    },
+    {
+        "word": "Tuesday",
+        "pronunciation": "/ˈtuːzdeɪ/",
+        "meaning": "화요일",
+        "korean_pronunciation": "투즈데이"
+    },
+    {
+        "word": "turn",
+        "pronunciation": "/tɜːrn/",
+        "meaning": "돌다, 돌리다; 차례",
+        "korean_pronunciation": "턴"
+    },
+    {
+        "word": "twelve",
+        "pronunciation": "/twelv/",
+        "meaning": "열둘",
+        "korean_pronunciation": "트웰브"
+    },
+    {
+        "word": "twenty",
+        "pronunciation": "/ˈtwenti/",
+        "meaning": "스물",
+        "korean_pronunciation": "트웬티"
+    },
+    {
+        "word": "two",
+        "pronunciation": "/tuː/",
+        "meaning": "둘",
+        "korean_pronunciation": "투"
+    },
+    {
+        "word": "ugly",
+        "pronunciation": "/ˈʌɡli/",
+        "meaning": "못생긴",
+        "korean_pronunciation": "어글리"
+    },
+    {
+        "word": "uncle",
+        "pronunciation": "/ˈʌŋkl/",
+        "meaning": "삼촌, 외삼촌",
+        "korean_pronunciation": "엉클"
+    },
+    {
+        "word": "under",
+        "pronunciation": "/ˈʌndər/",
+        "meaning": "~아래에",
+        "korean_pronunciation": "언더"
+    },
+    {
+        "word": "understand",
+        "pronunciation": "/ˌʌndərˈstænd/",
+        "meaning": "이해하다",
+        "korean_pronunciation": "언더스탠드"
+    },
+    {
+        "word": "unit",
+        "pronunciation": "/ˈjuːnɪt/",
+        "meaning": "단위",
+        "korean_pronunciation": "유닛"
+    },
+    {
+        "word": "up",
+        "pronunciation": "/ʌp/",
+        "meaning": "위에; 위로",
+        "korean_pronunciation": "업"
+    },
+    {
+        "word": "upon",
+        "pronunciation": "/əˈpɑːn/",
+        "meaning": "~위에",
+        "korean_pronunciation": "어판"
+    },
+    {
+        "word": "us",
+        "pronunciation": "/ʌs/",
+        "meaning": "우리를",
+        "korean_pronunciation": "어스"
+    },
+    {
+        "word": "use",
+        "pronunciation": "/juːz/",
+        "meaning": "사용하다; 사용",
+        "korean_pronunciation": "유즈"
+    },
+    {
+        "word": "useful",
+        "pronunciation": "/ˈjuːsfl/",
+        "meaning": "유용한",
+        "korean_pronunciation": "유스풀"
+    },
+    {
+        "word": "usual",
+        "pronunciation": "/ˈjuːʒuəl/",
+        "meaning": "보통의",
+        "korean_pronunciation": "유주얼"
+    },
+    {
+        "word": "usually",
+        "pronunciation": "/ˈjuːʒuəli/",
+        "meaning": "보통",
+        "korean_pronunciation": "유주얼리"
+    },
+    {
+        "word": "vegetable",
+        "pronunciation": "/ˈvedʒtəbl/",
+        "meaning": "채소",
+        "korean_pronunciation": "베지터블"
+    },
+    {
+        "word": "very",
+        "pronunciation": "/ˈveri/",
+        "meaning": "매우",
+        "korean_pronunciation": "베리"
+    },
+    {
+        "word": "video",
+        "pronunciation": "/ˈvɪdioʊ/",
+        "meaning": "비디오",
+        "korean_pronunciation": "비디오"
+    },
+    {
+        "word": "village",
+        "pronunciation": "/ˈvɪlɪdʒ/",
+        "meaning": "마을",
+        "korean_pronunciation": "빌리지"
+    },
+    {
+        "word": "visit",
+        "pronunciation": "/ˈvɪzɪt/",
+        "meaning": "방문하다; 방문",
+        "korean_pronunciation": "비짓"
+    },
+    {
+        "word": "voice",
+        "pronunciation": "/vɔɪs/",
+        "meaning": "목소리",
+        "korean_pronunciation": "보이스"
+    },
+    {
+        "word": "wait",
+        "pronunciation": "/weɪt/",
+        "meaning": "기다리다",
+        "korean_pronunciation": "웨이트"
+    },
+    {
+        "word": "wake",
+        "pronunciation": "/weɪk/",
+        "meaning": "깨다",
+        "korean_pronunciation": "웨이크"
+    },
+    {
+        "word": "walk",
+        "pronunciation": "/wɔːk/",
+        "meaning": "걷다; 산책",
+        "korean_pronunciation": "워크"
+    },
+    {
+        "word": "wall",
+        "pronunciation": "/wɔːl/",
+        "meaning": "벽",
+        "korean_pronunciation": "월"
+    },
+    {
+        "word": "want",
+        "pronunciation": "/wɑːnt/",
+        "meaning": "원하다",
+        "korean_pronunciation": "원트"
+    },
+    {
+        "word": "warm",
+        "pronunciation": "/wɔːrm/",
+        "meaning": "따뜻한",
+        "korean_pronunciation": "웜"
+    },
+    {
+        "word": "wash",
+        "pronunciation": "/wɑːʃ/",
+        "meaning": "씻다",
+        "korean_pronunciation": "워시"
+    },
+    {
+        "word": "watch",
+        "pronunciation": "/wɑːtʃ/",
+        "meaning": "보다; 시계",
+        "korean_pronunciation": "워치"
+    },
+    {
+        "word": "water",
+        "pronunciation": "/ˈwɔːtər/",
+        "meaning": "물",
+        "korean_pronunciation": "워터"
+    },
+    {
+        "word": "way",
+        "pronunciation": "/weɪ/",
+        "meaning": "길, 방법",
+        "korean_pronunciation": "웨이"
+    },
+    {
+        "word": "we",
+        "pronunciation": "/wiː/",
+        "meaning": "우리는",
+        "korean_pronunciation": "위"
+    },
+    {
+        "word": "weak",
+        "pronunciation": "/wiːk/",
+        "meaning": "약한",
+        "korean_pronunciation": "위크"
+    },
+    {
+        "word": "wear",
+        "pronunciation": "/wer/",
+        "meaning": "입다, 쓰다",
+        "korean_pronunciation": "웨어"
+    },
+    {
+        "word": "weather",
+        "pronunciation": "/ˈweðər/",
+        "meaning": "날씨",
+        "korean_pronunciation": "웨더"
+    },
+    {
+        "word": "Wednesday",
+        "pronunciation": "/ˈwenzdeɪ/",
+        "meaning": "수요일",
+        "korean_pronunciation": "웬즈데이"
+    },
+    {
+        "word": "week",
+        "pronunciation": "/wiːk/",
+        "meaning": "주",
+        "korean_pronunciation": "위크"
+    },
+    {
+        "word": "weekend",
+        "pronunciation": "/ˈwiːkend/",
+        "meaning": "주말",
+        "korean_pronunciation": "위크엔드"
+    },
+    {
+        "word": "well",
+        "pronunciation": "/wel/",
+        "meaning": "잘",
+        "korean_pronunciation": "웰"
+    },
+    {
+        "word": "west",
+        "pronunciation": "/west/",
+        "meaning": "서쪽",
+        "korean_pronunciation": "웨스트"
+    },
+    {
+        "word": "what",
+        "pronunciation": "/wʌt/",
+        "meaning": "무엇",
+        "korean_pronunciation": "왓"
+    },
+    {
+        "word": "when",
+        "pronunciation": "/wen/",
+        "meaning": "~할 때; 언제",
+        "korean_pronunciation": "웬"
+    },
+    {
+        "word": "where",
+        "pronunciation": "/wer/",
+        "meaning": "~하는 곳; 어디에",
+        "korean_pronunciation": "웨어"
+    },
+    {
+        "word": "which",
+        "pronunciation": "/wɪtʃ/",
+        "meaning": "어느 것",
+        "korean_pronunciation": "위치"
+    },
+    {
+        "word": "white",
+        "pronunciation": "/waɪt/",
+        "meaning": "흰색의",
+        "korean_pronunciation": "화이트"
+    },
+    {
+        "word": "who",
+        "pronunciation": "/huː/",
+        "meaning": "누구",
+        "korean_pronunciation": "후"
+    },
+    {
+        "word": "why",
+        "pronunciation": "/waɪ/",
+        "meaning": "왜",
+        "korean_pronunciation": "와이"
+    },
+    {
+        "word": "wide",
+        "pronunciation": "/waɪd/",
+        "meaning": "넓은",
+        "korean_pronunciation": "와이드"
+    },
+    {
+        "word": "wife",
+        "pronunciation": "/waɪf/",
+        "meaning": "아내",
+        "korean_pronunciation": "와이프"
+    },
+    {
+        "word": "will",
+        "pronunciation": "/wɪl/",
+        "meaning": "~일 것이다 (미래 조동사)",
+        "korean_pronunciation": "윌"
+    },
+    {
+        "word": "win",
+        "pronunciation": "/wɪn/",
+        "meaning": "이기다",
+        "korean_pronunciation": "윈"
+    },
+    {
+        "word": "window",
+        "pronunciation": "/ˈwɪndoʊ/",
+        "meaning": "창문",
+        "korean_pronunciation": "윈도우"
+    },
+    {
+        "word": "winter",
+        "pronunciation": "/ˈwɪntər/",
+        "meaning": "겨울",
+        "korean_pronunciation": "윈터"
+    },
+    {
+        "word": "wish",
+        "pronunciation": "/wɪʃ/",
+        "meaning": "바라다; 소원",
+        "korean_pronunciation": "위시"
+    },
+    {
+        "word": "with",
+        "pronunciation": "/wɪθ/",
+        "meaning": "~와 함께",
+        "korean_pronunciation": "위드"
+    },
+    {
+        "word": "woman",
+        "pronunciation": "/ˈwʊmən/",
+        "meaning": "여자",
+        "korean_pronunciation": "우먼"
+    },
+    {
+        "word": "women",
+        "pronunciation": "/ˈwɪmɪn/",
+        "meaning": "여자들",
+        "korean_pronunciation": "위민"
+    },
+    {
+        "word": "won",
+        "pronunciation": "/wʌn/",
+        "meaning": "이겼다 (win의 과거)",
+        "korean_pronunciation": "원"
+    },
+    {
+        "word": "wonder",
+        "pronunciation": "/ˈwʌndər/",
+        "meaning": "궁금해하다; 놀라움",
+        "korean_pronunciation": "원더"
+    },
+    {
+        "word": "word",
+        "pronunciation": "/wɜːrd/",
+        "meaning": "단어",
+        "korean_pronunciation": "워드"
+    },
+    {
+        "word": "work",
+        "pronunciation": "/wɜːrk/",
+        "meaning": "일하다; 일",
+        "korean_pronunciation": "워크"
+    },
+    {
+        "word": "world",
+        "pronunciation": "/wɜːrld/",
+        "meaning": "세상",
+        "korean_pronunciation": "월드"
+    },
+    {
+        "word": "would",
+        "pronunciation": "/wʊd/",
+        "meaning": "~일 것이다 (조동사)",
+        "korean_pronunciation": "우드"
+    },
+    {
+        "word": "write",
+        "pronunciation": "/raɪt/",
+        "meaning": "쓰다",
+        "korean_pronunciation": "라이트"
+    },
+    {
+        "word": "wrong",
+        "pronunciation": "/rɔːŋ/",
+        "meaning": "틀린",
+        "korean_pronunciation": "롱"
+    },
+    {
+        "word": "year",
+        "pronunciation": "/jɪər/",
+        "meaning": "년",
+        "korean_pronunciation": "이어"
+    },
+    {
+        "word": "yellow",
+        "pronunciation": "/ˈjeloʊ/",
+        "meaning": "노란색의",
+        "korean_pronunciation": "옐로우"
+    },
+    {
+        "word": "yes",
+        "pronunciation": "/jes/",
+        "meaning": "네",
+        "korean_pronunciation": "예스"
+    },
+    {
+        "word": "yesterday",
+        "pronunciation": "/ˈjestərdeɪ/",
+        "meaning": "어제",
+        "korean_pronunciation": "예스터데이"
+    },
+    {
+        "word": "you",
+        "pronunciation": "/juː/",
+        "meaning": "너는, 당신은",
+        "korean_pronunciation": "유"
+    },
+    {
+        "word": "young",
+        "pronunciation": "/jʌŋ/",
+        "meaning": "젊은, 어린",
+        "korean_pronunciation": "영"
+    },
+    {
+        "word": "your",
+        "pronunciation": "/jʊər/",
+        "meaning": "너의, 당신의",
+        "korean_pronunciation": "유어"
+    },
+    {
+        "word": "zero",
+        "pronunciation": "/ˈzɪəroʊ/",
+        "meaning": "영",
+        "korean_pronunciation": "지로"
+    },
+    {
+        "word": "zoo",
+        "pronunciation": "/zuː/",
+        "meaning": "동물원",
+        "korean_pronunciation": "주"
+    }
+,
+    {
+        "word": "zebra",
+        "pronunciation": "/ˈziːbrə/",
+        "meaning": "얼룩말",
+        "korean_pronunciation": "지브라"
+    }
+,
+    {
+        "word": "zucchini",
+        "pronunciation": "/zuˈkiːni/",
+        "meaning": "호박",
+        "korean_pronunciation": "주키니"
+    }
+,
+    {
+        "word": "zest",
+        "pronunciation": "/zɛst/",
+        "meaning": "열정",
+        "korean_pronunciation": "제스트"
+    },
+    {
+        "word": "zipper",
+        "pronunciation": "/ˈzɪpər/",
+        "meaning": "지퍼",
+        "korean_pronunciation": "지퍼"
+    }
+,
+    {
+        "word": "zodiac",
+        "pronunciation": "/ˈzoʊdiæk/",
+        "meaning": "황도대",
+        "korean_pronunciation": "조디악"
+    },
+    {
+        "word": "zombie",
+        "pronunciation": "/ˈzɑːmbi/",
+        "meaning": "좀비",
+        "korean_pronunciation": "좀비"
+    }
+]

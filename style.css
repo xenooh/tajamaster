@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh; /* 뷰포트 높이의 95% 이상 차지하여 가운데 정렬 */
+  }
+  .container {
+    max-width: 700px;
+    width: 90%; /* 모바일에서도 잘 보이게 */
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  .word-display { /* .word 클래스 대신 사용 */
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 25px;
+    min-height: 1.2em; /* 단어가 바뀌어도 레이아웃이 크게 변하지 않도록 최소 높이 지정 */
+  }
+  /* 각 글자에 대한 스타일 */
+  .word-display span {
+      transition: color 0.1s ease; /* 색상 변경 시 부드러운 효과 */
+  }
+  .word-display .correct {
+      color: steelblue; /* 맞게 입력된 글자 색상 */
+  }
+  .word-display .incorrect {
+      color: crimson; /* 틀리게 입력된 글자 색상 */
+      text-decoration: underline; /* 틀린 글자 밑줄 */
+  }
+  .word-display .current {
+      border-bottom: 2px solid orange; /* 현재 입력해야 할 글자 하이라이트 */
+  }
+  
+  .info-area { /* 발음, 뜻, 정보 표시 영역 */
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 25px;
+    min-height: 3em; /* 정보가 바뀌어도 레이아웃 유지 */
+  }
+  .info-area div {
+      margin-bottom: 5px; /* 각 정보 항목 간 간격 */
+  }
+  
+  
+  .input-area {
+      margin-bottom: 25px;
+  }
+  
+  #typingInput {
+    font-size: 24px;
+    padding: 12px 15px;
+    /* margin-right: 10px; 실시간 입력에서는 버튼과 분리되어 있으므로 제거 */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 100%; /* 부모 요소 너비에 꽉 차도록 */
+    box-sizing: border-box; /* 패딩 포함 너비 계산 */
+    text-align: center; /* 입력 필드 텍스트 가운데 정렬 (선택 사항) */
+  }
+   #typingInput:focus {
+      border-color: steelblue;
+   }
+  
+  
+  .stats {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap; /* 화면 좁을 때 줄바꿈 */
+  }
+  .stats div {
+      margin: 5px 10px; /* 통계 항목 간 간격 */
+  }
+  
+  .timer {
+    font-weight: bold;
+    color: #d9534f; /* 빨간색 계열 */
+  }
+  .score, .word-count, .accuracy {
+     font-weight: bold;
+     color: #5cb85c; /* 초록색 계열 */
+  }
+  
+  .button-area {
+      margin-top: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #5cb85c; /* 초록색 */
+    transition: background-color 0.3s ease;
+    margin: 0 5px; /* 버튼 간 간격 */
+  }
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  #startButton {
+      background-color: #0275d8; /* 파란색 */
+      /* margin-right: 10px; */
+  }
+  #startButton:hover {
+      background-color: #025aa5;
+  }
+  
+  #resetButton {
+      background-color: #f0ad4e; /* 주황색 */
+  }
+  #resetButton:hover {
+      background-color: #ec971f;
+  }
+  
+  /* 게임 종료 화면 스타일 (옵션) */
+  .game-over {
+      font-size: 28px;
+      color: #d9534f;
+      margin-bottom: 20px;
+      font-weight: bold;
+  }
