@@ -19,7 +19,7 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   }
   .word-display { /* .word 클래스 대신 사용 */
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: #333;
     margin-bottom: 25px;
@@ -41,14 +41,47 @@ body {
   }
   
   .info-area { /* 발음, 뜻, 정보 표시 영역 */
-    font-size: 18px;
+    font-size: 25px;
     color: #555;
-    margin-bottom: 25px;
+    margin-bottom: 25px; /* 이 영역 전체의 아래쪽 여백 유지 */
     min-height: 3em; /* 정보가 바뀌어도 레이아웃 유지 */
+  
+    /* --- 이전 Flexbox 속성은 여기서는 제거하거나 필요에 따라 조절 --- */
+    /* display: flex; /* info-area 자체에 flex 를 주면 자식들(pronunciation-group, meaning)이 옆으로 갑니다. */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 20px; */
+    /* flex-wrap: wrap; */
+  
+    /* info-area 는 자식 요소들을 기본 블록처럼 세로로 쌓거나, 필요시 세로 정렬을 위해 flex-direction: column 을 줄 수 있습니다. */
+     display: flex; /* 자식 요소들을 Flex 아이템으로 만듭니다. */
+     flex-direction: column; /* 아이템을 세로 방향으로 나열합니다. */
+     align-items: center; /* 세로 나열된 아이템들을 가로 축에서 가운데 정렬합니다. */
+     gap: 10px; /* pronunciation-group 과 meaning div 사이의 세로 간격 (원하는 값으로 조절) */
   }
+  
+  /* 새로 추가된 발음/한글 발음 그룹에 Flexbox 적용 */
+  .pronunciation-group {
+      display: flex; /* 이 그룹 안의 자식 요소(발음, 한글 발음)를 가로로 나열합니다. */
+      justify-content: center; /* 발음, 한글 발음 항목을 가로 방향으로 가운데 정렬합니다. */
+      align-items: center; /* 발음, 한글 발음 항목을 세로 방향으로 가운데 정렬합니다. */
+      gap: 20px; /* 발음 항목과 한글 발음 항목 사이의 간격 (원하는 값으로 조절) */
+       /* flex-wrap: wrap; /* 필요시 줄바꿈 허용 */
+  }
+  
+  
   .info-area div {
-      margin-bottom: 5px; /* 각 정보 항목 간 간격 */
+      /* 기존 margin-bottom: 5px; 는 이제 필요 없거나, 부모 Flexbox gap과 함께 조절합니다. */
+       margin-bottom: 0; /* Flexbox 사용 시 자식 요소의 기본 margin-bottom을 0으로 초기화 */
   }
+  
+  /* .meaning 스타일에 추가 여백이 필요하면 여기 조절 */
+  /* .meaning {
+      margin-top: 10px;  /* pronunciation-group 과 meaning 사이의 추가 세로 여백 */
+  /* } */
+  
+  
+  /* ... 나머지 CSS 코드는 그대로 ... */
   
   
   .input-area {

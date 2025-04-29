@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개선된 타자 연습 게임</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>영어 단어 타자 연습</h1>
+
+    <div class="controls"> <label for="difficultySelect">난이도 선택:</label>
+        <select id="difficultySelect">
+            <option value="data/words.json">전체 단어</option> 
+            <option value="data/beginner.json">초급</option>
+            <option value="data/intermediate.json">중급</option>
+            <option value="data/advanced.json">고급</option>
+            </select>
+
+        <button id="startButton">START</button>
+        <button id="resetButton">STOP</button>
+    </div>
+
+
+    <div class="info-area">
+      <div class="pronunciation-group">
+        <div class="pronunciation">발음: -</div>  
+        <div class="korean-pronunciation">한글 발음: -</div>
+      </div>
+
+        <div class="meaning">뜻: -</div>
+    </div>
+
+    <div class="word-stats">
+       <span id ="appearanceCount">출현 횟수: 0</span>     <span id ="resetCount">정답 횟수: 0</span>
+       </div>
+
+       <div id="resetMessage" style="color: blue; margin-top: 10px;"></div>    <div class="word-display" id="wordDisplay">난이도를 선택하고 시작하세요</div>  <div class="input-area">     <input type="text" id="typingInput" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+          </div>   <div class="stats">
+          <div class="timer" id="timer">시간: 0초</div>
+          <div class="score" id="score">점수: 0</div>
+          <div class="word-count" id="wordCount">단어 수: 0</div>
+           <div class="accuracy" id="accuracy">정확도: 100%</div>
+          </div>
+
+  </div>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
