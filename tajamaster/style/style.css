@@ -19,7 +19,7 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   }
   .word-display { /* .word 클래스 대신 사용 */
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     color: #333;
     margin-bottom: 25px;
