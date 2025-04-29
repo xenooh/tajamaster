@@ -26,7 +26,7 @@ let typedCharactersCount = 0; // 현재 단어에서 입력된 글자 수 (UI �
 let totalCharactersTyped = 0; // 전체 게임에서 사용자가 실제로 키보도로 누른 총 글자 수 (오타 포함, 백스페이스 제외)
 let totalErrors = 0; // 전체 게임에서 발생한 오타 수
 
-let timer = 300; // 게임 시간 (초)
+let timer = 360; // 게임 시간 (초)
 let typingTimer = null; // 타이머 setInterval ID
 let gameStarted = false;
 let score = 0; // 점수
@@ -86,7 +86,7 @@ async function loadWords(filePath) {
 
      // 단어 통계 표시 엘리먼트 초기화 (레이블 포함)
      if (appearanceCountElement) appearanceCountElement.textContent = '출현 횟수: 0';
-     if (resetCountElement) resetCountElement.textContent = '정답 횟수: 0';
+     if (resetCountElement) resetCountElement.textContent = '누적 횟수: 0'; // 레이블 변경 반영
      if (resetMessageElement) resetMessageElement.textContent = ''; // 초기화 메시지 초기화
 
 
@@ -167,10 +167,10 @@ async function loadWords(filePath) {
              meaningElement.textContent = "뜻: -";
              pronunciationElement.textContent = "발음: -";
              koreanPronunciationElement.textContent = "한글 발음: -";
-             // 단어 통계 표시 엘리먼트 초기화 (레이블 포함)
+             // 단어 통계 표시 엘리먼트 초기화 (레이블 변경 반영)
              if (appearanceCountElement) appearanceCountElement.textContent = '출현 횟수: 0';
-             if (resetCountElement) resetCountElement.textContent = '정답 횟수: 0';
-             if (resetMessageElement) resetMessageElement.textContent = ''; // 메시지 초기화
+             if (resetCountElement) resetCountElement.textContent =  '누적 횟수: 0'; // 레이블 변경 반영
+             if (resetMessageElement) resetMessageElement.textContent = ''; // 초기화 메시지 초기화
 
 
              typingInput.disabled = true; // 게임 시작 전 입력 비활성화
@@ -185,10 +185,11 @@ async function loadWords(filePath) {
              meaningElement.textContent = "뜻: -";
              pronunciationElement.textContent = "발음: -";
              koreanPronunciationElement.textContent = "한글 발음: -";
-              // 단어 통계 표시 엘리먼트 초기화 (레이블 포함)
+              // 단어 통계 표시 엘리먼트 초기화 (레이블 변경 반영)
               if (appearanceCountElement) appearanceCountElement.textContent = '출현 횟수: 0';
-              if (resetCountElement) resetCountElement.textContent = '정답 횟수: 0';
-              if (resetMessageElement) resetMessageElement.textContent = ''; // 메시지 초기화
+              if (resetCountElement) resetCountElement.textContent = '누적 초기화 횟수: 0'; // 레이블 변경 반영
+              if (resetMessageElement) resetMessageElement.textContent = ''; // 초기화 메시지 초기화
+
 
              typingInput.disabled = true;
              startButton.disabled = true; // 단어가 없으니 시작 버튼 비활성화
@@ -203,10 +204,11 @@ async function loadWords(filePath) {
         meaningElement.textContent = "뜻: 에러";
         pronunciationElement.textContent = "발음: 에러";
         koreanPronunciationElement.textContent = "한글 발음: 에러";
-         // 단어 통계 표시 엘리먼트 초기화 (레이블 포함)
+         // 단어 통계 표시 엘리먼트 초기화 (레이블 변경 반영)
          if (appearanceCountElement) appearanceCountElement.textContent = '출현 횟수: 0';
-         if (resetCountElement) resetCountElement.textContent = '정답 횟수: 0';
+         if (resetCountElement) resetCountElement.textContent = '누적 초기화 횟수: 0'; // 레이블 변경 반영
          if (resetMessageElement) resetMessageElement.textContent = ''; // 초기화 메시지 초기화
+
         typingInput.disabled = true;
         startButton.disabled = true;
         difficultySelect.disabled = false;
@@ -256,7 +258,7 @@ function startGame() {
     typedCharactersCount = 0; // 현재 단어 입력 상태 초기화 (UI용)
     totalCharactersTyped = 0; // 전체 게임 통계 초기화
     totalErrors = 0; // 전체 게임 통계 초기화
-    timer = 300; // 게임 시간 (초) (원하는 시간으로 변경)
+    timer = 360; // 게임 시간 (초) (원하는 시간으로 변경)
     scoreElement.textContent = `점수: ${score}`;
     wordCountElement.textContent = `단어 수: ${wordCount}`;
     accuracyElement.textContent = `정확도: 100%`; // 초기 정확도 100%
@@ -356,157 +358,205 @@ function resetGame() {
 
 // --- setNewWord 함수: 새로운 단어 설정 ---
 function setNewWord() {
-  console.log("setNewWord called"); // 함수 호출 로그
-
-  // 연습할 단어 목록(playableWords)이 비었는지 확인
-  // 게임 시작 시 playableWords 가 채워집니다.
-  if (playableWords.length === 0) {
-      console.warn("playableWords list is empty in setNewWord."); // 단어 목록 비어있음 경고
-      // 게임 종료 또는 다음 라운드 종료 처리
-      endGame(); // 연습할 단어가 없으면 게임 종료
-      return;
-  }
-
-  // --- 단어 출현 확률 조정 로직 (weighted random selection) ---
-  // playableWords (이번 게임의 100개 단어 목록) 내에서 통계 기반으로 단어 선택
-  const weightedWords = [];
-  let totalWeight = 0;
-
-  // playableWords 배열 순회 (words 배열 대신)
-  playableWords.forEach(word => {
-      const wordText = word.word;
-      // 통계 데이터가 없으면 초기화 (로드된 전체 단어 기준으로 초기화되어 있어야 함)
-      if (!wordStatistics[wordText]) {
-           // 이 경우는 loadWords 에서 초기화가 제대로 안된 드문 경우
-           wordStatistics[wordText] = { appearanceCount: 0, resetCount: 0 };
-           console.warn(`wordStatistics에 없던 단어 추가됨 (setNewWord 가중치 계산 중): ${wordText}`);
-      }
-
-      const stats = wordStatistics[wordText];
-      // 간단한 가중치 계산: 출현 횟수가 적을수록, 초기화 횟수가 적을수록 가중치 높게
-      // (appearanceCount + 1)은 출현 횟수 0일 때 나누기 0을 방지
-      // (stats.resetCount * 5)는 초기화 횟수가 많을수록 가중치를 더 낮게 만들기 위함 (조절 가능)
-      const weight = 1 / (stats.appearanceCount + 1 + stats.resetCount * 5);
-
-      totalWeight += weight;
-      // playableWords 에 있는 단어 객체를 weightedWords 에 추가
-      weightedWords.push({ word: word, weight: weight, cumulativeWeight: totalWeight });
-  });
-
-  // 누적 가중치 목록에서 무작위 선택
-  const randomNumber = Math.random() * totalWeight; // 총 가중치 범위 내에서 무작위 숫자 생성
-  let selectedWord = null;
-
-  for (let i = 0; i < weightedWords.length; i++) {
-      if (randomNumber <= weightedWords[i].cumulativeWeight) {
-          selectedWord = weightedWords[i].word; // 선택된 단어 객체 가져옴
-          break; // 선택되면 반복 중단
-      }
-  }
-
-  // 만약 어떤 이유로 선택되지 않았다면 (거의 발생하지 않음), playableWords 의 첫 번째 단어 선택 등 fallback 로직 추가
-  if (!selectedWord && playableWords.length > 0) {
-      console.warn("Weighted selection failed, falling back to first word in playableWords.");
-      selectedWord = playableWords[0]; // fallback: 연습 목록의 첫 번째 단어
-        if (!wordStatistics[selectedWord.word]) { // fallback 단어 통계 초기화 확인
-           wordStatistics[selectedWord.word] = { appearanceCount: 0, resetCount: 0 };
-       }
-  }
-   // 만약 playableWords.length > 0 인데도 selectedWord가 null이면 심각한 문제
-   if (!selectedWord && playableWords.length > 0) {
-        console.error("Weighted selection and fallback failed. playableWords array:", playableWords);
-         wordDisplay.innerHTML = "단어 선택 오류 발생"; // 오류 메시지 표시
+    console.log("setNewWord called"); // 함수 호출 로그
+  
+    // 연습할 단어 목록(playableWords)이 비었는지 확인
+    // 게임 시작 시 playableWords 가 채워집니다.
+    if (playableWords.length === 0) {
+        console.warn("setNewWord: playableWords list is empty. Ending game."); // 단어 목록 비어있음 경고
+        // 게임 종료 또는 다음 라운드 종료 처리
+        endGame(); // 연습할 단어가 없으면 게임 종료
+        return;
+    }
+  
+    // --- 단어 출현 확률 조정 로직 (weighted random selection) ---
+    // playableWords (이번 게임의 100개 단어 목록) 내에서 통계 기반으로 단어 선택
+    const weightedWords = [];
+    let totalWeight = 0;
+    console.log(`setNewWord: playableWords 길이: ${playableWords.length}`); // 디버그 로그
+  
+    // playableWords 배열 순회 (words 배열 대신)
+    playableWords.forEach(word => {
+        // word 객체가 유효하고 word 속성이 있는지 다시 확인
+        if (!word || typeof word.word !== 'string') {
+            console.error("setNewWord: playableWords 배열에 유효하지 않은 단어 객체가 있습니다:", word); // 유효하지 않은 단어 객체 오류
+            // 유효하지 않은 단어는 가중치 계산 및 처리를 건너웁니다.
+            return;
+        }
+  
+        const wordText = word.word;
+        // 통계 데이터가 없으면 초기화 (로드된 전체 단어 기준으로 초기화되어 있어야 함)
+        if (!wordStatistics[wordText]) {
+             // 이 경우는 loadWords 에서 초기화가 제대로 안된 드문 경우
+             wordStatistics[wordText] = { appearanceCount: 0, resetCount: 0 };
+             console.warn(`setNewWord: wordStatistics에 없던 단어 추가됨 (가중치 계산 중): ${wordText}`);
+        }
+  
+        const stats = wordStatistics[wordText];
+        // 간단한 가중치 계산: 출현 횟수가 적을수록, 초기화 횟수가 적을수록 가중치 높게
+        // (appearanceCount + 1)은 출현 횟수 0일 때 나누기 0을 방지
+        // (stats.resetCount * 5)는 초기화 횟수가 많을수록 가중치를 더 낮게 만들기 위함 (조절 가능)
+        const weight = 1 / (stats.appearanceCount + 1 + stats.resetCount * 5);
+  
+        totalWeight += weight;
+        // playableWords 에 있는 단어 객체를 weightedWords 에 추가
+        weightedWords.push({ word: word, weight: weight, cumulativeWeight: totalWeight });
+    });
+  
+    // totalWeight 가 0 이거나 weightedWords 가 비어있으면 단어 선택 불가능
+    if (totalWeight === 0 || weightedWords.length === 0) {
+         console.error("setNewWord: 가중치 계산 후 totalWeight가 0이거나 weightedWords가 비어있습니다. 단어 선택 실패."); // 오류 로그
+         wordDisplay.innerHTML = "단어 선택 오류 발생: 가중치 문제."; // UI 메시지
          typingInput.disabled = true;
-         startButton.disabled = false;
-         difficultySelect.disabled = false;
-         clearInterval(typingTimer); // 타이머 중지
-         gameStarted = false; // 게임 상태 종료
+         // 게임 시작 상태 유지 또는 종료 결정 (여기서는 일단 멈춤)
+         // clearInterval(typingTimer);
+         // gameStarted = false;
          return; // 함수 중단
-   }
-
-
-  currentWord = selectedWord; // 최종 선택된 단어 설정
-
-  console.log("Selected word object:", currentWord); // 선택된 단어 객체 로그
-  console.log("Selected word text:", currentWord.word); // 선택된 단어 텍스트 로그
-
-
-  // --- 현재 단어의 출현 횟수 증가 및 초기화 로직 ---
-   const currentWordText = currentWord.word; // 여기서 currentWord.word 사용
-
-   // 통계 데이터에 해당 단어가 없으면 초기화 (loadWords에서 이미 하지만 혹시 모를 경우)
-    if (!wordStatistics[currentWordText]) {
-         wordStatistics[currentWordText] = { appearanceCount: 0, resetCount: 0 };
-         console.warn(`wordStatistics에 없던 단어 추가됨 (setNewWord 통계 업데이트 중): ${currentWordText}`);
     }
-
-   wordStatistics[currentWordText].appearanceCount++;
-
-   // 출현 횟수 10회 도달 시 초기화 (기준 횟수 조절 가능)
-   const resetThreshold = 10; // 10회 기준
-   if (wordStatistics[currentWordText].appearanceCount >= resetThreshold) {
-        wordStatistics[currentWordText].appearanceCount = 0;
-        wordStatistics[currentWordText].resetCount++;
-        console.log(`단어 '${currentWordText}'가 ${resetThreshold}번 나왔습니다. 초기화 횟수: ${wordStatistics[currentWordText].resetCount}`);
-        // 화면에 초기화 메시지 표시
-         if (resetMessageElement) {
-             resetMessageElement.textContent = `단어 '${currentWordText}'가 ${resetThreshold}번 나왔습니다. 초기화 횟수: ${wordStatistics[currentWordText].resetCount}`;
-              // 메시지를 잠시 보여준 후 사라지게 할 수 있습니다.
-              // setTimeout(() => { if (resetMessageElement) resetMessageElement.textContent = ''; }, 5000); // 5초 후 메시지 삭제
+  
+  
+    // 누적 가중치 목록에서 무작위 선택
+    const randomNumber = Math.random() * totalWeight; // 총 가중치 범위 내에서 무작위 숫자 생성
+    let selectedWord = null;
+    console.log(`setNewWord: 총 가중치: ${totalWeight}, 무작위 숫자: ${randomNumber}. 단어 선택 시작.`); // 디버그 로그
+  
+  
+    for (let i = 0; i < weightedWords.length; i++) {
+        if (randomNumber <= weightedWords[i].cumulativeWeight) {
+            selectedWord = weightedWords[i].word; // 선택된 단어 객체 가져옴
+            console.log(`setNewWord: 무작위 숫자 ${randomNumber} 에 해당하는 단어 찾음: ${selectedWord ? selectedWord.word : 'null'}`); // 디버그 로그
+            break; // 선택되면 반복 중단
+        }
+    }
+  
+    // 만약 어떤 이유로 selectedWord 가 null 이면 (거의 발생하지 않음), playableWords 의 첫 번째 단어 선택 등 fallback 로직 추가
+    if (!selectedWord && playableWords.length > 0) {
+        console.warn("setNewWord: Weighted selection failed, falling back to first word in playableWords.");
+        selectedWord = playableWords[0]; // fallback: 연습 목록의 첫 번째 단어
+          if (!wordStatistics[selectedWord.word]) { // fallback 단어 통계 초기화 확인
+             wordStatistics[selectedWord.word] = { appearanceCount: 0, resetCount: 0 };
          }
-   }
-
-
-  // --- 단어 통계 표시 엘리먼트 업데이트 (레이블 포함) ---
-  // appearanceCountElement와 resetCountElement가 HTML에 존재할 경우에만 업데이트
-    if (appearanceCountElement && wordStatistics[currentWordText]) {
-        appearanceCountElement.textContent = `출현 횟수: ${wordStatistics[currentWordText].appearanceCount}`; // 레이블 추가
-    } else if (appearanceCountElement) { // 엘리먼트는 있는데 통계 데이터가 없을 경우 (초기 상태)
-        appearanceCountElement.textContent = '출현 횟수: 0'; // 레이블 포함 초기화
     }
-    if (resetCountElement && wordStatistics[currentWordText]) {
-        resetCountElement.textContent = `정답 횟수: ${wordStatistics[currentWordText].resetCount}`; // 레이블 추가
-    } else if (resetCountElement) { // 엘리먼트는 있는데 통계 데이터가 없을 경우 (초기 상태)
-         resetCountElement.textContent = '정답 횟수: 0'; // 레이블 포함 초기화
-    }
-
-
-   // 통계 데이터 저장 (단어가 새로 나올 때마다 저장)
-   saveWordStatistics();
-
-
-  // playableWords 에서 현재 단어 제거 (중복 출현 방지 - 한 게임 내에서)
-  // 주의: 이렇게 하면 playableWords 의 길이가 줄어들고, 모든 단어를 한 번씩 보면 playableWords 가 비게 됩니다.
-  // 게임 한 판에 100개의 단어를 '모두 다른 단어'로 연습하고 싶다면 이 코드를 활성화합니다.
-  // 만약 100개 단어 묶음 내에서 '반복 출현'을 허용하고 싶다면 이 코드를 주석 처리합니다.
-  // 현재 목표는 100개씩 반복하며 외우는 것이므로, 여기서는 제거하지 않고 반복 출현을 허용하겠습니다.
-  /*
-   const currentWordIndexInPlayable = playableWords.findIndex(word => word.word === currentWordText);
-   if (currentWordIndexInPlayable > -1) {
-       playableWords.splice(currentWordIndexInPlayable, 1);
-       console.log(`단어 '${currentWordText}'를 연습 목록에서 제거함. 남은 단어: ${playableWords.length}개`);
-   }
-  */
-
-
-  currentWordCharacters = currentWord.word.split(''); // 단어를 글자 배열로 분리
-  typedCharactersCount = 0; // 현재 단어에서 맞게 입력된 글자 수 초기화 (UI 커서 위치용)
-  typingInput.value = ""; // 입력 필드 비우기
-  typingInput._prevLength = 0; // 입력 필드 이전 길이 초기화 (input 이벤트에서 사용)
-  displayWord(); // 화면에 단어 표시 (초기 상태)
-
-  // 뜻, 발음, 한글 발음 표시
-  meaningElement.textContent = `뜻: ${currentWord.meaning}`;
-  pronunciationElement.textContent = `발음: ${currentWord.pronunciation}`;
-  // JSON에 korean_pronunciation 필드가 없을 경우 대비하여 || '-' 추가
-  koreanPronunciationElement.textContent = `한글 발음: ${currentWord.korean_pronunciation || '-'}`;
-
-  // --- 단어 읽어주기 ---
-  speakWord(currentWord.word); // 현재 단어를 음성으로 읽어줍니다.
-
-  typingInput.focus(); // 새로운 단어 표시 후 입력 필드에 포커스
-}
-
+     // 만약 playableWords.length > 0 인데도 selectedWord가 null이면 심각한 문제
+     if (!selectedWord && playableWords.length > 0) {
+          console.error("setNewWord: Weighted selection and fallback failed. playableWords array:", playableWords);
+           wordDisplay.innerHTML = "단어 선택 오류 발생: 최종 실패."; // 오류 메시지 표시
+           typingInput.disabled = true;
+           startButton.disabled = false;
+           difficultySelect.disabled = false;
+           clearInterval(typingTimer); // 타이머 중지
+           gameStarted = false; // 게임 상태 종료
+           return; // 함수 중단
+     }
+  
+  
+    currentWord = selectedWord; // 최종 선택된 단어 설정
+  
+    console.log("setNewWord: Selected word object:", currentWord); // 선택된 단어 객체 로그
+    console.log("setNewWord: Selected word text:", currentWord.word); // 선택된 단어 텍스트 로그
+  
+  
+    // --- 현재 단어의 출현 횟수 증가 및 초기화 로직 ---
+     const currentWordText = currentWord.word; // 여기서 currentWord.word 사용
+  
+     // 통계 데이터에 해당 단어가 없으면 초기화 (로드된 전체 단어 기준으로 초기화되어 있어야 함)
+      if (!wordStatistics[currentWordText]) {
+           wordStatistics[currentWordText] = { appearanceCount: 0, resetCount: 0 };
+           console.warn(`setNewWord: wordStatistics에 없던 단어 추가됨 (통계 업데이트 중): ${currentWordText}`);
+      }
+  
+     wordStatistics[currentWordText].appearanceCount++;
+     console.log(`setNewWord: 단어 '${currentWordText}' 출현 횟수 증가: ${wordStatistics[currentWordText].appearanceCount}`); // 디버그 로그 추가
+  
+  
+     // 출현 횟수 10회 도달 시 초기화 (기준 횟수 조절 가능)
+     const resetThreshold = 10; // 10회 기준
+     if (wordStatistics[currentWordText].appearanceCount >= resetThreshold) {
+          wordStatistics[currentWordText].appearanceCount = 0;
+          wordStatistics[currentWordText].resetCount++;
+          console.log(`setNewWord: 단어 '${currentWordText}'가 ${resetThreshold}번 나왔습니다. 통계 초기화. 초기화 횟수: ${wordStatistics[currentWordText].resetCount}`); // 디버그 로그 추가
+           // 화면에 초기화 메시지 표시
+            if (resetMessageElement) {
+                // 여기를 수정 (메시지 내용 변경)
+                resetMessageElement.textContent = `단어 '${currentWordText}'가 ${resetThreshold}번 나왔습니다. 누적 초기화 횟수: ${wordStatistics[currentWordText].resetCount}`;
+  
+                 // !!! 이 setTimeout 블록 전체가 추가되었습니다 !!!
+                 // 3초 후 메시지 사라지게 하는 코드
+                 setTimeout(() => {
+                     // 메시지 초기화는 현재 단어의 출현 횟수가 리셋 임계값 미만일 때만 실행 (다른 단어의 메시지가 바로 덮어쓰지 않도록)
+                     // currentWord 와 wordStatistics 유효성 체크 추가
+                     if (resetMessageElement && currentWord && wordStatistics[currentWord.word] && wordStatistics[currentWord.word].appearanceCount < resetThreshold) {
+                          resetMessageElement.textContent = '';
+                          console.log(`setNewWord: 초기화 메시지 숨김 (${currentWord.word}).`); // 디버그 로그
+                     } else if (resetMessageElement) {
+                          console.log(`setNewWord: 초기화 메시지 숨김 건너뜀 (${currentWord ? currentWord.word : ""}). 다른 단어 메시지 존재 또는 조건 불충족.`); // 디버그 로그
+                     }
+                 }, 3000); // <-- 3000ms = 3초. 원하는 시간으로 조절하세요.
+            }
+      }
+  
+  
+    // --- 단어 통계 표시 엘리먼트 업데이트 (레이블 변경 반영) ---
+    // appearanceCountElement와 resetCountElement가 HTML에 존재할 경우에만 업데이트
+      if (appearanceCountElement && wordStatistics[currentWordText]) {
+          appearanceCountElement.textContent = `출현 횟수: ${wordStatistics[currentWordText].appearanceCount}`; // 레이블 유지
+      } else if (appearanceCountElement) { // 엘리먼트는 있는데 통계 데이터가 없을 경우 (초기 상태)
+          appearanceCountElement.textContent = '출현 횟수: 0'; // 레이블 포함 초기화
+      }
+      // 여기를 수정
+      if (resetCountElement && wordStatistics[currentWordText]) {
+          resetCountElement.textContent = `누적 횟수: ${wordStatistics[currentWordText].resetCount}`; // 레이블 변경 반영
+      } else if (resetCountElement) { // 엘리먼트는 있는데 통계 데이터가 없을 경우 (초기 상태)
+           resetCountElement.textContent = '누적 횟수: 0'; // 레이블 포함 초기화
+      }
+      console.log("setNewWord: 단어 통계 UI 업데이트 완료."); // 디버그 로그 추가
+  
+  
+     // 통계 데이터 저장 (단어가 새로 나올 때마다 저장)
+     saveWordStatistics();
+     console.log("setNewWord: 통계 데이터 저장 완료."); // 디버그 로그 추가
+  
+  
+    // playableWords 에서 현재 단어 제거 (중복 출현 방지 - 한 게임 내에서)
+    // 주의: 이렇게 하면 playableWords 의 길이가 줄어들고, 모든 단어를 한 번씩 보면 playableWords 가 비게 됩니다.
+    // 게임 한 판에 100개의 단어를 '모두 다른 단어'로 연습하고 싶다면 이 코드를 활성화합니다.
+    // 만약 100개 단어 묶음 내에서 '반복 출현'을 허용하고 싶다면 이 코드를 주석 처리합니다.
+    // 현재 목표는 100개씩 반복하며 외우는 것이므로, 여기서는 제거하지 않고 반복 출현을 허용하겠습니다.
+    /*
+     const currentWordIndexInPlayable = playableWords.findIndex(word => word.word === (currentWord ? currentWord.word : ''));
+     if (currentWordIndexInPlayable > -1) {
+         playableWords.splice(currentWordIndexInPlayable, 1);
+         console.log(`setNewWord: 단어 '${currentWord ? currentWord.word : ""}'를 연습 목록에서 제거함. 남은 단어: ${playableWords.length}개`);
+     }
+    */
+  
+  
+    currentWordCharacters = currentWord.word.split(''); // 단어를 글자 배열로 분리
+    typedCharactersCount = 0; // 현재 단어에서 맞게 입력된 글자 수 초기화 (UI 커서 위치용)
+    typingInput.value = ""; // 입력 필드 비우기
+    typingInput._prevLength = 0; // 입력 필드 이전 길이 초기화 (input 이벤트에서 사용)
+    displayWord(); // 화면에 단어 표시 (초기 상태)
+    console.log("setNewWord: 단어 화면 표시 및 입력 필드 초기화 완료."); // 디버그 로그 추가
+  
+  
+    // 뜻, 발음, 한글 발음 표시
+    meaningElement.textContent = `뜻: ${currentWord.meaning}`;
+    pronunciationElement.textContent = `발음: ${currentWord.pronunciation}`;
+    // JSON에 korean_pronunciation 필드가 없을 경우 대비하여 || '-' 추가
+    koreanPronunciationElement.textContent = `한글 발음: ${currentWord.korean_pronunciation || '-'}`;
+    console.log("setNewWord: 뜻, 발음 정보 UI 업데이트 완료."); // 디버그 로그 추가
+  
+  
+    // --- 단어 읽어주기 ---
+    speakWord(currentWord.word); // 현재 단어를 음성으로 읽어줍니다.
+    console.log("setNewWord: speakWord 호출 완료."); // 디버그 로그 추가
+  
+  
+    typingInput.focus(); // 새로운 단어 표시 후 입력 필드에 포커스
+    console.log("setNewWord: 입력 필드 포커스 완료."); // 디버그 로그 추가
+  
+    console.log("setNewWord 함수 실행 종료."); // 함수 실행 종료 로그
+  }
 // --- 단어를 음성으로 읽어주는 함수 ---
 function speakWord(wordToSpeak) {
     // 이미 다른 음성이 재생 중이면 중지합니다.
@@ -673,19 +723,19 @@ function endGame() {
     saveWordStatistics();
 }
 
-
 // --- 단어 완료 처리 함수 ---
 // 이 함수는 단어 입력이 완료되었을 때 (스페이스/엔터) 호출됩니다.
 // 중복 호출을 방지하고 다음 단어 전환을 예약합니다.
 function processWordCompletion(userInput, targetWord) {
+    console.log("processWordCompletion called."); // 함수 호출 로그
     // 이미 다음 단어 전환이 진행 중이면 이 함수는 여기서 종료합니다.
     if (isWordCompletionPending) {
-        console.log("단어 완료 처리 이미 진행 중. 중복 호출 무시."); // 디버그 로그 추가
+        console.log("processWordCompletion: 단어 완료 처리 이미 진행 중. 중복 호출 무시."); // 디버그 로그 추가
         return;
     }
     // 플래그 설정: 이제 단어 완료 처리가 시작됩니다.
     isWordCompletionPending = true;
-    console.log("단어 완료 처리 시작. isWordCompletionPending =", isWordCompletionPending); // 디버그 로그 추가
+    console.log("processWordCompletion: 단어 완료 처리 시작. isWordCompletionPending =", isWordCompletionPending); // 디버그 로그 추가
 
 
     // 사용자가 현재 단어를 맞게 입력했는지 확인 (점수/통계용)
@@ -698,11 +748,11 @@ function processWordCompletion(userInput, targetWord) {
         wordCount++; // 맞춘 단어 수 증가
         scoreElement.textContent = `점수: ${score}`;
         wordCountElement.textContent = `단어 수: ${wordCount}`;
-        console.log("단어 정답 처리. 점수:", score, "단어 수:", wordCount); // 디버그 로그 추가
+        console.log("processWordCompletion: 단어 정답 처리. 점수:", score, "단어 수:", wordCount); // 디버그 로그 추가
         // totalErrors와 totalCharactersTyped는 input 이벤트에서 이미 글자 단위로 계산되었습니다.
     } else {
         // 단어를 틀리게 입력한 경우
-        console.log("단어 오답 처리."); // 디버그 로그 추가
+        console.log("processWordCompletion: 단어 오답 처리."); // 디버그 로그 추가
         // 틀렸다는 피드백은 updateWordDisplayColors에서 이미 제공됩니다.
     }
 
@@ -712,11 +762,11 @@ function processWordCompletion(userInput, targetWord) {
     // 통계 데이터에 해당 단어가 없으면 초기화 (로드된 전체 단어 기준으로 초기화되어 있어야 함)
     if (!wordStatistics[currentWordText]) {
          wordStatistics[currentWordText] = { appearanceCount: 0, resetCount: 0 };
-         console.warn(`wordStatistics에 없던 단어 추가됨 (processWordCompletion): ${currentWordText}`);
+         console.warn(`processWordCompletion: wordStatistics에 없던 단어 추가됨 (통계 업데이트 중): ${currentWordText}`);
     }
 
     wordStatistics[currentWordText].appearanceCount++;
-    console.log(`단어 '${currentWordText}' 출현 횟수 증가: ${wordStatistics[currentWordText].appearanceCount}`); // 디버그 로그 추가
+    console.log(`processWordCompletion: 단어 '${currentWordText}' 출현 횟수 증가: ${wordStatistics[currentWordText].appearanceCount}`); // 디버그 로그 추가
 
 
     // 출현 횟수 10회 도달 시 초기화 (기준 횟수 조절 가능)
@@ -724,61 +774,84 @@ function processWordCompletion(userInput, targetWord) {
     if (wordStatistics[currentWordText].appearanceCount >= resetThreshold) {
          wordStatistics[currentWordText].appearanceCount = 0;
          wordStatistics[currentWordText].resetCount++;
-         console.log(`단어 '${currentWordText}'가 ${resetThreshold}번 나왔습니다. 통계 초기화. 초기화 횟수: ${wordStatistics[currentWordText].resetCount}`); // 디버그 로그 추가
+         console.log(`processWordCompletion: 단어 '${currentWordText}'가 ${resetThreshold}번 나왔습니다. 통계 초기화. 초기화 횟수: ${wordStatistics[currentWordText].resetCount}`); // 디버그 로그 추가
          // 화면에 초기화 메시지 표시
           if (resetMessageElement) {
-              resetMessageElement.textContent = `단어 '${currentWordText}'가 ${resetThreshold}번 나왔습니다. 초기화 횟수: ${wordStatistics[currentWordText].resetCount}`;
-               // 메시지를 잠시 보여준 후 사라지게 할 수 있습니다.
-               // setTimeout(() => { if (resetMessageElement) resetMessageElement.textContent = ''; }, 5000); // 5초 후 메시지 삭제
+              // 여기를 수정 (메시지 내용 변경)
+              resetMessageElement.textContent = `단어 '${currentWordText}'가 ${resetThreshold}번 나왔습니다. 누적 초기화 횟수: ${wordStatistics[currentWordText].resetCount}`;
+
+              // !!! 이 setTimeout 블록 전체가 추가되었습니다 !!!
+              // 3초 후 메시지 사라지게 하는 코드
+               setTimeout(() => {
+                   // 메시지 초기화는 현재 단어의 출현 횟수가 리셋 임계값 미만일 때만 실행
+                   // currentWord 와 wordStatistics 유효성 체크 추가
+                   if (resetMessageElement && currentWord && wordStatistics[currentWord.word] && wordStatistics[currentWord.word].appearanceCount < resetThreshold) {
+                       resetMessageElement.textContent = '';
+                       console.log(`processWordCompletion: 초기화 메시지 숨김 (${currentWord.word}).`); // 디버그 로그
+                   } else if (resetMessageElement) {
+                        console.log(`processWordCompletion: 초기화 메시지 숨김 건너뜀 (${currentWord ? currentWord.word : ""}). 다른 단어 메시지 존재 또는 조건 불충족.`); // 디버그 로그
+                   }
+               }, 3000); // <-- 3000ms = 3초. 원하는 시간으로 조절하세요.
           }
     }
 
 
-    // --- 단어 통계 표시 엘리먼트 업데이트 (레이블 포함) ---
+    // --- 단어 통계 표시 엘리먼트 업데이트 (레이블 변경 반영) ---
     // appearanceCountElement와 resetCountElement가 HTML에 존재할 경우에만 업데이트
      if (appearanceCountElement && wordStatistics[currentWordText]) {
-         appearanceCountElement.textContent = `출현 횟수: ${wordStatistics[currentWordText].appearanceCount}`; // 레이블 추가
+         appearanceCountElement.textContent = `출현 횟수: ${wordStatistics[currentWordText].appearanceCount}`; // 레이블 유지
      } else if (appearanceCountElement) { // 엘리먼트는 있는데 통계 데이터가 없을 경우 (초기 상태)
          appearanceCountElement.textContent = '출현 횟수: 0'; // 레이블 포함 초기화
      }
+     // 여기를 수정
      if (resetCountElement && wordStatistics[currentWordText]) {
-         resetCountElement.textContent = `정답 횟수: ${wordStatistics[currentWordText].resetCount}`; // 레이블 추가
+         resetCountElement.textContent = ` 누적 횟수: ${wordStatistics[currentWordText].resetCount}`; // 레이블 변경 반영
      } else if (resetCountElement) { // 엘리먼트는 있는데 통계 데이터가 없을 경우 (초기 상태)
-          resetCountElement.textContent = '정답 횟수: 0'; // 레이블 포함 초기화
+          resetCountElement.textContent = ' 누적적 횟수: 0'; // 레이블 포함 초기화
      }
-     console.log("단어 통계 UI 업데이트 완료."); // 디버그 로그 추가
+     console.log("processWordCompletion: 단어 통계 UI 업데이트 완료."); // 디버그 로그 추가
 
 
     // 통계 데이터 저장 (단어 완료 시마다 저장)
     // playableWords 가 아닌, 로드된 전체 단어(words)에 대한 통계를 저장합니다.
     saveWordStatistics();
-    console.log("통계 데이터 저장 완료."); // 디버그 로그 추가
+    console.log("processWordCompletion: 통계 데이터 저장 완료."); // 디버그 로그 추가
 
 
     // --- 다음 단어로 넘어가는 로직 ---
     // 맞았든 틀렸든, 단어 완료 시 다음 단어로 넘어갑니다.
     // 약간의 딜레이를 두어 사용자가 결과(맞았는지 틀렸는지 색상)를 잠깐 볼 시간을 줍니다.
     // Note: 여기의 딜레이 시간을 수정하면 됩니다. 기본 500ms
-    console.log("다음 단어 설정 setTimeout 예약 (500ms 후)."); // 디버그 로그 추가
+    console.log("processWordCompletion: 다음 단어 설정 setTimeout 예약 (500ms 후)."); // 디버그 로그 추가
 
     setTimeout(() => {
-         console.log("setTimeout 콜백 실행."); // 디버그 로그 추가
+         console.log("processWordCompletion: setTimeout 콜백 실행."); // 디버그 로그 추가
+         // playableWords 에서 현재 단어 제거 (한 게임 내 중복 출현 방지 - 필요시 활성화)
+         // 현재는 제거하지 않고 반복 출현을 허용합니다.
+          const currentWordIndexInPlayable = playableWords.findIndex(word => word.word === (currentWord ? currentWord.word : ''));
+          if (currentWordIndexInPlayable > -1) {
+               // playableWords.splice(currentWordIndexInPlayable, 1); // 필요시 이 라인을 활성화하여 한 게임 내 중복 제거
+               // console.log(`processWordCompletion: 단어 '${currentWord ? currentWord.word : ""}'를 연습 목록에서 제거함. 남은 단어: ${playableWords.length}개`);
+          }
+
+
          // playableWords 가 비었는지 확인하고 게임 종료 처리
          if (playableWords.length === 0) {
-              console.log("플레이할 단어가 모두 소진되었습니다. 게임 종료 처리.");
+              console.log("processWordCompletion: 플레이할 단어가 모두 소진되었습니다. 게임 종료 처리.");
               endGame(); // 연습할 단어가 없으면 게임 종료
          } else {
-              console.log("다음 단어 설정 (setNewWord 호출).");
+              console.log("processWordCompletion: 다음 단어 설정 (setNewWord 호출).");
               setNewWord(); // 다음 단어 설정 (playableWords 에서 단어 선택)
          }
-         // !!! 여기에 플래그 초기화 코드 추가 !!!
+         // !!! isWordCompletionPending 플래그 초기화 코드 추가 !!!
          isWordCompletionPending = false;
-         console.log("단어 완료 처리 종료. isWordCompletionPending =", isWordCompletionPending); // 디버그 로그 추가
+         console.log("processWordCompletion: 단어 완료 처리 종료. isWordCompletionPending =", isWordCompletionPending); // 디버그 로그 추가
 
       }, 500); // <-- 이 숫자를 조절하여 딜레이 시간을 변경하세요 (밀리초 단위)
 
     // 정확도 업데이트 (optional)
     // updateAccuracy(); // 필요하다면 여기서 한 번 더 호출 가능
+     console.log("processWordCompletion 함수 실행 종료 (setTimeout 예약됨)."); // 함수 실행 종료 로그
 }
 
 // ... 나머지 코드는 그대로 ...
