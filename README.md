@@ -46,4 +46,4 @@
 cd tajamaster
 ```
 ---
-3 index.html 파일을 브라우저로 열어 실행합니다.
+3 index.html  Open with Live server 실행합니다.
