@@ -1,0 +1,164 @@
+[
+    {
+        "word": "Database",
+        "pronunciation": "/ˈdeɪtəbeɪs/",
+        "meaning": "데이터가 저장되는 논리적인 구조로, 여러 테이블을 포함할 수 있는 컨테이너",
+        "korean_pronunciation": "데이터베이스"
+    },
+    {
+        "word": "Table",
+        "pronunciation": "/ˈteɪbəl/",
+        "meaning": "데이터베이스 내에서 데이터를 저장하는 구조, 행(row)과 열(column)로 구성됨",
+        "korean_pronunciation": "테이블"
+    },
+    {
+        "word": "Row",
+        "pronunciation": "/roʊ/",
+        "meaning": "테이블에서 데이터의 하나의 항목을 나타내는 가로줄, 레코드라고도 함",
+        "korean_pronunciation": "로우"
+    },
+    {
+        "word": "Column",
+        "pronunciation": "/ˈkɑːləm/",
+        "meaning": "테이블에서 각 데이터 항목을 구성하는 세로줄, 필드라고도 함",
+        "korean_pronunciation": "컬럼"
+    },
+    {
+        "word": "Primary Key",
+        "pronunciation": "/ˈpraɪmɛri ki/",
+        "meaning": "테이블에서 각 행을 고유하게 식별할 수 있도록 하는 열 또는 열들의 집합",
+        "korean_pronunciation": "프라이머리 키"
+    },
+    {
+        "word": "Foreign Key",
+        "pronunciation": "/ˈfɔːrən ki/",
+        "meaning": "다른 테이블의 기본 키를 참조하는 필드, 관계형 데이터베이스에서 테이블 간 관계를 설정",
+        "korean_pronunciation": "포린 키"
+    },
+    {
+        "word": "Index",
+        "pronunciation": "/ˈɪndɛks/",
+        "meaning": "쿼리의 속도를 향상시키기 위해 테이블에 생성하는 데이터 구조",
+        "korean_pronunciation": "인덱스"
+    },
+    {
+        "word": "SQL (Structured Query Language)",
+        "pronunciation": "/ˈɛs kjuː ˈɛl/",
+        "meaning": "데이터베이스 관리 시스템에서 데이터를 정의, 조작, 관리하기 위한 표준 프로그래밍 언어",
+        "korean_pronunciation": "SQL"
+    },
+    {
+        "word": "SELECT",
+        "pronunciation": "/sɪˈlɛkt/",
+        "meaning": "데이터베이스에서 데이터를 조회하는 SQL 명령어",
+        "korean_pronunciation": "셀렉트"
+    },
+    {
+        "word": "INSERT",
+        "pronunciation": "/ɪnˈsɜːrt/",
+        "meaning": "데이터베이스 테이블에 데이터를 삽입하는 SQL 명령어",
+        "korean_pronunciation": "인서트"
+    },
+    {
+        "word": "UPDATE",
+        "pronunciation": "/ˈʌpˌdeɪt/",
+        "meaning": "데이터베이스에서 기존의 데이터를 수정하는 SQL 명령어",
+        "korean_pronunciation": "업데이트"
+    },
+    {
+        "word": "DELETE",
+        "pronunciation": "/dɪˈliːt/",
+        "meaning": "데이터베이스에서 데이터를 삭제하는 SQL 명령어",
+        "korean_pronunciation": "딜리트"
+    },
+    {
+        "word": "JOIN",
+        "pronunciation": "/dʒɔɪn/",
+        "meaning": "여러 테이블을 결합하여 데이터를 조회하는 SQL 명령어",
+        "korean_pronunciation": "조인"
+    },
+    {
+        "word": "INNER JOIN",
+        "pronunciation": "/ˈɪnər dʒɔɪn/",
+        "meaning": "두 테이블에서 공통된 데이터를 조회하는 SQL 명령어",
+        "korean_pronunciation": "이너 조인"
+    },
+    {
+        "word": "LEFT JOIN",
+        "pronunciation": "/lɛft dʒɔɪn/",
+        "meaning": "왼쪽 테이블의 모든 데이터와 일치하는 오른쪽 테이블의 데이터를 조회하는 SQL 명령어",
+        "korean_pronunciation": "레프트 조인"
+    },
+    {
+        "word": "RIGHT JOIN",
+        "pronunciation": "/raɪt dʒɔɪn/",
+        "meaning": "오른쪽 테이블의 모든 데이터와 일치하는 왼쪽 테이블의 데이터를 조회하는 SQL 명령어",
+        "korean_pronunciation": "라이트 조인"
+    },
+    {
+        "word": "FULL JOIN",
+        "pronunciation": "/fʊl dʒɔɪn/",
+        "meaning": "두 테이블의 모든 데이터를 조회하는 SQL 명령어, 양쪽 테이블의 데이터가 없을 경우 NULL 반환",
+        "korean_pronunciation": "풀 조인"
+    },
+    {
+        "word": "GROUP BY",
+        "pronunciation": "/ɡruːp baɪ/",
+        "meaning": "데이터를 특정 기준으로 묶어서 집계하는 SQL 명령어",
+        "korean_pronunciation": "그룹 바이"
+    },
+    {
+        "word": "HAVING",
+        "pronunciation": "/ˈhævɪŋ/",
+        "meaning": "GROUP BY로 묶은 데이터를 조건에 맞게 필터링하는 SQL 명령어",
+        "korean_pronunciation": "해빙"
+    },
+    {
+        "word": "ORDER BY",
+        "pronunciation": "/ˈɔːrdər baɪ/",
+        "meaning": "조회한 데이터를 정렬하는 SQL 명령어",
+        "korean_pronunciation": "오더 바이"
+    },
+    {
+        "word": "DISTINCT",
+        "pronunciation": "/dɪˈstɪŋkt/",
+        "meaning": "중복된 값을 제외하고 고유한 값을 조회하는 SQL 명령어",
+        "korean_pronunciation": "디스팅크트"
+    },
+    {
+        "word": "LIMIT",
+        "pronunciation": "/ˈlɪmɪt/",
+        "meaning": "조회된 데이터의 개수를 제한하는 SQL 명령어",
+        "korean_pronunciation": "리미트"
+    },
+    {
+        "word": "ALTER TABLE",
+        "pronunciation": "/ˈɔːltər ˈteɪbəl/",
+        "meaning": "테이블 구조를 변경하는 SQL 명령어",
+        "korean_pronunciation": "알터 테이블"
+    },
+    {
+        "word": "DROP TABLE",
+        "pronunciation": "/drɒp ˈteɪbəl/",
+        "meaning": "테이블을 삭제하는 SQL 명령어",
+        "korean_pronunciation": "드롭 테이블"
+    },
+    {
+        "word": "CREATE TABLE",
+        "pronunciation": "/kriːˈeɪt ˈteɪbəl/",
+        "meaning": "새로운 테이블을 생성하는 SQL 명령어",
+        "korean_pronunciation": "크리에이트 테이블"
+    },
+    {
+        "word": "TRUNCATE",
+        "pronunciation": "/ˈtrʌnkeɪt/",
+        "meaning": "테이블의 모든 데이터를 삭제하지만 테이블 구조는 유지하는 SQL 명령어",
+        "korean_pronunciation": "트렁케이트"
+    },
+    {
+        "word": "UNION",
+        "pronunciation": "/ˈjuːniən/",
+        "meaning": "두 개 이상의 SELECT 쿼리의 결과를 합치는 SQL 명령어",
+        "korean_pronunciation": "유니언"
+    }
+]

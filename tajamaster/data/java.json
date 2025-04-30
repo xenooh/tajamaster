@@ -1,0 +1,323 @@
+[
+    {
+        "word": "Class",
+        "pronunciation": "/klæs/",
+        "meaning": "객체 지향 프로그래밍에서 객체를 생성하기 위한 템플릿",
+        "korean_pronunciation": "클래스"
+    },
+    {
+        "word": "Object",
+        "pronunciation": "/ˈɒbdʒɪkt/",
+        "meaning": "클래스를 기반으로 생성된 인스턴스, 속성과 메서드를 가짐",
+        "korean_pronunciation": "오브젝트"
+    },
+    {
+        "word": "Method",
+        "pronunciation": "/ˈmɛθəd/",
+        "meaning": "객체의 동작을 정의하는 함수",
+        "korean_pronunciation": "메소드"
+    },
+    {
+        "word": "Constructor",
+        "pronunciation": "/kənˈstrʌktər/",
+        "meaning": "객체를 생성할 때 호출되는 특수한 메소드",
+        "korean_pronunciation": "생성자"
+    },
+    {
+        "word": "Inheritance",
+        "pronunciation": "/ɪnˈhɛrɪtəns/",
+        "meaning": "자식 클래스가 부모 클래스의 속성과 메서드를 상속받는 객체 지향 개념",
+        "korean_pronunciation": "상속"
+    },
+    {
+        "word": "Polymorphism",
+        "pronunciation": "/ˌpɒlɪˈmɔːfɪzəm/",
+        "meaning": "하나의 객체가 여러 가지 형태를 가질 수 있는 객체 지향 개념",
+        "korean_pronunciation": "다형성"
+    },
+    {
+        "word": "Encapsulation",
+        "pronunciation": "/ɪnˌkæpsjʊˈleɪʃən/",
+        "meaning": "객체의 속성을 외부에서 접근할 수 없게 숨기고, 메서드를 통해 접근하는 개념",
+        "korean_pronunciation": "캡슐화"
+    },
+    {
+        "word": "Abstraction",
+        "pronunciation": "/æbˈstrækʃən/",
+        "meaning": "구체적인 구현을 숨기고, 객체의 기능만을 제공하는 개념",
+        "korean_pronunciation": "추상화"
+    },
+    {
+        "word": "Interface",
+        "pronunciation": "/ˈɪntəfeɪs/",
+        "meaning": "메서드의 선언만을 정의하고, 구현은 다른 클래스에서 수행하는 Java의 구조",
+        "korean_pronunciation": "인터페이스"
+    },
+    {
+        "word": "Abstract Class",
+        "pronunciation": "/ˈæbstrækt klæs/",
+        "meaning": "구현되지 않은 메서드를 가질 수 있는 클래스, 상속을 통해 구현해야 함",
+        "korean_pronunciation": "추상 클래스"
+    },
+    {
+        "word": "Static",
+        "pronunciation": "/ˈstætɪk/",
+        "meaning": "클래스에 속하며, 인스턴스와 관계없이 호출할 수 있는 변수나 메서드",
+        "korean_pronunciation": "정적"
+    },
+    {
+        "word": "Final",
+        "pronunciation": "/ˈfaɪnəl/",
+        "meaning": "변수, 메서드, 클래스에 사용할 수 있는 키워드로, 수정할 수 없게 만듦",
+        "korean_pronunciation": "파이널"
+    },
+    {
+        "word": "Super",
+        "pronunciation": "/ˈsuːpər/",
+        "meaning": "자식 클래스에서 부모 클래스의 메서드를 호출할 때 사용",
+        "korean_pronunciation": "슈퍼"
+    },
+    {
+        "word": "This",
+        "pronunciation": "/ðɪs/",
+        "meaning": "현재 객체를 가리키는 참조 변수",
+        "korean_pronunciation": "디스"
+    },
+    {
+        "word": "Thread",
+        "pronunciation": "/θrɛd/",
+        "meaning": "프로그램 내에서 독립적으로 실행되는 단위",
+        "korean_pronunciation": "스레드"
+    },
+    {
+        "word": "Exception",
+        "pronunciation": "/ɪkˈsɛpʃən/",
+        "meaning": "프로그램 실행 중 발생할 수 있는 예외적인 상황",
+        "korean_pronunciation": "예외"
+    },
+    {
+        "word": "Try-Catch",
+        "pronunciation": "/traɪ kætʃ/",
+        "meaning": "예외 처리를 위한 구문, try 블록에서 예외가 발생하면 catch 블록이 실행됨",
+        "korean_pronunciation": "트라이-캐치"
+    },
+    {
+        "word": "Array",
+        "pronunciation": "/əˈreɪ/",
+        "meaning": "동일한 타입의 여러 값을 저장할 수 있는 자료 구조",
+        "korean_pronunciation": "배열"
+    },
+    {
+        "word": "List",
+        "pronunciation": "/lɪst/",
+        "meaning": "순서가 있는 데이터를 저장하는 자료 구조",
+        "korean_pronunciation": "리스트"
+    },
+    {
+        "word": "Map",
+        "pronunciation": "/mæp/",
+        "meaning": "키와 값을 쌍으로 저장하는 자료 구조",
+        "korean_pronunciation": "맵"
+    },
+    {
+        "word": "Set",
+        "pronunciation": "/sɛt/",
+        "meaning": "중복되지 않는 데이터를 저장하는 자료 구조",
+        "korean_pronunciation": "셋"
+    },
+    {
+        "word": "Lambda Expression",
+        "pronunciation": "/ˈlæmbdə ɪksˈprɛʃən/",
+        "meaning": "익명 함수로, 코드에서 특정 기능을 간결하게 표현할 수 있도록 하는 문법",
+        "korean_pronunciation": "람다 표현식"
+    },
+    {
+        "word": "Stream API",
+        "pronunciation": "/striːm ˌeɪ piː aɪ/",
+        "meaning": "컬렉션을 처리하는 함수형 프로그래밍의 기능을 제공하는 API",
+        "korean_pronunciation": "스트림 API"
+    },
+    {
+        "word": "JVM",
+        "pronunciation": "/ˈdʒeɪ viː ɛm/",
+        "meaning": "Java Virtual Machine, 자바 프로그램을 실행하는 가상 머신",
+        "korean_pronunciation": "제이브이엠"
+    },
+    {
+        "word": "JRE",
+        "pronunciation": "/ˈdʒeɪ ɑːr iː/",
+        "meaning": "Java Runtime Environment, 자바 애플리케이션을 실행하기 위한 환경",
+        "korean_pronunciation": "제이알이"
+    },
+    {
+        "word": "JDK",
+        "pronunciation": "/ˈdʒeɪ diː keɪ/",
+        "meaning": "Java Development Kit, 자바 개발을 위한 도구 모음",
+        "korean_pronunciation": "제이디케이"
+    }
+,
+
+    {
+        "word": "Package",
+        "pronunciation": "/ˈpækɪdʒ/",
+        "meaning": "클래스를 논리적으로 묶기 위한 그룹으로, 클래스를 관리하고 네임스페이스 충돌을 방지함",
+        "korean_pronunciation": "패키지"
+    },
+    {
+        "word": "Access Modifier",
+        "pronunciation": "/ˈækses ˈmɒdɪfaɪər/",
+        "meaning": "클래스나 클래스의 멤버(속성, 메서드)의 접근을 제어하는 키워드(예: public, private, protected, default)",
+        "korean_pronunciation": "접근 제어자"
+    },
+    {
+        "word": "Public",
+        "pronunciation": "/ˈpʌblɪk/",
+        "meaning": "어떤 클래스나 멤버가 외부에서 자유롭게 접근할 수 있음을 나타내는 접근 제어자",
+        "korean_pronunciation": "퍼블릭"
+    },
+    {
+        "word": "Private",
+        "pronunciation": "/ˈpraɪvət/",
+        "meaning": "어떤 클래스나 멤버가 해당 클래스 내에서만 접근 가능하도록 제한하는 접근 제어자",
+        "korean_pronunciation": "프라이빗"
+    },
+    {
+        "word": "Protected",
+        "pronunciation": "/prəˈtɛktɪd/",
+        "meaning": "상속받은 자식 클래스에서 접근할 수 있도록 허용하는 접근 제어자",
+        "korean_pronunciation": "프로텍티드"
+    },
+    {
+        "word": "Default",
+        "pronunciation": "/dɪˈfɔːlt/",
+        "meaning": "접근 제어자가 명시되지 않은 상태로, 같은 패키지 내에서만 접근할 수 있는 기본 설정",
+        "korean_pronunciation": "디폴트"
+    },
+    {
+        "word": "Static Import",
+        "pronunciation": "/ˈstætɪk ˈɪmpɔːrt/",
+        "meaning": "클래스의 정적 멤버를 다른 클래스에서 직접 사용할 수 있도록 가져오는 기능",
+        "korean_pronunciation": "정적 임포트"
+    },
+    {
+        "word": "Reflection API",
+        "pronunciation": "/rɪˈflɛkʃən eɪ piː aɪ/",
+        "meaning": "실행 중인 Java 프로그램의 메타데이터에 접근할 수 있는 API",
+        "korean_pronunciation": "리플렉션 API"
+    },
+    {
+        "word": "Runtime Exception",
+        "pronunciation": "/ˈrʌntʌɪm ɪkˈsɛpʃən/",
+        "meaning": "실행 중에 발생하는 예외로, 컴파일 타임에서 체크되지 않는 예외",
+        "korean_pronunciation": "런타임 예외"
+    },
+    {
+        "word": "Checked Exception",
+        "pronunciation": "/ʧɛkt ɪkˈsɛpʃən/",
+        "meaning": "컴파일 타임에서 반드시 처리해야 하는 예외",
+        "korean_pronunciation": "체크드 예외"
+    },
+    {
+        "word": "Unchecked Exception",
+        "pronunciation": "/ʌnˈʧɛkt ɪkˈsɛpʃən/",
+        "meaning": "컴파일 타임에서 처리할 필요 없이 실행 중에 발생하는 예외",
+        "korean_pronunciation": "언체크드 예외"
+    },
+    {
+        "word": "NullPointerException",
+        "pronunciation": "/nʌl ˈpɔɪntər ɪkˈsɛpʃən/",
+        "meaning": "null 객체를 참조하려고 할 때 발생하는 예외",
+        "korean_pronunciation": "널 포인터 예외"
+    },
+    {
+        "word": "IOException",
+        "pronunciation": "/aɪoʊ ˌɛksɛpʃən/",
+        "meaning": "입출력 과정에서 발생하는 예외",
+        "korean_pronunciation": "입출력 예외"
+    },
+    {
+        "word": "SQL",
+        "pronunciation": "/ˈɛskjuːˈɛl/",
+        "meaning": "Structured Query Language, 관계형 데이터베이스에서 데이터를 조회하거나 조작하는 데 사용되는 언어",
+        "korean_pronunciation": "에스큐엘"
+    },
+    {
+        "word": "SQLException",
+        "pronunciation": "/ˈɛksˌkwɛl ɪkˈsɛpʃən/",
+        "meaning": "SQL 문 실행 중 발생하는 예외",
+        "korean_pronunciation": "SQL 예외"
+    },
+    {
+        "word": "JDBC",
+        "pronunciation": "/ˈdʒeɪdiːˈbiːsiː/",
+        "meaning": "Java Database Connectivity, Java에서 데이터베이스와 연결하고 쿼리 작업을 수행하는 기술",
+        "korean_pronunciation": "제이디비시"
+    },
+    {
+        "word": "SQL Injection",
+        "pronunciation": "/ˈɛskjuːˈɛl ɪnˈdʒɛkʃən/",
+        "meaning": "SQL 쿼리를 조작하여 악의적인 목적을 위한 데이터를 주입하는 공격 기법",
+        "korean_pronunciation": "SQL 인젝션"
+    },
+    {
+        "word": "Transaction",
+        "pronunciation": "/trænˈzækʃən/",
+        "meaning": "데이터베이스에서 수행되는 작업의 단위, 모두 성공하거나 모두 실패해야 함",
+        "korean_pronunciation": "트랜잭션"
+    },
+    {
+        "word": "Commit",
+        "pronunciation": "/kəˈmɪt/",
+        "meaning": "데이터베이스에서 작업을 확정하여 영구 저장하는 과정",
+        "korean_pronunciation": "커밋"
+    },
+    {
+        "word": "Rollback",
+        "pronunciation": "/ˈroʊlˌbæk/",
+        "meaning": "실행된 트랜잭션을 취소하고 이전 상태로 되돌리는 작업",
+        "korean_pronunciation": "롤백"
+    },
+    {
+        "word": "PreparedStatement",
+        "pronunciation": "/prɪˈpɛrd ˈsteɪtmənt/",
+        "meaning": "매개변수를 포함한 SQL 쿼리로, 성능 최적화와 SQL 인젝션 방어에 유리함",
+        "korean_pronunciation": "프리페어드 스테이트먼트"
+    },
+    {
+        "word": "ResultSet",
+        "pronunciation": "/rɪˈzʌltsɛt/",
+        "meaning": "SQL 쿼리 실행 후 반환되는 결과 집합",
+        "korean_pronunciation": "결과 집합"
+    },
+    {
+        "word": "Entity",
+        "pronunciation": "/ˈɛntɪti/",
+        "meaning": "실제 데이터베이스 테이블과 매핑되는 객체",
+        "korean_pronunciation": "엔티티"
+    },
+    {
+        "word": "DAO (Data Access Object)",
+        "pronunciation": "/diː eɪ oʊ/",
+        "meaning": "데이터베이스와 상호작용하는 객체로, 데이터베이스 작업을 캡슐화한 객체",
+        "korean_pronunciation": "DAO(데이터 접근 객체)"
+    },
+    {
+        "word": "Spring Boot",
+        "pronunciation": "/sprɪŋ buːt/",
+        "meaning": "Spring 프레임워크를 쉽게 설정하고 실행할 수 있게 해주는 Java 기반 프레임워크",
+        "korean_pronunciation": "스프링 부트"
+    },
+    {
+        "word": "JPA (Java Persistence API)",
+        "pronunciation": "/ˈdʒeɪpiːeɪ/",
+        "meaning": "자바 애플리케이션에서 데이터베이스와의 상호작용을 관리하는 표준 API",
+        "korean_pronunciation": "JPA(자바 영속성 API)"
+    },
+    {
+        "word": "Hibernate",
+        "pronunciation": "/ˈhaɪbərˌneɪt/",
+        "meaning": "Java 객체와 관계형 데이터베이스 간의 매핑을 자동으로 처리하는 ORM 프레임워크",
+        "korean_pronunciation": "하이버네이트"
+    }
+]
+

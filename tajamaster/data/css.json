@@ -1,0 +1,318 @@
+[
+    
+      {
+        "word": "color",
+        "pronunciation": "/ˈkoʊlər/",
+        "meaning": "텍스트 색상 지정",
+        "korean_pronunciation": "컬러"
+      },
+      {
+        "word": "font-size",
+        "pronunciation": "/fɒnt saɪz/",
+        "meaning": "글꼴 크기 지정",
+        "korean_pronunciation": "폰트 사이즈"
+      },
+      {
+        "word": "font-family",
+        "pronunciation": "/fɒnt ˈfæmɪli/",
+        "meaning": "글꼴 패밀리 지정 (예: Arial, 'Times New Roman')",
+        "korean_pronunciation": "폰트 패밀리"
+      },
+      {
+        "word": "font-weight",
+        "pronunciation": "/fɒnt weɪt/",
+        "meaning": "글꼴 두께 지정 (ex: normal, bold)",
+        "korean_pronunciation": "폰트 웨이트"
+      },
+      {
+        "word": "text-align",
+        "pronunciation": "/tɛkst əˈlaɪn/",
+        "meaning": "텍스트 정렬 (left, center, right)",
+        "korean_pronunciation": "텍스트 얼라인"
+      },
+      {
+        "word": "text-decoration",
+        "pronunciation": "/tɛkst ˌdɛkəˈreɪʃən/",
+        "meaning": "텍스트 장식 (underlined, line-through)",
+        "korean_pronunciation": "텍스트 데커레이션"
+      },
+      {
+        "word": "text-transform",
+        "pronunciation": "/tɛkst ˈtrænsfɔːrm/",
+        "meaning": "텍스트 변형 (uppercase, lowercase)",
+        "korean_pronunciation": "텍스트 트랜스폼"
+      },
+      {
+        "word": "letter-spacing",
+        "pronunciation": "/ˈlɛtər ˈspeɪsɪŋ/",
+        "meaning": "글자 간격 조정",
+        "korean_pronunciation": "레터 스페이싱"
+      }
+    ,
+    
+      {
+        "word": "display",
+        "pronunciation": "/dɪˈspleɪ/",
+        "meaning": "요소의 표시 방식을 설정 (block, inline, none)",
+        "korean_pronunciation": "디스플레이"
+      },
+      {
+        "word": "position",
+        "pronunciation": "/pəˈzɪʃən/",
+        "meaning": "요소의 위치 설정 (static, relative, absolute, fixed)",
+        "korean_pronunciation": "포지션"
+      },
+      {
+        "word": "top",
+        "pronunciation": "/tɒp/",
+        "meaning": "요소의 상단 위치 설정",
+        "korean_pronunciation": "탑"
+      },
+      {
+        "word": "left",
+        "pronunciation": "/lɛft/",
+        "meaning": "요소의 좌측 위치 설정",
+        "korean_pronunciation": "레프트"
+      },
+      {
+        "word": "z-index",
+        "pronunciation": "/ziː ˈɪndɛks/",
+        "meaning": "요소의 쌓임 순서 설정",
+        "korean_pronunciation": "지 인덱스"
+      },
+      {
+        "word": "flex",
+        "pronunciation": "/flɛks/",
+        "meaning": "Flexbox의 항목 크기 비율 설정",
+        "korean_pronunciation": "플렉스"
+      },
+      {
+        "word": "justify-content",
+        "pronunciation": "/ˈdʒʌstɪfaɪ ˈkɒntɛnt/",
+        "meaning": "Flexbox에서 주축 정렬 (left, center, space-between 등)",
+        "korean_pronunciation": "저스티파이 컨텐츠"
+      },
+      {
+        "word": "align-items",
+        "pronunciation": "/əˈlaɪn aɪtəmz/",
+        "meaning": "Flexbox에서 교차축 정렬 (flex-start, center, stretch)",
+        "korean_pronunciation": "얼라인 아이템스"
+      },
+      {
+        "word": "grid-template-columns",
+        "pronunciation": "/ɡrɪd ˈtɛmplət ˈkɒləmz/",
+        "meaning": "Grid의 열 크기 설정",
+        "korean_pronunciation": "그리드 템플릿 칼럼스"
+      }
+,
+    
+      {
+        "word": "margin",
+        "pronunciation": "/ˈmɑːrdʒɪn/",
+        "meaning": "요소 주변의 외부 여백 설정",
+        "korean_pronunciation": "마진"
+      },
+      {
+        "word": "padding",
+        "pronunciation": "/ˈpædɪŋ/",
+        "meaning": "요소 내부의 여백 설정",
+        "korean_pronunciation": "패딩"
+      },
+      {
+        "word": "border",
+        "pronunciation": "/ˈbɔːrdər/",
+        "meaning": "요소에 테두리 추가",
+        "korean_pronunciation": "보더"
+      },
+      {
+        "word": "width",
+        "pronunciation": "/wɪdθ/",
+        "meaning": "요소의 너비 설정",
+        "korean_pronunciation": "위드"
+      },
+      {
+        "word": "height",
+        "pronunciation": "/haɪt/",
+        "meaning": "요소의 높이 설정",
+        "korean_pronunciation": "하이트"
+      },
+      {
+        "word": "box-sizing",
+        "pronunciation": "/bɒks ˈsaɪzɪŋ/",
+        "meaning": "박스 크기 모델 설정 (border-box, content-box)",
+        "korean_pronunciation": "박스 사이징"
+      }
+    ,
+  
+      {
+        "word": "opacity",
+        "pronunciation": "/əʊˈpæsəti/",
+        "meaning": "요소의 불투명도 설정",
+        "korean_pronunciation": "오파시티"
+      },
+      {
+        "word": "cursor",
+        "pronunciation": "/ˈkɜːrsər/",
+        "meaning": "마우스 커서 모양 설정 (pointer, default)",
+        "korean_pronunciation": "커서"
+      },
+      {
+        "word": "overflow",
+        "pronunciation": "/ˈəʊvərfləʊ/",
+        "meaning": "내용이 넘쳤을 때 처리 방식 설정 (hidden, scroll, auto)",
+        "korean_pronunciation": "오버플로우"
+      },
+      {
+        "word": "box-shadow",
+        "pronunciation": "/bɒks ˈʃædəʊ/",
+        "meaning": "요소에 그림자 추가",
+        "korean_pronunciation": "박스 섀도우"
+      },
+      {
+        "word": "text-shadow",
+        "pronunciation": "/tɛkst ˈʃædəʊ/",
+        "meaning": "텍스트에 그림자 추가",
+        "korean_pronunciation": "텍스트 섀도우"
+      }
+,
+
+      {
+        "word": "@keyframes",
+        "pronunciation": "/ˈkeɪˌfreɪmz/",
+        "meaning": "애니메이션의 단계와 변화 정의",
+        "korean_pronunciation": "키프레임"
+      },
+      {
+        "word": "animation",
+        "pronunciation": "/ˌænɪˈmeɪʃən/",
+        "meaning": "애니메이션 속성 지정 (이름, 지속 시간 등)",
+        "korean_pronunciation": "애니메이션"
+      },
+      {
+        "word": "transition",
+        "pronunciation": "/trænˈzɪʃən/",
+        "meaning": "변경될 때의 전환 효과 설정",
+        "korean_pronunciation": "트랜지션"
+      },
+      {
+        "word": "animation-duration",
+        "pronunciation": "/ˌænɪˈmeɪʃən djuːˈreɪʃən/",
+        "meaning": "애니메이션의 지속 시간 설정",
+        "korean_pronunciation": "애니메이션 듀레이션"
+      },
+      {
+        "word": "animation-timing-function",
+        "pronunciation": "/ˌænɪˈmeɪʃən ˈtaɪmɪŋ fʌŋkʃən/",
+        "meaning": "애니메이션의 속도 곡선 설정 (ease, linear 등)",
+        "korean_pronunciation": "애니메이션 타이밍 함수"
+      }
+,
+      {
+        "word": "grid-template-columns",
+        "pronunciation": "/ɡrɪd ˈtɛmplət ˈkɒləmz/",
+        "meaning": "그리드 시스템에서 열의 크기 설정",
+        "korean_pronunciation": "그리드 템플릿 칼럼"
+      },
+      {
+        "word": "grid-template-rows",
+        "pronunciation": "/ɡrɪd ˈtɛmplət roʊz/",
+        "meaning": "그리드 시스템에서 행의 크기 설정",
+        "korean_pronunciation": "그리드 템플릿 로우"
+      },
+      {
+        "word": "grid-gap",
+        "pronunciation": "/ɡrɪd ɡæp/",
+        "meaning": "그리드 항목 간의 간격 설정",
+        "korean_pronunciation": "그리드 갭"
+      },
+      {
+        "word": "grid-column",
+        "pronunciation": "/ɡrɪd ˈkɒləm/",
+        "meaning": "그리드 항목이 차지하는 열 범위 설정",
+        "korean_pronunciation": "그리드 칼럼"
+      },
+      {
+        "word": "grid-row",
+        "pronunciation": "/ɡrɪd roʊ/",
+        "meaning": "그리드 항목이 차지하는 행 범위 설정",
+        "korean_pronunciation": "그리드 로우"
+      }
+,
+      {
+        "word": "@media",
+        "pronunciation": "/ˈmiːdɪə/",
+        "meaning": "미디어 쿼리 (화면 크기, 해상도 등에 따라 스타일 적용)",
+        "korean_pronunciation": "미디어"
+      },
+      {
+        "word": "max-width",
+        "pronunciation": "/mækˈswɪdθ/",
+        "meaning": "최대 너비를 설정, 미디어 쿼리와 함께 사용",
+        "korean_pronunciation": "맥스-위드"
+      },
+      {
+        "word": "min-width",
+        "pronunciation": "/mɪn ˈwɪdθ/",
+        "meaning": "최소 너비를 설정, 미디어 쿼리와 함께 사용",
+        "korean_pronunciation": "민-위드"
+      },
+      {
+        "word": "orientation",
+        "pronunciation": "/ˌɔːrɪənˈteɪʃən/",
+        "meaning": "기기의 화면 방향 (landscape, portrait)",
+        "korean_pronunciation": "오리엔테이션"
+      }
+    ,
+  
+
+      {
+        "word": "@font-face",
+        "pronunciation": "/ˈfɒnt-feɪs/",
+        "meaning": "웹 폰트 사용을 위한 정의",
+        "korean_pronunciation": "폰트 페이스"
+      },
+      {
+        "word": "font-variant",
+        "pronunciation": "/ˈfɒnt ˈværiənt/",
+        "meaning": "폰트의 대체 스타일 정의 (small-caps, normal)",
+        "korean_pronunciation": "폰트 변형"
+      },
+      {
+        "word": "font-feature-settings",
+        "pronunciation": "/ˈfɒnt ˈfiːtʃər ˈsɛtɪŋz/",
+        "meaning": "폰트의 특수한 기능 설정 (예: OpenType 기능)",
+        "korean_pronunciation": "폰트 기능 설정"
+      }
+    ],
+    
+    "css-variables": [
+      {
+        "word": "--variable-name",
+        "pronunciation": "/ˈvɛriəbl neɪm/",
+        "meaning": "CSS 변수 정의 (예: --primary-color)",
+        "korean_pronunciation": "CSS 변수 이름"
+      },
+      {
+        "word": "var()",
+        "pronunciation": "/vɑːr/",
+        "meaning": "CSS 변수 값을 참조하기 위한 함수",
+        "korean_pronunciation": "변수 함수"
+      }
+    ,
+  
+
+      {
+        "word": "transform",
+        "pronunciation": "/trænsˈfɔːrm/",
+        "meaning": "요소를 회전, 이동, 크기 변경하는 속성",
+        "korean_pronunciation": "트랜스폼"
+      },
+      {
+        "word": "perspective",
+        "pronunciation": "/pərˈspɛktɪv/",
+        "meaning": "3D 변형에 깊이감을 주는 속성",
+        "korean_pronunciation": "퍼스펙티브"
+      }
+    ]     
+
+  

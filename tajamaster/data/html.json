@@ -1,0 +1,377 @@
+[
+    {
+      "word": "html",
+      "pronunciation": "/ˌeɪtʃˌtiːˌɛmˈɛl/",
+      "meaning": "웹 페이지 전체 구조를 정의하는 최상위 태그",
+      "korean_pronunciation": "에이치 티 엠 엘"
+    },
+    {
+      "word": "head",
+      "pronunciation": "/hɛd/",
+      "meaning": "문서의 메타 정보(제목, 문자 인코딩 등)를 담는 영역",
+      "korean_pronunciation": "헤드"
+    },
+    {
+      "word": "body",
+      "pronunciation": "/ˈbɑːdi/",
+      "meaning": "브라우저 화면에 보여지는 실제 콘텐츠를 담는 부분",
+      "korean_pronunciation": "바디"
+    },
+    {
+      "word": "title",
+      "pronunciation": "/ˈtaɪtəl/",
+      "meaning": "웹 페이지의 제목(브라우저 탭 제목)",
+      "korean_pronunciation": "타이틀"
+    },
+    {
+      "word": "meta",
+      "pronunciation": "/ˈmɛtə/",
+      "meaning": "문서의 설명, 키워드, 문자셋 등의 메타 정보를 정의",
+      "korean_pronunciation": "메타"
+    },
+    {
+      "word": "link",
+      "pronunciation": "/lɪŋk/",
+      "meaning": "외부 리소스(CSS 등)와 문서를 연결",
+      "korean_pronunciation": "링크"
+    },
+    {
+      "word": "style",
+      "pronunciation": "/staɪl/",
+      "meaning": "내부에 CSS 스타일을 작성",
+      "korean_pronunciation": "스타일"
+    },
+    {
+      "word": "script",
+      "pronunciation": "/skrɪpt/",
+      "meaning": "JavaScript 코드를 포함하거나 외부 스크립트 연결",
+      "korean_pronunciation": "스크립트"
+    },
+    {
+      "word": "h1",
+      "pronunciation": "/ˌeɪtʃ wʌn/",
+      "meaning": "가장 큰 제목(heading)",
+      "korean_pronunciation": "에이치 원"
+    },
+    {
+      "word": "p",
+      "pronunciation": "/piː/",
+      "meaning": "단락(paragraph)",
+      "korean_pronunciation": "피"
+    },
+    {
+      "word": "br",
+      "pronunciation": "/biː ɑːr/",
+      "meaning": "줄바꿈(break)",
+      "korean_pronunciation": "비 알"
+    },
+    {
+      "word": "strong",
+      "pronunciation": "/strɔːŋ/",
+      "meaning": "강조, 굵게 표시(semantic)",
+      "korean_pronunciation": "스트롱"
+    },
+    {
+      "word": "em",
+      "pronunciation": "/ɛm/",
+      "meaning": "강조(기울임), 의미 강조",
+      "korean_pronunciation": "엠"
+    },
+    {
+      "word": "b",
+      "pronunciation": "/biː/",
+      "meaning": "굵은 글씨(bold)",
+      "korean_pronunciation": "비"
+    },
+    {
+      "word": "i",
+      "pronunciation": "/aɪ/",
+      "meaning": "기울임 글씨(italic)",
+      "korean_pronunciation": "아이"
+    }
+,
+
+    {
+      "word": "a",
+      "pronunciation": "/eɪ/",
+      "meaning": "링크를 만들 때 사용하는 태그 (anchor)",
+      "korean_pronunciation": "에이"
+    },
+    {
+      "word": "img",
+      "pronunciation": "/ɪmʤ/",
+      "meaning": "이미지를 문서에 삽입",
+      "korean_pronunciation": "아이엠지"
+    },
+    {
+      "word": "ul",
+      "pronunciation": "/juː ɛl/",
+      "meaning": "순서 없는 리스트(unordered list)",
+      "korean_pronunciation": "유 엘"
+    },
+    {
+      "word": "ol",
+      "pronunciation": "/oʊ ɛl/",
+      "meaning": "순서 있는 리스트(ordered list)",
+      "korean_pronunciation": "오우 엘"
+    },
+    {
+      "word": "li",
+      "pronunciation": "/ɛl aɪ/",
+      "meaning": "리스트 항목(list item)",
+      "korean_pronunciation": "엘 아이"
+    },
+    {
+      "word": "hr",
+      "pronunciation": "/eɪtʃ ɑːr/",
+      "meaning": "수평선(구분선, horizontal rule)",
+      "korean_pronunciation": "에이치 알"
+    },
+    {
+      "word": "div",
+      "pronunciation": "/dɪv/",
+      "meaning": "구역을 나누는 태그 (division)",
+      "korean_pronunciation": "디브"
+    },
+    {
+      "word": "span",
+      "pronunciation": "/spæn/",
+      "meaning": "인라인 영역을 나눌 때 사용",
+      "korean_pronunciation": "스팬"
+    },
+    {
+      "word": "nav",
+      "pronunciation": "/næv/",
+      "meaning": "내비게이션 메뉴를 감싸는 태그",
+      "korean_pronunciation": "내브"
+    },
+    {
+      "word": "section",
+      "pronunciation": "/ˈsɛkʃən/",
+      "meaning": "문서의 구역을 나누는 의미 있는 구간",
+      "korean_pronunciation": "섹션"
+    },
+    {
+      "word": "article",
+      "pronunciation": "/ˈɑːrtɪkəl/",
+      "meaning": "독립적인 콘텐츠 블록 (기사, 포스트 등)",
+      "korean_pronunciation": "아티클"
+    },
+    {
+      "word": "aside",
+      "pronunciation": "/əˈsaɪd/",
+      "meaning": "부가적인 내용(사이드바 등)",
+      "korean_pronunciation": "어사이드"
+    },
+    {
+      "word": "footer",
+      "pronunciation": "/ˈfʊtər/",
+      "meaning": "문서의 맨 아래 영역",
+      "korean_pronunciation": "푸터"
+    },
+    {
+      "word": "header",
+      "pronunciation": "/ˈhɛdər/",
+      "meaning": "문서의 맨 위 영역",
+      "korean_pronunciation": "헤더"
+    }
+,
+
+    {
+      "word": "form",
+      "pronunciation": "/fɔːrm/",
+      "meaning": "사용자 입력을 서버에 전송하기 위한 폼 영역",
+      "korean_pronunciation": "폼"
+    },
+    {
+      "word": "input",
+      "pronunciation": "/ˈɪnpʊt/",
+      "meaning": "사용자 입력 필드를 만들 때 사용",
+      "korean_pronunciation": "인풋"
+    },
+    {
+      "word": "label",
+      "pronunciation": "/ˈleɪbəl/",
+      "meaning": "입력 필드에 대한 설명 텍스트",
+      "korean_pronunciation": "레이블"
+    },
+    {
+      "word": "button",
+      "pronunciation": "/ˈbʌtən/",
+      "meaning": "사용자가 클릭할 수 있는 버튼",
+      "korean_pronunciation": "버튼"
+    },
+    {
+      "word": "select",
+      "pronunciation": "/səˈlɛkt/",
+      "meaning": "드롭다운(선택 목록)을 만드는 태그",
+      "korean_pronunciation": "셀렉트"
+    },
+    {
+      "word": "option",
+      "pronunciation": "/ˈɑːpʃən/",
+      "meaning": "select 안의 개별 항목",
+      "korean_pronunciation": "옵션"
+    },
+    {
+      "word": "textarea",
+      "pronunciation": "/ˈtɛkstˌɛriə/",
+      "meaning": "여러 줄 입력 필드를 만드는 태그",
+      "korean_pronunciation": "텍스트에어리어"
+    },
+    {
+      "word": "table",
+      "pronunciation": "/ˈteɪbəl/",
+      "meaning": "표(table)를 생성",
+      "korean_pronunciation": "테이블"
+    },
+    {
+      "word": "tr",
+      "pronunciation": "/tiː ɑːr/",
+      "meaning": "표의 행(row)을 생성",
+      "korean_pronunciation": "티 알"
+    },
+    {
+      "word": "td",
+      "pronunciation": "/tiː diː/",
+      "meaning": "표의 셀(cell, 데이터칸)을 생성",
+      "korean_pronunciation": "티 디"
+    },
+    {
+      "word": "th",
+      "pronunciation": "/tiː eɪtʃ/",
+      "meaning": "표의 헤더 셀(굵게, 가운데 정렬)",
+      "korean_pronunciation": "티 에이치"
+    },
+    {
+      "word": "thead",
+      "pronunciation": "/tiː hɛd/",
+      "meaning": "표의 헤더 영역을 묶는 태그",
+      "korean_pronunciation": "티 헤드"
+    },
+    {
+      "word": "tbody",
+      "pronunciation": "/tiː ˈbɑːdi/",
+      "meaning": "표의 본문 데이터를 담는 태그",
+      "korean_pronunciation": "티 바디"
+    },
+    {
+      "word": "tfoot",
+      "pronunciation": "/tiː fʊt/",
+      "meaning": "표의 푸터(맨 아래 요약 영역)",
+      "korean_pronunciation": "티 푸트"
+    }
+,
+
+    {
+      "word": "main",
+      "pronunciation": "/meɪn/",
+      "meaning": "문서의 주요 콘텐츠 영역",
+      "korean_pronunciation": "메인"
+    },
+    {
+      "word": "mark",
+      "pronunciation": "/mɑːrk/",
+      "meaning": "강조(형광펜처럼 표시)할 때 사용",
+      "korean_pronunciation": "마크"
+    },
+    {
+      "word": "em",
+      "pronunciation": "/ɛm/",
+      "meaning": "강조 (기울임, 의미 강조)",
+      "korean_pronunciation": "이엠"
+    },
+    {
+      "word": "strong",
+      "pronunciation": "/strɔːŋ/",
+      "meaning": "강한 강조 (굵게)",
+      "korean_pronunciation": "스트롱"
+    },
+    {
+      "word": "code",
+      "pronunciation": "/koʊd/",
+      "meaning": "프로그래밍 코드 나타낼 때 사용",
+      "korean_pronunciation": "코드"
+    },
+    {
+      "word": "pre",
+      "pronunciation": "/priː/",
+      "meaning": "서식 유지한 채 텍스트 출력 (띄어쓰기, 줄바꿈 포함)",
+      "korean_pronunciation": "프리"
+    },
+    {
+      "word": "br",
+      "pronunciation": "/biː ɑːr/",
+      "meaning": "줄 바꿈 (break)",
+      "korean_pronunciation": "비 알"
+    },
+    {
+      "word": "wbr",
+      "pronunciation": "/ˈdʌbəl.juː biː ɑːr/",
+      "meaning": "단어가 길 때 자동 줄바꿈 가능 지점",
+      "korean_pronunciation": "더블유 비 알"
+    },
+    {
+      "word": "sup",
+      "pronunciation": "/sʌp/",
+      "meaning": "윗첨자 (ex: x²)",
+      "korean_pronunciation": "섭"
+    },
+    {
+      "word": "sub",
+      "pronunciation": "/sʌb/",
+      "meaning": "아랫첨자 (ex: H₂O)",
+      "korean_pronunciation": "섭"
+    },
+    {
+      "word": "details",
+      "pronunciation": "/ˈdiː.teɪlz/",
+      "meaning": "눌러서 여닫는 콘텐츠 영역 생성",
+      "korean_pronunciation": "디테일즈"
+    },
+    {
+      "word": "summary",
+      "pronunciation": "/ˈsʌməri/",
+      "meaning": "details 안의 제목 (요약 표시)",
+      "korean_pronunciation": "서머리"
+    },
+    {
+      "word": "figure",
+      "pronunciation": "/ˈfɪɡjər/",
+      "meaning": "이미지, 도표 등 삽입할 때 사용",
+      "korean_pronunciation": "피겨"
+    },
+    {
+      "word": "figcaption",
+      "pronunciation": "/fɪɡˈkæpʃən/",
+      "meaning": "figure의 설명 캡션",
+      "korean_pronunciation": "피겨캡션"
+    },
+    {
+      "word": "time",
+      "pronunciation": "/taɪm/",
+      "meaning": "시간이나 날짜를 표현",
+      "korean_pronunciation": "타임"
+    },
+    {
+      "word": "progress",
+      "pronunciation": "/ˈprɑːɡrɛs/",
+      "meaning": "작업 진행률(Progress bar)",
+      "korean_pronunciation": "프로그레스"
+    },
+    {
+      "word": "meter",
+      "pronunciation": "/ˈmiːtər/",
+      "meaning": "값의 범위 내에서 어느 위치인지 표시",
+      "korean_pronunciation": "미터"
+    },
+    {
+      "word": "template",
+      "pronunciation": "/ˈtɛm.plət/",
+      "meaning": "HTML 템플릿, 자바스크립트로 출력용",
+      "korean_pronunciation": "템플릿"
+    }
+  ]
+  
+  
+  

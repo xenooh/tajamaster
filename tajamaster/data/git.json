@@ -1,0 +1,220 @@
+[
+    {
+        "word": "commit",
+        "pronunciation": "/kəˈmɪt/",
+        "meaning": "변경사항을 로컬 저장소에 저장하는 행위",
+        "korean_pronunciation": "커밋"
+    },
+    {
+        "word": "push",
+        "pronunciation": "/pʊʃ/",
+        "meaning": "로컬 저장소의 커밋을 원격 저장소로 전송하는 행위",
+        "korean_pronunciation": "푸시"
+    },
+    {
+        "word": "pull",
+        "pronunciation": "/pʊl/",
+        "meaning": "원격 저장소의 최신 변경사항을 로컬 저장소로 가져오는 행위",
+        "korean_pronunciation": "풀"
+    },
+    {
+        "word": "branch",
+        "pronunciation": "/bræntʃ/",
+        "meaning": "버전 관리를 위한 분기된 작업 영역, 다른 작업을 독립적으로 진행할 수 있게 함",
+        "korean_pronunciation": "브랜치"
+    },
+    {
+        "word": "merge",
+        "pronunciation": "/mɜːrdʒ/",
+        "meaning": "다른 브랜치에서 작업한 내용을 현재 브랜치로 통합하는 행위",
+        "korean_pronunciation": "머지"
+    },
+    {
+        "word": "clone",
+        "pronunciation": "/kloʊn/",
+        "meaning": "원격 저장소를 로컬에 복제하는 행위",
+        "korean_pronunciation": "클론"
+    },
+    {
+        "word": "fork",
+        "pronunciation": "/fɔːrk/",
+        "meaning": "다른 사람의 프로젝트를 복제하여 자신의 저장소에서 독립적으로 작업하는 행위",
+        "korean_pronunciation": "포크"
+    },
+    {
+        "word": "stash",
+        "pronunciation": "/stæʃ/",
+        "meaning": "작업 중인 내용을 임시로 저장소에 보관하고, 나중에 다시 가져오는 기능",
+        "korean_pronunciation": "스태시"
+    },
+    {
+        "word": "rebase",
+        "pronunciation": "/ˈriːbeɪs/",
+        "meaning": "브랜치의 변경 내역을 다른 브랜치의 최신 상태로 재적용하는 행위",
+        "korean_pronunciation": "리베이스"
+    },
+    {
+        "word": "merge conflict",
+        "pronunciation": "/mɜːrdʒ ˈkɒnflɪkt/",
+        "meaning": "병합할 때 두 브랜치에서 변경된 내용이 충돌할 때 발생하는 문제",
+        "korean_pronunciation": "머지 충돌"
+    },
+    {
+        "word": "repository",
+        "pronunciation": "/rɪˈpɒzɪtəri/",
+        "meaning": "프로젝트 파일들이 저장되는 곳, 원격 저장소와 로컬 저장소로 나뉨",
+        "korean_pronunciation": "레포지토리"
+    },
+    {
+        "word": "remote",
+        "pronunciation": "/rɪˈmoʊt/",
+        "meaning": "원격 저장소, 인터넷을 통해 접근 가능한 Git 저장소",
+        "korean_pronunciation": "리모트"
+    },
+    {
+        "word": "origin",
+        "pronunciation": "/ˈɔːrɪdʒɪn/",
+        "meaning": "기본 원격 저장소의 이름, 보통 `origin`으로 설정됨",
+        "korean_pronunciation": "오리진"
+    },
+    {
+        "word": "checkout",
+        "pronunciation": "/ˈtʃɛkˌaʊt/",
+        "meaning": "다른 브랜치로 변경하는 행위",
+        "korean_pronunciation": "체크아웃"
+    },
+    {
+        "word": "diff",
+        "pronunciation": "/dɪf/",
+        "meaning": "두 버전 간의 차이를 비교하는 명령어",
+        "korean_pronunciation": "디프"
+    },
+    {
+        "word": "tag",
+        "pronunciation": "/tæɡ/",
+        "meaning": "커밋에 이름을 붙여 중요한 시점을 표시하는 방법",
+        "korean_pronunciation": "태그"
+    },
+    {
+        "word": "commit message",
+        "pronunciation": "/kəˈmɪt ˈmɛsɪdʒ/",
+        "meaning": "커밋을 할 때 변경 사항에 대한 설명을 작성하는 메시지",
+        "korean_pronunciation": "커밋 메시지"
+    },
+    {
+        "word": "gitignore",
+        "pronunciation": "/ˈɡɪtɪɡˈnɔːr/",
+        "meaning": "Git에서 추적하지 않도록 설정하는 파일 목록을 지정하는 파일",
+        "korean_pronunciation": "깃이그노어"
+    },
+    {
+        "word": "blame",
+        "pronunciation": "/bleɪm/",
+        "meaning": "특정 커밋이 어떤 변경을 했는지 추적하는 명령어",
+        "korean_pronunciation": "블레임"
+    },
+    {
+        "word": "pull request",
+        "pronunciation": "/pʊl rɪˈkwɛst/",
+        "meaning": "변경 사항을 원격 저장소에 반영해달라고 요청하는 것",
+        "korean_pronunciation": "풀 리퀘스트"
+    },
+    {
+        "word": "head",
+        "pronunciation": "/hɛd/",
+        "meaning": "현재 브랜치에서 가장 최신의 커밋",
+        "korean_pronunciation": "헤드"
+    }
+,
+
+    {
+        "word": "repository",
+        "pronunciation": "/rɪˈpɒzɪtəri/",
+        "meaning": "GitHub에서 프로젝트 파일을 저장하는 공간. 개인 레포지토리 또는 조직 레포지토리로 존재",
+        "korean_pronunciation": "레포지토리"
+    },
+    {
+        "word": "fork",
+        "pronunciation": "/fɔːrk/",
+        "meaning": "다른 사용자의 레포지토리를 자신의 GitHub 계정으로 복제하여 작업하는 것",
+        "korean_pronunciation": "포크"
+    },
+    {
+        "word": "pull request (PR)",
+        "pronunciation": "/pʊl rɪˈkwɛst/",
+        "meaning": "자신의 레포지토리에서 변경한 내용을 원본 레포지토리에 반영해달라고 요청하는 것",
+        "korean_pronunciation": "풀 리퀘스트 (PR)"
+    },
+    {
+        "word": "issue",
+        "pronunciation": "/ˈɪʃuː/",
+        "meaning": "프로젝트에서 발생하는 버그나 작업 요청을 트래킹하는 GitHub의 기능",
+        "korean_pronunciation": "이슈"
+    },
+    {
+        "word": "milestone",
+        "pronunciation": "/ˈmaɪlstoʊn/",
+        "meaning": "프로젝트에서 중요한 이정표를 설정하는 기능, 프로젝트 목표를 트래킹하는 데 사용",
+        "korean_pronunciation": "마일스톤"
+    },
+    {
+        "word": "wiki",
+        "pronunciation": "/ˈwɪki/",
+        "meaning": "GitHub에서 프로젝트에 대한 문서를 작성하고 관리할 수 있는 공간",
+        "korean_pronunciation": "위키"
+    },
+    {
+        "word": "actions",
+        "pronunciation": "/ˈækʃənz/",
+        "meaning": "GitHub에서 제공하는 자동화된 CI/CD(지속적 통합 및 지속적 배포) 기능",
+        "korean_pronunciation": "액션"
+    },
+    {
+        "word": "GitHub Pages",
+        "pronunciation": "/ˈɡɪthʌb ˈpeɪdʒɪz/",
+        "meaning": "GitHub에서 제공하는 무료 웹 호스팅 서비스, 프로젝트 사이트를 쉽게 배포할 수 있음",
+        "korean_pronunciation": "깃허브 페이지"
+    },
+    {
+        "word": "gitignore",
+        "pronunciation": "/ˈɡɪtɪɡˈnɔːr/",
+        "meaning": "GitHub에서 특정 파일이나 폴더를 Git 버전 관리에서 제외시키는 파일",
+        "korean_pronunciation": "깃이그노어"
+    },
+    {
+        "word": "collaborator",
+        "pronunciation": "/kəˈlæbəreɪtə(r)/",
+        "meaning": "GitHub에서 다른 사람과 함께 프로젝트를 관리하고 수정할 수 있는 권한을 부여받은 사용자",
+        "korean_pronunciation": "콜라보레이터"
+    },
+    {
+        "word": "team",
+        "pronunciation": "/tiːm/",
+        "meaning": "GitHub의 조직 내에서 여러 사용자가 팀을 이루어 협업하는 기능",
+        "korean_pronunciation": "팀"
+    },
+    {
+        "word": "organization",
+        "pronunciation": "/ˌɔːɡənaɪˈzeɪʃən/",
+        "meaning": "GitHub에서 여러 사용자들이 모여서 하나의 팀으로 관리하는 단위",
+        "korean_pronunciation": "조직"
+    },
+    {
+        "word": "GH_TOKEN",
+        "pronunciation": "/dʒiːeɪˈtoʊkən/",
+        "meaning": "GitHub의 API를 통해 인증을 위한 토큰",
+        "korean_pronunciation": "지에이치 토큰"
+    },
+    {
+        "word": "GitHub CLI",
+        "pronunciation": "/ɡɪt hʌb ˈsiːˌɛlˈaɪ/",
+        "meaning": "GitHub의 명령줄 인터페이스 도구로, 로컬에서 GitHub 작업을 할 수 있게 해주는 도구",
+        "korean_pronunciation": "깃허브 CLI"
+    },
+    {
+        "word": "README",
+        "pronunciation": "/ˈriːdˌmiː/",
+        "meaning": "프로젝트의 설명, 사용법 등을 담은 파일, GitHub에서 중요한 문서로 보통 `README.md` 파일 형식으로 존재",
+        "korean_pronunciation": "리드미"
+    }
+]

@@ -1,0 +1,404 @@
+[
+      {
+        "word": "var",
+        "pronunciation": "/vɑːr/",
+        "meaning": "변수 선언 (구식, 최신 문법에서는 사용 자제)",
+        "korean_pronunciation": "바르"
+      },
+      {
+        "word": "let",
+        "pronunciation": "/lɛt/",
+        "meaning": "변수 선언 (블록 스코프를 갖는 변수)",
+        "korean_pronunciation": "렛"
+      },
+      {
+        "word": "const",
+        "pronunciation": "/kɒnst/",
+        "meaning": "상수 선언 (변경 불가능한 값)",
+        "korean_pronunciation": "콘스트"
+      }
+    ,
+    
+  
+      {
+        "word": "number",
+        "pronunciation": "/ˈnʌmbər/",
+        "meaning": "숫자형 데이터 타입 (정수, 실수 등)",
+        "korean_pronunciation": "넘버"
+      },
+      {
+        "word": "string",
+        "pronunciation": "/strɪŋ/",
+        "meaning": "문자열 데이터 타입",
+        "korean_pronunciation": "스트링"
+      },
+      {
+        "word": "boolean",
+        "pronunciation": "/ˈbuːliən/",
+        "meaning": "불리언 값 (참/거짓)",
+        "korean_pronunciation": "불리언"
+      },
+      {
+        "word": "object",
+        "pronunciation": "/ˈɒbdʒɪkt/",
+        "meaning": "객체 데이터 타입",
+        "korean_pronunciation": "오브젝트"
+      },
+      {
+        "word": "array",
+        "pronunciation": "/əˈreɪ/",
+        "meaning": "배열 데이터 타입",
+        "korean_pronunciation": "어레이"
+      },
+      {
+        "word": "undefined",
+        "pronunciation": "/ˌʌndɪˈfaɪnd/",
+        "meaning": "정의되지 않은 값 (변수가 할당되지 않음)",
+        "korean_pronunciation": "언디파인드"
+      },
+      {
+        "word": "null",
+        "pronunciation": "/nʌl/",
+        "meaning": "값이 없음 (명시적인 '없음' 표시)",
+        "korean_pronunciation": "널"
+      }
+    ,
+    
+ 
+      {
+        "word": "+",
+        "pronunciation": "/plʌs/",
+        "meaning": "덧셈 또는 문자열 결합",
+        "korean_pronunciation": "플러스"
+      },
+      {
+        "word": "-",
+        "pronunciation": "/mɪnəs/",
+        "meaning": "뺄셈 또는 음수 변환",
+        "korean_pronunciation": "마이너스"
+      },
+      {
+        "word": "*",
+        "pronunciation": "/stɑːr/",
+        "meaning": "곱셈",
+        "korean_pronunciation": "스타"
+      },
+      {
+        "word": "/",
+        "pronunciation": "/diːvaɪdəd baɪ/",
+        "meaning": "나눗셈",
+        "korean_pronunciation": "슬래시"
+      },
+      {
+        "word": "%",
+        "pronunciation": "/pərˈsɛnt/",
+        "meaning": "나머지 연산자 (모듈러)",
+        "korean_pronunciation": "퍼센트"
+      },
+      {
+        "word": "&&",
+        "pronunciation": "/ænd/",
+        "meaning": "논리 AND 연산자",
+        "korean_pronunciation": "앤드"
+      },
+      {
+        "word": "||",
+        "pronunciation": "/ɔːr/",
+        "meaning": "논리 OR 연산자",
+        "korean_pronunciation": "오어"
+      }
+    ,
+    
+   
+      {
+        "word": "function",
+        "pronunciation": "/ˈfʌŋkʃən/",
+        "meaning": "함수 선언",
+        "korean_pronunciation": "펑션"
+      },
+      {
+        "word": "return",
+        "pronunciation": "/rɪˈtɜːrn/",
+        "meaning": "함수에서 값을 반환",
+        "korean_pronunciation": "리턴"
+      },
+      {
+        "word": "call",
+        "pronunciation": "/kɔːl/",
+        "meaning": "함수를 호출",
+        "korean_pronunciation": "콜"
+      },
+      {
+        "word": "arrow function",
+        "pronunciation": "/ˈærəʊ fʌŋkʃən/",
+        "meaning": "화살표 함수 (간결한 함수 표현식)",
+        "korean_pronunciation": "애로우 펑션"
+      }
+    ,
+    
+    
+      {
+        "word": "push",
+        "pronunciation": "/pʊʃ/",
+        "meaning": "배열의 끝에 요소 추가",
+        "korean_pronunciation": "푸시"
+      },
+      {
+        "word": "pop",
+        "pronunciation": "/pɒp/",
+        "meaning": "배열의 마지막 요소 삭제",
+        "korean_pronunciation": "팝"
+      },
+      {
+        "word": "shift",
+        "pronunciation": "/ʃɪft/",
+        "meaning": "배열의 첫 번째 요소 삭제",
+        "korean_pronunciation": "쉬프트"
+      },
+      {
+        "word": "unshift",
+        "pronunciation": "/ʌnˈʃɪft/",
+        "meaning": "배열의 첫 번째에 요소 추가",
+        "korean_pronunciation": "언쉬프트"
+      },
+      {
+        "word": "map",
+        "pronunciation": "/mæp/",
+        "meaning": "배열의 각 요소를 변환하여 새로운 배열 생성",
+        "korean_pronunciation": "맵"
+      },
+      {
+        "word": "filter",
+        "pronunciation": "/ˈfɪltər/",
+        "meaning": "배열에서 조건에 맞는 요소들만 필터링",
+        "korean_pronunciation": "필터"
+      }
+    ,
+    
+    
+      {
+        "word": "Object.keys",
+        "pronunciation": "/ˈɒbdʒɪkt kɪz/",
+        "meaning": "객체의 모든 키를 배열로 반환",
+        "korean_pronunciation": "오브젝트 키즈"
+      },
+      {
+        "word": "Object.values",
+        "pronunciation": "/ˈɒbdʒɪkt ˈvæljuz/",
+        "meaning": "객체의 모든 값을 배열로 반환",
+        "korean_pronunciation": "오브젝트 밸류즈"
+      },
+      {
+        "word": "Object.assign",
+        "pronunciation": "/ˈɒbdʒɪkt əˈsaɪn/",
+        "meaning": "객체의 값을 다른 객체로 복사",
+        "korean_pronunciation": "오브젝트 어사인"
+      }
+    ,
+  
+      {
+        "word": "addEventListener",
+        "pronunciation": "/æd ˈɪvɛnt lɪsˈtɛnər/",
+        "meaning": "이벤트 리스너를 추가",
+        "korean_pronunciation": "애드 이벤트 리스너"
+      },
+      {
+        "word": "click",
+        "pronunciation": "/klɪk/",
+        "meaning": "클릭 이벤트",
+        "korean_pronunciation": "클릭"
+      },
+      {
+        "word": "keydown",
+        "pronunciation": "/ˈkeɪˌdaʊn/",
+        "meaning": "키를 눌렀을 때 발생하는 이벤트",
+        "korean_pronunciation": "키다운"
+      }
+    ,
+    
+  
+      {
+        "word": "getElementById",
+        "pronunciation": "/ɡɛt ˈɛlɪmənt baɪ aɪ diː/",
+        "meaning": "ID로 요소를 찾음",
+        "korean_pronunciation": "겟 엘리먼트 바이 아이디"
+      },
+      {
+        "word": "querySelector",
+        "pronunciation": "/ˈkwɪərɪ ˈsɛlɛktər/",
+        "meaning": "CSS 선택자로 요소 찾기",
+        "korean_pronunciation": "쿼리 셀렉터"
+      },
+      {
+        "word": "innerHTML",
+        "pronunciation": "/ˈɪnər ˈeɪtʃ tiː ɛl/",
+        "meaning": "HTML 콘텐츠를 가져오거나 설정",
+        "korean_pronunciation": "이너 HTML"
+      }
+,
+    {
+        "word": "Promise",
+        "pronunciation": "/ˈprɑːmɪs/",
+        "meaning": "비동기 작업의 완료 또는 실패를 나타내는 객체",
+        "korean_pronunciation": "프라미스"
+    },
+    {
+        "word": "resolve",
+        "pronunciation": "/rɪˈzɑːlv/",
+        "meaning": "Promise 객체가 성공적으로 완료되었을 때 호출되는 함수",
+        "korean_pronunciation": "리졸브"
+    },
+    {
+        "word": "reject",
+        "pronunciation": "/rɪˈdʒɛkt/",
+        "meaning": "Promise 객체가 실패했을 때 호출되는 함수",
+        "korean_pronunciation": "리젝트"
+    },
+    {
+        "word": "async",
+        "pronunciation": "/ˈæsɪŋk/",
+        "meaning": "비동기 함수 선언을 위한 키워드",
+        "korean_pronunciation": "에이싱크"
+    },
+    {
+        "word": "await",
+        "pronunciation": "/əˈweɪt/",
+        "meaning": "async 함수 안에서 비동기 작업이 끝날 때까지 기다리는 키워드",
+        "korean_pronunciation": "어웨이트"
+    }
+,
+
+    {
+        "word": "closure",
+        "pronunciation": "/ˈkləʊʒər/",
+        "meaning": "함수가 외부 함수의 변수에 접근할 수 있게 하는 특성",
+        "korean_pronunciation": "클로저"
+    },
+    {
+        "word": "hoisting",
+        "pronunciation": "/ˈhɔɪstɪŋ/",
+        "meaning": "변수 선언과 함수 선언이 코드 실행 전에 끌어올려지는 JavaScript 특성",
+        "korean_pronunciation": "호이스팅"
+    },
+    {
+        "word": "scope",
+        "pronunciation": "/skoʊp/",
+        "meaning": "변수가 접근할 수 있는 유효 범위",
+        "korean_pronunciation": "스코프"
+    },
+    {
+        "word": "this",
+        "pronunciation": "/ðɪs/",
+        "meaning": "현재 객체를 가리키는 예약어",
+        "korean_pronunciation": "디스"
+    },
+    {
+        "word": "IIFE (Immediately Invoked Function Expression)",
+        "pronunciation": "/ˈɪmədiətli ɪnˈvoʊkd fʌŋkʃən ɪkˈsprɛʃən/",
+        "meaning": "즉시 실행 함수 표현식, 함수 선언 후 바로 실행되는 방식",
+        "korean_pronunciation": "아이프"
+    }
+,
+
+    {
+        "word": "destructuring",
+        "pronunciation": "/dɪˈstrʌktʃərɪŋ/",
+        "meaning": "배열이나 객체에서 값을 추출하여 변수에 할당하는 방식",
+        "korean_pronunciation": "디스트럭처링"
+    },
+    {
+        "word": "spread operator",
+        "pronunciation": "/sprɛd ˈɒpəˌreɪtə/",
+        "meaning": "배열이나 객체를 펼쳐서 복사하거나 새로운 배열을 만드는 연산자",
+        "korean_pronunciation": "스프레드 오퍼레이터"
+    },
+    {
+        "word": "template literals",
+        "pronunciation": "/ˈtɛmplət ˈlɪtərəlz/",
+        "meaning": "백틱(`)을 사용한 문자열 리터럴, 변수나 표현식을 삽입할 수 있는 기능",
+        "korean_pronunciation": "템플릿 리터럴"
+    },
+    {
+        "word": "arrow function",
+        "pronunciation": "/ˈærəʊ ˈfʌŋkʃən/",
+        "meaning": "function 키워드를 대신하여 화살표(`=>`)로 정의하는 함수",
+        "korean_pronunciation": "애로우 함수"
+    },
+    {
+        "word": "class",
+        "pronunciation": "/klæs/",
+        "meaning": "객체 지향 프로그래밍에서 클래스 정의에 사용하는 키워드",
+        "korean_pronunciation": "클래스"
+    }
+,
+
+    {
+        "word": "try",
+        "pronunciation": "/traɪ/",
+        "meaning": "오류가 발생할 수 있는 코드를 실행하는 구문",
+        "korean_pronunciation": "트라이"
+    },
+    {
+        "word": "catch",
+        "pronunciation": "/kætʃ/",
+        "meaning": "try 블록에서 발생한 오류를 잡아서 처리하는 구문",
+        "korean_pronunciation": "캐치"
+    },
+    {
+        "word": "throw",
+        "pronunciation": "/θroʊ/",
+        "meaning": "명시적으로 오류를 발생시키는 키워드",
+        "korean_pronunciation": "스로우"
+    }
+,
+
+    {
+        "word": "localStorage",
+        "pronunciation": "/ˈloʊkəl ˈstɔːrɪdʒ/",
+        "meaning": "웹 브라우저에 데이터를 영구적으로 저장하는 웹 API",
+        "korean_pronunciation": "로컬스토리지"
+    },
+    {
+        "word": "sessionStorage",
+        "pronunciation": "/ˈsɛʃən ˈstɔːrɪdʒ/",
+        "meaning": "세션 동안만 데이터를 저장하는 웹 API",
+        "korean_pronunciation": "세션스토리지"
+    },
+    {
+        "word": "fetch",
+        "pronunciation": "/fɛtʃ/",
+        "meaning": "네트워크 요청을 보낼 때 사용하는 API",
+        "korean_pronunciation": "펫치"
+    },
+    {
+        "word": "XMLHttpRequest",
+        "pronunciation": "/ˌɛksˌɛmˌɛlˌeɪtʃˌtiːˌpeɪˌɑːrˈkwɛst/",
+        "meaning": "AJAX 요청을 보내는 데 사용되는 오래된 API",
+        "korean_pronunciation": "엑스엠엘 HTTP 요청"
+    }
+,
+
+    {
+        "word": "React",
+        "pronunciation": "/riˈækt/",
+        "meaning": "사용자 인터페이스를 구축하기 위한 JavaScript 라이브러리",
+        "korean_pronunciation": "리액트"
+    },
+    {
+        "word": "Node.js",
+        "pronunciation": "/noʊd dʒeɪ ɛs/",
+        "meaning": "서버 사이드 JavaScript 실행 환경",
+        "korean_pronunciation": "노드 제이에스"
+    },
+    {
+        "word": "Express.js",
+        "pronunciation": "/ɪksˈprɛs dʒeɪ ɛs/",
+        "meaning": "Node.js를 위한 웹 애플리케이션 프레임워크",
+        "korean_pronunciation": "익스프레스 제이에스"
+    }
+]
+
+
+
+
+  

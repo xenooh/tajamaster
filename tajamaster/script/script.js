@@ -86,7 +86,7 @@ async function loadWords(filePath) {
 
      // 단어 통계 표시 엘리먼트 초기화 (레이블 포함)
      if (appearanceCountElement) appearanceCountElement.textContent = '출현 횟수: 0';
-     if (resetCountElement) resetCountElement.textContent = '정답 횟수: 0';
+     if (resetCountElement) resetCountElement.textContent = '누적 횟수: 0';
      if (resetMessageElement) resetMessageElement.textContent = ''; // 초기화 메시지 초기화
 
 

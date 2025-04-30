@@ -41,7 +41,7 @@ body {
   }
   
   .info-area { /* 발음, 뜻, 정보 표시 영역 */
-    font-size: 25px;
+    font-size: 30px;
     color: #555;
     margin-bottom: 25px; /* 이 영역 전체의 아래쪽 여백 유지 */
     min-height: 3em; /* 정보가 바뀌어도 레이아웃 유지 */
