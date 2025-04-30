@@ -86,11 +86,7 @@ async function loadWords(filePath) {
 
      // 단어 통계 표시 엘리먼트 초기화 (레이블 포함)
      if (appearanceCountElement) appearanceCountElement.textContent = '출현 횟수: 0';
-<<<<<<< HEAD
-     if (resetCountElement) resetCountElement.textContent = '누적 횟수: 0';
-=======
      if (resetCountElement) resetCountElement.textContent = '누적 횟수: 0'; // 레이블 변경 반영
->>>>>>> 63675bc9eb9c33d3a7c74de3ff85fc3719139f4f
      if (resetMessageElement) resetMessageElement.textContent = ''; // 초기화 메시지 초기화
 
 
