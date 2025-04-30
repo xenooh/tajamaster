@@ -1,25 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-    background-color: #f0f8ff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 95vh; /* 뷰포트 높이의 95% 이상 차지하여 가운데 정렬 */
-  }
-  .container {
-    max-width: 700px;
-    width: 90%; /* 모바일에서도 잘 보이게 */
-    padding: 30px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  }
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #f0f8ff, #e6f2fa); /* 연한 하늘색 그라데이션 */
+  color: #333; /* 다크 그레이 글자색 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 95vh;
+}
+
+.container {
+  max-width: 700px;
+  width: 90%;
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #ddeeff; /* 연한 파란색 테두리 */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* 그림자 살짝 부드럽게 */
+}
+
   .word-display { /* .word 클래스 대신 사용 */
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     color: #333;
     margin-bottom: 25px;
