@@ -1,10 +1,10 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   margin: 0;
   padding: 20px;
-  background: linear-gradient(135deg, #f0f8ff, #e6f2fa); /* 연한 하늘색 그라데이션 */
-  color: #333; /* 다크 그레이 글자색 */
+  background: linear-gradient(135deg, #f3e5ab, #e6f7f1); /* 부드러운 파스텔톤 그라데이션 */
+  color: #333;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,162 +12,149 @@ body {
   min-height: 95vh;
 }
 
+
 .container {
-  max-width: 700px;
+  max-width: 800px;
   width: 90%;
-  padding: 30px;
+  padding: 40px;
   background: #ffffff;
-  border: 1px solid #ddeeff; /* 연한 파란색 테두리 */
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* 그림자 살짝 부드럽게 */
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* 그림자 효과 강화 */
+  transition: transform 0.3s ease-in-out;
 }
 
-  .word-display { /* .word 클래스 대신 사용 */
-    font-size: 60px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 25px;
-    min-height: 1.2em; /* 단어가 바뀌어도 레이아웃이 크게 변하지 않도록 최소 높이 지정 */
-  }
-  /* 각 글자에 대한 스타일 */
-  .word-display span {
-      transition: color 0.1s ease; /* 색상 변경 시 부드러운 효과 */
-  }
-  .word-display .correct {
-      color: steelblue; /* 맞게 입력된 글자 색상 */
-  }
-  .word-display .incorrect {
-      color: crimson; /* 틀리게 입력된 글자 색상 */
-      text-decoration: underline; /* 틀린 글자 밑줄 */
-  }
-  .word-display .current {
-      border-bottom: 2px solid orange; /* 현재 입력해야 할 글자 하이라이트 */
-  }
-  
-  .info-area { /* 발음, 뜻, 정보 표시 영역 */
-    font-size: 30px;
-    color: #555;
-    margin-bottom: 25px; /* 이 영역 전체의 아래쪽 여백 유지 */
-    min-height: 3em; /* 정보가 바뀌어도 레이아웃 유지 */
-  
-    /* --- 이전 Flexbox 속성은 여기서는 제거하거나 필요에 따라 조절 --- */
-    /* display: flex; /* info-area 자체에 flex 를 주면 자식들(pronunciation-group, meaning)이 옆으로 갑니다. */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* gap: 20px; */
-    /* flex-wrap: wrap; */
-  
-    /* info-area 는 자식 요소들을 기본 블록처럼 세로로 쌓거나, 필요시 세로 정렬을 위해 flex-direction: column 을 줄 수 있습니다. */
-     display: flex; /* 자식 요소들을 Flex 아이템으로 만듭니다. */
-     flex-direction: column; /* 아이템을 세로 방향으로 나열합니다. */
-     align-items: center; /* 세로 나열된 아이템들을 가로 축에서 가운데 정렬합니다. */
-     gap: 10px; /* pronunciation-group 과 meaning div 사이의 세로 간격 (원하는 값으로 조절) */
-  }
-  
-  /* 새로 추가된 발음/한글 발음 그룹에 Flexbox 적용 */
-  .pronunciation-group {
-      display: flex; /* 이 그룹 안의 자식 요소(발음, 한글 발음)를 가로로 나열합니다. */
-      justify-content: center; /* 발음, 한글 발음 항목을 가로 방향으로 가운데 정렬합니다. */
-      align-items: center; /* 발음, 한글 발음 항목을 세로 방향으로 가운데 정렬합니다. */
-      gap: 20px; /* 발음 항목과 한글 발음 항목 사이의 간격 (원하는 값으로 조절) */
-       /* flex-wrap: wrap; /* 필요시 줄바꿈 허용 */
-  }
-  
-  
-  .info-area div {
-      /* 기존 margin-bottom: 5px; 는 이제 필요 없거나, 부모 Flexbox gap과 함께 조절합니다. */
-       margin-bottom: 0; /* Flexbox 사용 시 자식 요소의 기본 margin-bottom을 0으로 초기화 */
-  }
-  
-  /* .meaning 스타일에 추가 여백이 필요하면 여기 조절 */
-  /* .meaning {
-      margin-top: 10px;  /* pronunciation-group 과 meaning 사이의 추가 세로 여백 */
-  /* } */
-  
-  
-  /* ... 나머지 CSS 코드는 그대로 ... */
-  
-  
-  .input-area {
-      margin-bottom: 25px;
-  }
-  
-  #typingInput {
-    font-size: 24px;
-    padding: 12px 15px;
-    /* margin-right: 10px; 실시간 입력에서는 버튼과 분리되어 있으므로 제거 */
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    transition: border-color 0.3s ease;
-    width: 100%; /* 부모 요소 너비에 꽉 차도록 */
-    box-sizing: border-box; /* 패딩 포함 너비 계산 */
-    text-align: center; /* 입력 필드 텍스트 가운데 정렬 (선택 사항) */
-  }
-   #typingInput:focus {
-      border-color: steelblue;
-   }
-  
-  
-  .stats {
-    font-size: 18px;
-    color: #333;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: wrap; /* 화면 좁을 때 줄바꿈 */
-  }
-  .stats div {
-      margin: 5px 10px; /* 통계 항목 간 간격 */
-  }
-  
-  .timer {
-    font-weight: bold;
-    color: #d9534f; /* 빨간색 계열 */
-  }
-  .score, .word-count, .accuracy {
-     font-weight: bold;
-     color: #5cb85c; /* 초록색 계열 */
-  }
-  
-  .button-area {
-      margin-top: 20px;
-  }
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #5cb85c; /* 초록색 */
-    transition: background-color 0.3s ease;
-    margin: 0 5px; /* 버튼 간 간격 */
-  }
-  button:hover {
-    background-color: #4cae4c;
-  }
-  
-  #startButton {
-      background-color: #0275d8; /* 파란색 */
-      /* margin-right: 10px; */
-  }
-  #startButton:hover {
-      background-color: #025aa5;
-  }
-  
-  #resetButton {
-      background-color: #f0ad4e; /* 주황색 */
-  }
-  #resetButton:hover {
-      background-color: #ec971f;
-  }
-  
-  /* 게임 종료 화면 스타일 (옵션) */
-  .game-over {
-      font-size: 28px;
-      color: #d9534f;
-      margin-bottom: 20px;
-      font-weight: bold;
-  }
+.container:hover {
+  transform: scale(1.02); /* 호버 시 살짝 확대 효과 */
+}
+
+.word-display {
+  font-size: 60px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 25px;
+  min-height: 1.2em;
+}
+
+.word-display span {
+  transition: color 0.3s ease, transform 0.3s ease; /* 색상과 애니메이션 효과 강화 */
+}
+
+.word-display .correct {
+  color: #28a745; /* 맞는 글자는 초록색 */
+}
+
+.word-display .incorrect {
+  color: #e74c3c; /* 틀린 글자는 빨간색 */
+  text-decoration: underline;
+  transform: scale(1.1); /* 틀린 글자 살짝 커짐 */
+}
+
+.word-display .current {
+  border-bottom: 3px solid #f39c12; /* 현재 글자 하이라이트 강화 */
+}
+
+.info-area {
+  font-size: 28px;
+  color: #555;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.pronunciation-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#typingInput {
+  font-size: 24px;
+  padding: 12px 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#typingInput:focus {
+  border-color: #ccc; /* 테두리 색상 제거 */
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /* 아주 약한 그림자만 추가 */
+}
+
+
+
+.stats {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.stats div {
+  margin: 5px 10px;
+}
+
+.timer {
+  font-weight: bold;
+  color: #d9534f;
+}
+
+.score, .word-count, .accuracy {
+  font-weight: bold;
+  color: #5cb85c;
+}
+
+.button-area {
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #28a745;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 버튼에 그림자 효과 추가 */
+}
+
+button:hover {
+  background-color: #218838;
+  transform: translateY(-3px); /* 버튼 호버 시 약간 떠오르는 효과 */
+}
+
+#startButton {
+  background-color: #0275d8;
+}
+
+#startButton:hover {
+  background-color: #025aa5;
+}
+
+#resetButton {
+  background-color: #f0ad4e;
+}
+
+#resetButton:hover {
+  background-color: #ec971f;
+}
+
+.game-over {
+  font-size: 32px;
+  color: #d9534f;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* 게임 종료 시 텍스트 그림자 추가 */
+}
