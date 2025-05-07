@@ -57,7 +57,7 @@
         "word": "merge conflict",
         "pronunciation": "/mɜːrdʒ ˈkɒnflɪkt/",
         "meaning": "병합할 때 두 브랜치에서 변경된 내용이 충돌할 때 발생하는 문제",
-        "korean_pronunciation": "머지 충돌"
+        "korean_pronunciation": "머지 컨플릭트"
     },
     {
         "word": "repository",
@@ -197,7 +197,7 @@
         "word": "organization",
         "pronunciation": "/ˌɔːɡənaɪˈzeɪʃən/",
         "meaning": "GitHub에서 여러 사용자들이 모여서 하나의 팀으로 관리하는 단위",
-        "korean_pronunciation": "조직"
+        "korean_pronunciation": "오거너제이션"
     },
     {
         "word": "GH_TOKEN",
