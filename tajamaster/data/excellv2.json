@@ -1,0 +1,290 @@
+[
+  {
+    "word": "SUMIF",
+    "pronunciation": "썸-이프",
+    "meaning": "조건에 맞는 값들의 합을 구함",
+    "korean_pronunciation": "썸이프"
+  },
+  {
+    "word": "SUMIFS",
+    "pronunciation": "썸-이프스",
+    "meaning": "여러 조건에 맞는 값들의 합",
+    "korean_pronunciation": "썸이프스"
+  },
+  {
+    "word": "COUNTIF",
+    "pronunciation": "카운트-이프",
+    "meaning": "조건에 맞는 셀 개수 세기",
+    "korean_pronunciation": "카운트이프"
+  },
+  {
+    "word": "COUNTIFS",
+    "pronunciation": "카운트-이프스",
+    "meaning": "여러 조건에 맞는 셀 개수 세기",
+    "korean_pronunciation": "카운트이프스"
+  },
+  {
+    "word": "AVERAGEIF",
+    "pronunciation": "에버리지-이프",
+    "meaning": "조건에 맞는 값들의 평균",
+    "korean_pronunciation": "에버리지이프"
+  },
+  {
+    "word": "AVERAGEIFS",
+    "pronunciation": "에버리지-이프스",
+    "meaning": "여러 조건에 맞는 평균",
+    "korean_pronunciation": "에버리지이프스"
+  },
+  {
+    "word": "VLOOKUP",
+    "pronunciation": "브이-루캅",
+    "meaning": "세로 방향으로 값 찾기",
+    "korean_pronunciation": "브이루캅"
+  },
+  {
+    "word": "HLOOKUP",
+    "pronunciation": "에이치-루캅",
+    "meaning": "가로 방향으로 값 찾기",
+    "korean_pronunciation": "에이치루캅"
+  },
+  {
+    "word": "INDEX",
+    "pronunciation": "인덱스",
+    "meaning": "행/열 번호로 특정 값 가져오기",
+    "korean_pronunciation": "인덱스"
+  },
+  {
+    "word": "MATCH",
+    "pronunciation": "매치",
+    "meaning": "값이 있는 위치(번호) 찾기",
+    "korean_pronunciation": "매치"
+  },
+  {
+    "word": "CHOOSE",
+    "pronunciation": "츄즈",
+    "meaning": "목록에서 번호에 해당하는 값을 선택",
+    "korean_pronunciation": "츄즈"
+  },
+  {
+    "word": "LEFT",
+    "pronunciation": "레프트",
+    "meaning": "문자열 왼쪽에서 지정 길이만큼 추출",
+    "korean_pronunciation": "레프트"
+  },
+  {
+    "word": "RIGHT",
+    "pronunciation": "라이트",
+    "meaning": "문자열 오른쪽에서 지정 길이만큼 추출",
+    "korean_pronunciation": "라이트"
+  },
+  {
+    "word": "MID",
+    "pronunciation": "미드",
+    "meaning": "문자열 중간에서 추출",
+    "korean_pronunciation": "미드"
+  },
+  {
+    "word": "LEN",
+    "pronunciation": "렌",
+    "meaning": "문자열 길이 반환",
+    "korean_pronunciation": "렌"
+  },
+  {
+    "word": "FIND",
+    "pronunciation": "파인드",
+    "meaning": "대소문자 구분하여 문자 위치 찾기",
+    "korean_pronunciation": "파인드"
+  },
+  {
+    "word": "SEARCH",
+    "pronunciation": "서치",
+    "meaning": "대소문자 구분 없이 문자 위치 찾기",
+    "korean_pronunciation": "서치"
+  },
+  {
+    "word": "REPLACE",
+    "pronunciation": "리플레이스",
+    "meaning": "문자열 일부를 다른 문자열로 변경",
+    "korean_pronunciation": "리플레이스"
+  },
+  {
+    "word": "SUBSTITUTE",
+    "pronunciation": "섭스티튜트",
+    "meaning": "특정 문자 또는 단어를 다른 것으로 치환",
+    "korean_pronunciation": "섭스티튜트"
+  },
+  {
+    "word": "CONCATENATE",
+    "pronunciation": "컨-캐트-어-네이트",
+    "meaning": "여러 텍스트를 하나로 결합",
+    "korean_pronunciation": "컨캐트어네이트"
+  },
+  {
+    "word": "TEXT",
+    "pronunciation": "텍스트",
+    "meaning": "숫자/날짜를 지정 형식으로 변환",
+    "korean_pronunciation": "텍스트"
+  },
+  {
+    "word": "UPPER",
+    "pronunciation": "어퍼",
+    "meaning": "문자를 모두 대문자로",
+    "korean_pronunciation": "어퍼"
+  },
+  {
+    "word": "LOWER",
+    "pronunciation": "로워",
+    "meaning": "문자를 모두 소문자로",
+    "korean_pronunciation": "로워"
+  },
+  {
+    "word": "PROPER",
+    "pronunciation": "프라퍼",
+    "meaning": "각 단어의 첫 글자만 대문자로",
+    "korean_pronunciation": "프라퍼"
+  },
+  {
+    "word": "ROUND",
+    "pronunciation": "라운드",
+    "meaning": "반올림",
+    "korean_pronunciation": "라운드"
+  },
+  {
+    "word": "ROUNDUP",
+    "pronunciation": "라운드업",
+    "meaning": "올림",
+    "korean_pronunciation": "라운드업"
+  },
+  {
+    "word": "ROUNDDOWN",
+    "pronunciation": "라운드다운",
+    "meaning": "내림",
+    "korean_pronunciation": "라운드다운"
+  },
+  {
+    "word": "CEILING",
+    "pronunciation": "씨-일링",
+    "meaning": "지정 단위로 올림",
+    "korean_pronunciation": "씨일링"
+  },
+  {
+    "word": "FLOOR",
+    "pronunciation": "플로어",
+    "meaning": "지정 단위로 내림",
+    "korean_pronunciation": "플로어"
+  },
+  {
+    "word": "ABS",
+    "pronunciation": "앱스",
+    "meaning": "절대값",
+    "korean_pronunciation": "앱스"
+  },
+  {
+    "word": "MOD",
+    "pronunciation": "모드",
+    "meaning": "나머지 계산",
+    "korean_pronunciation": "모드"
+  },
+  {
+    "word": "PRODUCT",
+    "pronunciation": "프로덕트",
+    "meaning": "모든 숫자의 곱",
+    "korean_pronunciation": "프로덕트"
+  },
+  {
+    "word": "QUARTILE",
+    "pronunciation": "쿼타일",
+    "meaning": "데이터의 사분위수",
+    "korean_pronunciation": "쿼타일"
+  },
+  {
+    "word": "RANK",
+    "pronunciation": "랭크",
+    "meaning": "순위 계산",
+    "korean_pronunciation": "랭크"
+  },
+  {
+    "word": "LARGE",
+    "pronunciation": "라지",
+    "meaning": "n번째로 큰 값",
+    "korean_pronunciation": "라지"
+  },
+  {
+    "word": "SMALL",
+    "pronunciation": "스몰",
+    "meaning": "n번째로 작은 값",
+    "korean_pronunciation": "스몰"
+  },
+  {
+    "word": "TRANSPOSE",
+    "pronunciation": "트랜스포즈",
+    "meaning": "행과 열을 서로 바꾸기",
+    "korean_pronunciation": "트랜스포즈"
+  },
+  {
+    "word": "FREQUENCY",
+    "pronunciation": "프리퀀시",
+    "meaning": "범위별 데이터 개수 계산",
+    "korean_pronunciation": "프리퀀시"
+  },
+  {
+    "word": "OFFSET",
+    "pronunciation": "오프셋",
+    "meaning": "기준 셀에서 행/열 이동 후 범위 반환",
+    "korean_pronunciation": "오프셋"
+  },
+  {
+    "word": "INDIRECT",
+    "pronunciation": "인다이렉트",
+    "meaning": "문자열을 주소로 변환하여 참조",
+    "korean_pronunciation": "인다이렉트"
+  },
+  {
+    "word": "ROW",
+    "pronunciation": "로우",
+    "meaning": "현재 행 번호 반환",
+    "korean_pronunciation": "로우"
+  },
+  {
+    "word": "COLUMN",
+    "pronunciation": "컬럼",
+    "meaning": "현재 열 번호 반환",
+    "korean_pronunciation": "컬럼"
+  },
+  {
+    "word": "ROWS",
+    "pronunciation": "로우즈",
+    "meaning": "영역의 행 개수 반환",
+    "korean_pronunciation": "로우즈"
+  },
+  {
+    "word": "COLUMNS",
+    "pronunciation": "컬럼즈",
+    "meaning": "영역의 열 개수 반환",
+    "korean_pronunciation": "컬럼즈"
+  },
+  {
+    "word": "NOW",
+    "pronunciation": "나우",
+    "meaning": "현재 날짜와 시간",
+    "korean_pronunciation": "나우"
+  },
+  {
+    "word": "TODAY",
+    "pronunciation": "투데이",
+    "meaning": "오늘 날짜",
+    "korean_pronunciation": "투데이"
+  },
+  {
+    "word": "EDATE",
+    "pronunciation": "이데이트",
+    "meaning": "날짜에서 개월 수 이동",
+    "korean_pronunciation": "이데이트"
+  },
+  {
+    "word": "EOMONTH",
+    "pronunciation": "이오먼스",
+    "meaning": "해당 월의 마지막 날짜 반환",
+    "korean_pronunciation": "이오먼스"
+  }
+]

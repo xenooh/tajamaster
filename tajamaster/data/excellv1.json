@@ -1,0 +1,314 @@
+[
+    {
+        "word": "SUM",
+        "pronunciation": "/sʌm/",
+        "meaning": "셀 범위의 합계를 계산",
+        "korean_pronunciation": "썸"
+    },
+    {
+        "word": "AVERAGE",
+        "pronunciation": "/ˈæv.ər.ɪdʒ/",
+        "meaning": "평균을 계산",
+        "korean_pronunciation": "애버리지"
+    },
+    {
+        "word": "COUNT",
+        "pronunciation": "/kaʊnt/",
+        "meaning": "숫자가 들어 있는 셀 개수 계산",
+        "korean_pronunciation": "카운트"
+    },
+    {
+        "word": "COUNTA",
+        "pronunciation": "/kaʊntˈeɪ/",
+        "meaning": "비어 있지 않은 셀 개수 계산",
+        "korean_pronunciation": "카운트 에이"
+    },
+    {
+        "word": "COUNTBLANK",
+        "pronunciation": "/kaʊnt blæŋk/",
+        "meaning": "빈 셀의 개수 계산",
+        "korean_pronunciation": "카운트 블랭크"
+    },
+    {
+        "word": "MAX",
+        "pronunciation": "/mæks/",
+        "meaning": "가장 큰 값 반환",
+        "korean_pronunciation": "맥스"
+    },
+    {
+        "word": "MIN",
+        "pronunciation": "/mɪn/",
+        "meaning": "가장 작은 값 반환",
+        "korean_pronunciation": "민"
+    },
+    {
+        "word": "PRODUCT",
+        "pronunciation": "/ˈprɒdʌkt/",
+        "meaning": "모든 값을 곱함",
+        "korean_pronunciation": "프로덕트"
+    },
+    {
+        "word": "SUBTOTAL",
+        "pronunciation": "/ˈsʌbˌtoʊtəl/",
+        "meaning": "필터링된 범위의 부분합 계산",
+        "korean_pronunciation": "섭토틀"
+    },
+    {
+        "word": "IF",
+        "pronunciation": "/ɪf/",
+        "meaning": "조건에 따라 다른 값을 반환",
+        "korean_pronunciation": "이프"
+    },
+    {
+        "word": "AND",
+        "pronunciation": "/ænd/",
+        "meaning": "모든 조건이 참인지 확인",
+        "korean_pronunciation": "앤드"
+    },
+    {
+        "word": "OR",
+        "pronunciation": "/ɔːr/",
+        "meaning": "조건 중 하나라도 참인지 확인",
+        "korean_pronunciation": "오어"
+    },
+    {
+        "word": "NOT",
+        "pronunciation": "/nɑːt/",
+        "meaning": "조건의 반대를 반환",
+        "korean_pronunciation": "낫"
+    },
+    {
+        "word": "LEFT",
+        "pronunciation": "/lɛft/",
+        "meaning": "문자열 왼쪽에서 문자 추출",
+        "korean_pronunciation": "레프트"
+    },
+    {
+        "word": "RIGHT",
+        "pronunciation": "/raɪt/",
+        "meaning": "문자열 오른쪽에서 문자 추출",
+        "korean_pronunciation": "라이트"
+    },
+    {
+        "word": "MID",
+        "pronunciation": "/mɪd/",
+        "meaning": "문자열 중간에서 문자 추출",
+        "korean_pronunciation": "미드"
+    },
+    {
+        "word": "LEN",
+        "pronunciation": "/lɛn/",
+        "meaning": "문자열 길이 반환",
+        "korean_pronunciation": "렌"
+    },
+    {
+        "word": "TRIM",
+        "pronunciation": "/trɪm/",
+        "meaning": "문자열 앞뒤 공백 제거",
+        "korean_pronunciation": "트림"
+    },
+    {
+        "word": "LOWER",
+        "pronunciation": "/ˈloʊ.ər/",
+        "meaning": "문자열을 소문자로 변환",
+        "korean_pronunciation": "로어"
+    },
+    {
+        "word": "UPPER",
+        "pronunciation": "/ˈʌp.ər/",
+        "meaning": "문자열을 대문자로 변환",
+        "korean_pronunciation": "어퍼"
+    },
+    {
+        "word": "CONCAT",
+        "pronunciation": "/ˈkɒn.kæt/",
+        "meaning": "문자열을 결합",
+        "korean_pronunciation": "컨캣"
+    },
+    {
+        "word": "TEXTJOIN",
+        "pronunciation": "/tekst dʒɔɪn/",
+        "meaning": "구분자를 사용해 여러 문자열 결합",
+        "korean_pronunciation": "텍스트 조인"
+    },
+    {
+        "word": "REPT",
+        "pronunciation": "/rɛpt/",
+        "meaning": "문자열을 지정 횟수만큼 반복",
+        "korean_pronunciation": "렙트"
+    },
+    {
+        "word": "TODAY",
+        "pronunciation": "/təˈdeɪ/",
+        "meaning": "오늘 날짜 반환",
+        "korean_pronunciation": "투데이"
+    },
+    {
+        "word": "NOW",
+        "pronunciation": "/naʊ/",
+        "meaning": "현재 날짜와 시간 반환",
+        "korean_pronunciation": "나우"
+    },
+    {
+        "word": "DAY",
+        "pronunciation": "/deɪ/",
+        "meaning": "날짜에서 일(day) 숫자 반환",
+        "korean_pronunciation": "데이"
+    },
+    {
+        "word": "MONTH",
+        "pronunciation": "/mʌnθ/",
+        "meaning": "날짜에서 월(month) 반환",
+        "korean_pronunciation": "먼쓰"
+    },
+    {
+        "word": "YEAR",
+        "pronunciation": "/jɪr/",
+        "meaning": "날짜에서 연도 반환",
+        "korean_pronunciation": "이어"
+    },
+    {
+        "word": "DATE",
+        "pronunciation": "/deɪt/",
+        "meaning": "연/월/일을 날짜로 변환",
+        "korean_pronunciation": "데이트"
+    },
+    {
+        "word": "WEEKDAY",
+        "pronunciation": "/ˈwiːk.deɪ/",
+        "meaning": "요일을 숫자로 반환",
+        "korean_pronunciation": "위크데이"
+    },
+    {
+        "word": "HOUR",
+        "pronunciation": "/aʊər/",
+        "meaning": "시간에서 시(hour) 반환",
+        "korean_pronunciation": "아워"
+    },
+    {
+        "word": "MINUTE",
+        "pronunciation": "/ˈmɪn.ɪt/",
+        "meaning": "시간에서 분(minute) 반환",
+        "korean_pronunciation": "미닛"
+    },
+    {
+        "word": "SECOND",
+        "pronunciation": "/ˈsek.ənd/",
+        "meaning": "시간에서 초(second) 반환",
+        "korean_pronunciation": "세컨드"
+    },
+    {
+        "word": "COUNTIF",
+        "pronunciation": "/kaʊnt ɪf/",
+        "meaning": "조건에 맞는 셀 개수 계산",
+        "korean_pronunciation": "카운트 이프"
+    },
+    {
+        "word": "SUMIF",
+        "pronunciation": "/sʌm ɪf/",
+        "meaning": "조건에 맞는 값만 합계 계산",
+        "korean_pronunciation": "썸 이프"
+    },
+    {
+        "word": "AVERAGEIF",
+        "pronunciation": "/ˈæv.ər.ɪdʒ ɪf/",
+        "meaning": "조건에 맞는 값만 평균 계산",
+        "korean_pronunciation": "애버리지 이프"
+    },
+    {
+        "word": "ROUND",
+        "pronunciation": "/raʊnd/",
+        "meaning": "숫자를 반올림",
+        "korean_pronunciation": "라운드"
+    },
+    {
+        "word": "ROUNDUP",
+        "pronunciation": "/raʊnd ʌp/",
+        "meaning": "숫자를 올림",
+        "korean_pronunciation": "라운드 업"
+    },
+    {
+        "word": "ROUNDDOWN",
+        "pronunciation": "/raʊnd daʊn/",
+        "meaning": "숫자를 내림",
+        "korean_pronunciation": "라운드 다운"
+    },
+    {
+        "word": "ABS",
+        "pronunciation": "/æbz/",
+        "meaning": "숫자의 절댓값 반환",
+        "korean_pronunciation": "앱즈"
+    },
+    {
+        "word": "SQRT",
+        "pronunciation": "/skwɔːrt/",
+        "meaning": "제곱근 계산",
+        "korean_pronunciation": "스퀘어루트"
+    },
+    {
+        "word": "INT",
+        "pronunciation": "/ɪnt/",
+        "meaning": "소수점 버림",
+        "korean_pronunciation": "인트"
+    },
+    {
+        "word": "MOD",
+        "pronunciation": "/mɒd/",
+        "meaning": "나머지 반환",
+        "korean_pronunciation": "모드"
+    },
+    {
+        "word": "RAND",
+        "pronunciation": "/rænd/",
+        "meaning": "0~1 사이 난수 생성",
+        "korean_pronunciation": "랜"
+    },
+    {
+        "word": "RANDBETWEEN",
+        "pronunciation": "/rænd bɪˈtwiːn/",
+        "meaning": "지정한 범위 내 난수 생성",
+        "korean_pronunciation": "랜드비트윈"
+    },
+    {
+        "word": "PMT",
+        "pronunciation": "/pɪˈɛm.tiː/",
+        "meaning": "대출의 일정 지급액 계산",
+        "korean_pronunciation": "피엠티"
+    },
+    {
+        "word": "FV",
+        "pronunciation": "/ɛf viː/",
+        "meaning": "미래가치 계산",
+        "korean_pronunciation": "에프브이"
+    },
+    {
+        "word": "IFERROR",
+        "pronunciation": "/ɪf ˈɛr.ər/",
+        "meaning": "오류 발생 시 대체 값 반환",
+        "korean_pronunciation": "이프 에러"
+    },
+    {
+        "word": "ISERROR",
+        "pronunciation": "/ɪs ˈɛr.ər/",
+        "meaning": "오류 여부 확인",
+        "korean_pronunciation": "이즈 에러"
+    },
+    {
+        "word": "UNIQUE",
+        "pronunciation": "/juːˈniːk/",
+        "meaning": "고유한 값만 반환",
+        "korean_pronunciation": "유니크"
+    },
+    {
+        "word": "SORT",
+        "pronunciation": "/sɔːrt/",
+        "meaning": "데이터 정렬",
+        "korean_pronunciation": "소트"
+    },
+    {
+        "word": "SEQUENCE",
+        "pronunciation": "/ˈsiː.kwəns/",
+        "meaning": "순차적인 배열 생성",
+        "korean_pronunciation": "시퀀스"
+    }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "word": "SELECT",
+    "pronunciation": "셀렉트",
+    "meaning": "데이터 조회",
+    "korean_pronunciation": "셀렉트"
+  },
+  {
+    "word": "FROM",
+    "pronunciation": "프롬",
+    "meaning": "테이블 지정",
+    "korean_pronunciation": "프롬"
+  },
+  {
+    "word": "WHERE",
+    "pronunciation": "웨어",
+    "meaning": "조건 지정",
+    "korean_pronunciation": "웨어"
+  },
+  {
+    "word": "INSERT",
+    "pronunciation": "인서트",
+    "meaning": "데이터 삽입",
+    "korean_pronunciation": "인서트"
+  },
+  {
+    "word": "INTO",
+    "pronunciation": "인투",
+    "meaning": "테이블 지정",
+    "korean_pronunciation": "인투"
+  },
+  {
+    "word": "VALUES",
+    "pronunciation": "밸류즈",
+    "meaning": "삽입할 값 지정",
+    "korean_pronunciation": "밸류즈"
+  },
+  {
+    "word": "UPDATE",
+    "pronunciation": "업데이트",
+    "meaning": "데이터 수정",
+    "korean_pronunciation": "업데이트"
+  },
+  {
+    "word": "SET",
+    "pronunciation": "셋",
+    "meaning": "변경할 컬럼 지정",
+    "korean_pronunciation": "셋"
+  },
+  {
+    "word": "DELETE",
+    "pronunciation": "딜리트",
+    "meaning": "데이터 삭제",
+    "korean_pronunciation": "딜리트"
+  },
+  {
+    "word": "CREATE",
+    "pronunciation": "크리에이트",
+    "meaning": "테이블/DB 생성",
+    "korean_pronunciation": "크리에이트"
+  },
+  {
+    "word": "DROP",
+    "pronunciation": "드롭",
+    "meaning": "테이블/DB 삭제",
+    "korean_pronunciation": "드롭"
+  },
+  {
+    "word": "ALTER",
+    "pronunciation": "얼터",
+    "meaning": "테이블 구조 변경",
+    "korean_pronunciation": "얼터"
+  },
+  {
+    "word": "JOIN",
+    "pronunciation": "조인",
+    "meaning": "테이블 연결",
+    "korean_pronunciation": "조인"
+  },
+  {
+    "word": "INNER JOIN",
+    "pronunciation": "이너 조인",
+    "meaning": "양쪽 테이블 모두 일치하는 행 연결",
+    "korean_pronunciation": "이너 조인"
+  },
+  {
+    "word": "LEFT JOIN",
+    "pronunciation": "레프트 조인",
+    "meaning": "왼쪽 테이블 기준 연결",
+    "korean_pronunciation": "레프트 조인"
+  },
+  {
+    "word": "RIGHT JOIN",
+    "pronunciation": "라이트 조인",
+    "meaning": "오른쪽 테이블 기준 연결",
+    "korean_pronunciation": "라이트 조인"
+  },
+  {
+    "word": "FULL OUTER JOIN",
+    "pronunciation": "풀 아우터 조인",
+    "meaning": "양쪽 테이블 모두 포함",
+    "korean_pronunciation": "풀 아우터 조인"
+  },
+  {
+    "word": "ON",
+    "pronunciation": "온",
+    "meaning": "JOIN 조건 지정",
+    "korean_pronunciation": "온"
+  },
+  {
+    "word": "GROUP BY",
+    "pronunciation": "그룹 바이",
+    "meaning": "데이터 그룹화",
+    "korean_pronunciation": "그룹 바이"
+  },
+  {
+    "word": "HAVING",
+    "pronunciation": "해빙",
+    "meaning": "그룹 조건 지정",
+    "korean_pronunciation": "해빙"
+  },
+  {
+    "word": "ORDER BY",
+    "pronunciation": "오더 바이",
+    "meaning": "정렬",
+    "korean_pronunciation": "오더 바이"
+  },
+  {
+    "word": "ASC",
+    "pronunciation": "에이-에스-씨",
+    "meaning": "오름차순 정렬",
+    "korean_pronunciation": "에이-에스-씨"
+  },
+  {
+    "word": "DESC",
+    "pronunciation": "디-에스-씨",
+    "meaning": "내림차순 정렬",
+    "korean_pronunciation": "디-에스-씨"
+  },
+  {
+    "word": "DISTINCT",
+    "pronunciation": "디스팅트",
+    "meaning": "중복 제거",
+    "korean_pronunciation": "디스팅트"
+  },
+  {
+    "word": "LIKE",
+    "pronunciation": "라이크",
+    "meaning": "패턴 매칭",
+    "korean_pronunciation": "라이크"
+  },
+  {
+    "word": "IN",
+    "pronunciation": "인",
+    "meaning": "값 목록에 있는지 확인",
+    "korean_pronunciation": "인"
+  },
+  {
+    "word": "BETWEEN",
+    "pronunciation": "비트윈",
+    "meaning": "범위 조건",
+    "korean_pronunciation": "비트윈"
+  },
+  {
+    "word": "IS NULL",
+    "pronunciation": "이즈 널",
+    "meaning": "값이 NULL인지 확인",
+    "korean_pronunciation": "이즈 널"
+  },
+  {
+    "word": "IS NOT NULL",
+    "pronunciation": "이즈 낫 널",
+    "meaning": "값이 NULL이 아닌지 확인",
+    "korean_pronunciation": "이즈 낫 널"
+  },
+  {
+    "word": "COUNT",
+    "pronunciation": "카운트",
+    "meaning": "행 개수 계산",
+    "korean_pronunciation": "카운트"
+  },
+  {
+    "word": "SUM",
+    "pronunciation": "썸",
+    "meaning": "합계 계산",
+    "korean_pronunciation": "썸"
+  },
+  {
+    "word": "AVG",
+    "pronunciation": "애브지",
+    "meaning": "평균 계산",
+    "korean_pronunciation": "애브지"
+  },
+  {
+    "word": "MIN",
+    "pronunciation": "민",
+    "meaning": "최솟값 계산",
+    "korean_pronunciation": "민"
+  },
+  {
+    "word": "MAX",
+    "pronunciation": "맥스",
+    "meaning": "최댓값 계산",
+    "korean_pronunciation": "맥스"
+  },
+  {
+    "word": "ROUND",
+    "pronunciation": "라운드",
+    "meaning": "반올림",
+    "korean_pronunciation": "라운드"
+  },
+  {
+    "word": "NOW",
+    "pronunciation": "나우",
+    "meaning": "현재 날짜/시간 반환",
+    "korean_pronunciation": "나우"
+  },
+  {
+    "word": "GETDATE",
+    "pronunciation": "겟데이트",
+    "meaning": "SQL Server 현재 날짜/시간",
+    "korean_pronunciation": "겟데이트"
+  },
+  {
+    "word": "CAST",
+    "pronunciation": "캐스트",
+    "meaning": "데이터 타입 변환",
+    "korean_pronunciation": "캐스트"
+  },
+  {
+    "word": "CONVERT",
+    "pronunciation": "컨버트",
+    "meaning": "데이터 타입 변환",
+    "korean_pronunciation": "컨버트"
+  },
+  {
+    "word": "ROUND",
+    "pronunciation": "라운드",
+    "meaning": "숫자 반올림",
+    "korean_pronunciation": "라운드"
+  },
+  {
+    "word": "TOP",
+    "pronunciation": "탑",
+    "meaning": "상위 N개 데이터 조회",
+    "korean_pronunciation": "탑"
+  },
+  {
+    "word": "LIMIT",
+    "pronunciation": "리밋",
+    "meaning": "조회 데이터 제한",
+    "korean_pronunciation": "리밋"
+  },
+  {
+    "word": "OFFSET",
+    "pronunciation": "오프셋",
+    "meaning": "조회 시작 위치",
+    "korean_pronunciation": "오프셋"
+  },
+  {
+    "word": "CASE",
+    "pronunciation": "케이스",
+    "meaning": "조건문 처리",
+    "korean_pronunciation": "케이스"
+  },
+  {
+    "word": "WHEN",
+    "pronunciation": "휜",
+    "meaning": "조건 지정",
+    "korean_pronunciation": "휜"
+  },
+  {
+    "word": "THEN",
+    "pronunciation": "덴",
+    "meaning": "조건이 맞을 때 값 지정",
+    "korean_pronunciation": "덴"
+  },
+  {
+    "word": "ELSE",
+    "pronunciation": "엘스",
+    "meaning": "조건이 모두 맞지 않을 때",
+    "korean_pronunciation": "엘스"
+  }
+]

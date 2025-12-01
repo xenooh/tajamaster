@@ -1,0 +1,266 @@
+[
+  {
+    "word": "XLOOKUP",
+    "pronunciation": "엑스-루캅",
+    "meaning": "세로/가로 상관없이 값 찾기",
+    "korean_pronunciation": "엑스루캅"
+  },
+  {
+    "word": "XMATCH",
+    "pronunciation": "엑스-매치",
+    "meaning": "값 위치 찾기 (XLOOKUP용)",
+    "korean_pronunciation": "엑스매치"
+  },
+  {
+    "word": "FILTER",
+    "pronunciation": "필터",
+    "meaning": "조건에 맞는 데이터만 추출",
+    "korean_pronunciation": "필터"
+  },
+  {
+    "word": "SORTBY",
+    "pronunciation": "소트바이",
+    "meaning": "다른 범위를 기준으로 정렬",
+    "korean_pronunciation": "소트바이"
+  },
+  {
+    "word": "UNIQUE",
+    "pronunciation": "유니크",
+    "meaning": "중복 제거 후 고유 값만 반환",
+    "korean_pronunciation": "유니크"
+  },
+  {
+    "word": "TAKE",
+    "pronunciation": "테이크",
+    "meaning": "범위에서 일부 데이터 추출",
+    "korean_pronunciation": "테이크"
+  },
+  {
+    "word": "DROP",
+    "pronunciation": "드롭",
+    "meaning": "범위 앞/뒤 일부 제거",
+    "korean_pronunciation": "드롭"
+  },
+  {
+    "word": "LET",
+    "pronunciation": "렛",
+    "meaning": "계산 중간 값을 변수처럼 저장",
+    "korean_pronunciation": "렛"
+  },
+  {
+    "word": "LAMBDA",
+    "pronunciation": "램다",
+    "meaning": "사용자 정의 함수 만들기",
+    "korean_pronunciation": "램다"
+  },
+  {
+    "word": "IFS",
+    "pronunciation": "이프스",
+    "meaning": "여러 조건 순차 검사",
+    "korean_pronunciation": "이프스"
+  },
+  {
+    "word": "SWITCH",
+    "pronunciation": "스위치",
+    "meaning": "값 비교 후 매칭되는 결과 반환",
+    "korean_pronunciation": "스위치"
+  },
+  {
+    "word": "FORMULATEXT",
+    "pronunciation": "포뮬라텍스트",
+    "meaning": "셀의 수식을 텍스트로 가져오기",
+    "korean_pronunciation": "포뮬라텍스트"
+  },
+  {
+    "word": "MMULT",
+    "pronunciation": "엠멀트",
+    "meaning": "행렬 곱",
+    "korean_pronunciation": "엠멀트"
+  },
+  {
+    "word": "MINVERSE",
+    "pronunciation": "엠인버스",
+    "meaning": "행렬 역행렬 계산",
+    "korean_pronunciation": "엠인버스"
+  },
+  {
+    "word": "MDETERM",
+    "pronunciation": "엠디텀",
+    "meaning": "행렬식 계산",
+    "korean_pronunciation": "엠디텀"
+  },
+  {
+    "word": "LINEST",
+    "pronunciation": "라인스트",
+    "meaning": "선형 회귀 분석",
+    "korean_pronunciation": "라인스트"
+  },
+  {
+    "word": "LOGEST",
+    "pronunciation": "로지스트",
+    "meaning": "지수 회귀 분석",
+    "korean_pronunciation": "로지스트"
+  },
+  {
+    "word": "TREND",
+    "pronunciation": "트렌드",
+    "meaning": "선형 추세 예측",
+    "korean_pronunciation": "트렌드"
+  },
+  {
+    "word": "FORECAST",
+    "pronunciation": "포캐스트",
+    "meaning": "미래 값 예측",
+    "korean_pronunciation": "포캐스트"
+  },
+  {
+    "word": "GROWTH",
+    "pronunciation": "그로스",
+    "meaning": "지수 성장 예측",
+    "korean_pronunciation": "그로스"
+  },
+  {
+    "word": "TEXTAFTER",
+    "pronunciation": "텍스트애프터",
+    "meaning": "특정 텍스트 뒤 문자열 추출",
+    "korean_pronunciation": "텍스트애프터"
+  },
+  {
+    "word": "TEXTBEFORE",
+    "pronunciation": "텍스트비포",
+    "meaning": "특정 텍스트 앞 문자열 추출",
+    "korean_pronunciation": "텍스트비포"
+  },
+  {
+    "word": "TEXTSPLIT",
+    "pronunciation": "텍스트스플릿",
+    "meaning": "문자열을 구분자로 분리",
+    "korean_pronunciation": "텍스트스플릿"
+  },
+  {
+    "word": "REGEXMATCH",
+    "pronunciation": "레지엑스매치",
+    "meaning": "정규식 패턴 검사",
+    "korean_pronunciation": "레지엑스매치"
+  },
+  {
+    "word": "REGEXREPLACE",
+    "pronunciation": "레지엑스리플레이스",
+    "meaning": "정규식 치환",
+    "korean_pronunciation": "레지엑스리플레이스"
+  },
+  {
+    "word": "REGEXEXTRACT",
+    "pronunciation": "레지엑스익스트랙트",
+    "meaning": "정규식으로 텍스트 추출",
+    "korean_pronunciation": "레지엑스익스트랙트"
+  },
+  {
+    "word": "WORKDAY",
+    "pronunciation": "워크데이",
+    "meaning": "영업일 기준 날짜 계산",
+    "korean_pronunciation": "워크데이"
+  },
+  {
+    "word": "WORKDAY.INTL",
+    "pronunciation": "워크데이-인트엘",
+    "meaning": "사용자 지정 영업일 계산",
+    "korean_pronunciation": "워크데이인트엘"
+  },
+  {
+    "word": "NETWORKDAYS",
+    "pronunciation": "네트워크데이즈",
+    "meaning": "근무일 수 계산",
+    "korean_pronunciation": "네트워크데이즈"
+  },
+  {
+    "word": "NETWORKDAYS.INTL",
+    "pronunciation": "네트워크데이즈-인트엘",
+    "meaning": "특정 요일 제외 근무일 계산",
+    "korean_pronunciation": "네트워크데이즈인트엘"
+  },
+  {
+    "word": "EDATE",
+    "pronunciation": "이데이트",
+    "meaning": "개월 단위로 날짜 이동",
+    "korean_pronunciation": "이데이트"
+  },
+  {
+    "word": "EOMONTH",
+    "pronunciation": "이오먼스",
+    "meaning": "월의 마지막 날짜 반환",
+    "korean_pronunciation": "이오먼스"
+  },
+  {
+    "word": "XIRR",
+    "pronunciation": "엑스아이알알",
+    "meaning": "불규칙한 현금 흐름 내부수익률",
+    "korean_pronunciation": "엑스아이알알"
+  },
+  {
+    "word": "XNPV",
+    "pronunciation": "엑스엔피브이",
+    "meaning": "불규칙 현금 흐름 NPV",
+    "korean_pronunciation": "엑스엔피브이"
+  },
+  {
+    "word": "YIELD",
+    "pronunciation": "일드",
+    "meaning": "채권 수익률 계산",
+    "korean_pronunciation": "일드"
+  },
+  {
+    "word": "PRICE",
+    "pronunciation": "프라이스",
+    "meaning": "채권 가격 계산",
+    "korean_pronunciation": "프라이스"
+  },
+  {
+    "word": "RATE",
+    "pronunciation": "레이트",
+    "meaning": "이자율 계산",
+    "korean_pronunciation": "레이트"
+  },
+  {
+    "word": "DURATION",
+    "pronunciation": "듀레이션",
+    "meaning": "채권 듀레이션 계산",
+    "korean_pronunciation": "듀레이션"
+  },
+  {
+    "word": "MMULT",
+    "pronunciation": "엠멀트",
+    "meaning": "행렬 곱 계산",
+    "korean_pronunciation": "엠멀트"
+  },
+  {
+    "word": "MINVERSE",
+    "pronunciation": "엠인버스",
+    "meaning": "역행렬 계산",
+    "korean_pronunciation": "엠인버스"
+  },
+  {
+    "word": "MDETERM",
+    "pronunciation": "엠디텀",
+    "meaning": "행렬식 계산",
+    "korean_pronunciation": "엠디텀"
+  },
+  {
+    "word": "TRANSPOSE",
+    "pronunciation": "트랜스포즈",
+    "meaning": "행과 열 전환",
+    "korean_pronunciation": "트랜스포즈"
+  },
+  {
+    "word": "ROW",
+    "pronunciation": "로우",
+    "meaning": "행 번호 반환",
+    "korean_pronunciation": "로우"
+  },
+  {
+    "word": "COLUMN",
+    "pronunciation": "컬럼",
+    "meaning": "열 번호 반환",
+    "korean_pronunciation": "컬럼"
+  }
+]
